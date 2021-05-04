@@ -5,3 +5,8 @@
     }
 }
 
+.bgbrick {
+    background-image: url(../images/brick2.jpeg);
+    background-color: #726c6c; /* In case the image is not available */
+    background-size: cover;
+} 
