@@ -5,8 +5,18 @@
     }
 }
 
+
 .bgbrick {
     background-image: url(../images/brick2.jpeg);
     background-color: #726c6c; /* In case the image is not available */
     background-size: cover;
+    opacity: 0.9;
 } 
+
+.bgbrick:hover {
+  opacity: 0.5;
+  -webkit-box-shadow: 5px 5px 10px rgb(100, 99, 99);
+            box-shadow: 5px 5px 10px rgb(100, 99, 99);
+    padding: 15px 10px 15px 10px;
+    font-size: 110%;
+}
