@@ -3,6 +3,10 @@
         margin-left : 2em;
         margin-right : 2em;
     }
+
+    .bricks {
+    margin-top: 20vw;
+}
 }
 
 body {
@@ -17,7 +21,7 @@ nav {
 }
 
 .school-name {
-   font-size: 8vw;
+   font-size: 7vw;
    font-family: Arial, Helvetica, sans-serif;
    color: white;
    text-shadow: 1px 1px 1px #726c6c,
@@ -35,11 +39,11 @@ nav {
 }
 
 .school-name-box {
-   margin: 5%;
+   margin-top: 7px;
 }
 
 .school-vision {
-   font-size: 3vw;
+   font-size: 2vw;
    font-family: Roboto, sans-serif;
    font-style: italic;
    font-variant: small-caps;
@@ -47,9 +51,9 @@ nav {
    text-shadow: 0px 1px 0.5px #726c6c;
 }
 
-.school-vision-box {
-    margin: 7%;
-}
+/*.school-vision-box {
+    margin: auto;
+}*/
 
 .bgbrick {
     background-image: url(../images/brick2.jpeg);
@@ -80,3 +84,4 @@ nav {
     font-size: 110%;
     margin: 3%;
 }
+
