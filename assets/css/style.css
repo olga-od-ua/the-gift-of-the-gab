@@ -28,6 +28,15 @@
    margin: 5%;
 }
 
+.school-vision{
+   font-size: 3vw;
+   font-family: Roboto, sans-serif;
+   font-style: italic;
+   font-variant: small-caps;
+   color: #363232;
+   text-shadow: 0px 1px 0.5px #726c6c;
+}
+
 
 .bgbrick {
     background-image: url(../images/brick2.jpeg);
