@@ -11,12 +11,27 @@
     background-color: #726c6c; /* In case the image is not available */
     background-size: cover;
     opacity: 0.9;
+    text-shadow: 2px 2px 3px black, 0 0 5px black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 105%;
 } 
 
 .bgbrick:hover {
-  opacity: 0.5;
-  -webkit-box-shadow: 5px 5px 10px rgb(100, 99, 99);
-            box-shadow: 5px 5px 10px rgb(100, 99, 99);
     padding: 15px 10px 15px 10px;
+    opacity: 0.8;
+    box-shadow: 0 0 5px 5px rgb(11, 136, 21); /*pick a shade of green to match the background image*/
+    text-shadow: 
+        -1px -1px 0px #000,
+         0px -1px 0px #000,
+         1px -1px 0px #000,
+        -1px  0px 0px #000,
+         1px  0px 0px #000,
+        -1px  1px 0px #000,
+         0px  1px 0px #000,
+         1px  1px 0px #000;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 110%;
+    margin: 3%;
 }
