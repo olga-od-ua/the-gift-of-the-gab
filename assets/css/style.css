@@ -28,7 +28,7 @@
    margin: 5%;
 }
 
-.school-vision{
+.school-vision {
    font-size: 3vw;
    font-family: Roboto, sans-serif;
    font-style: italic;
@@ -36,6 +36,11 @@
    color: #363232;
    text-shadow: 0px 1px 0.5px #726c6c;
 }
+
+.school-vision-box {
+    margin: 7%;
+}
+
 
 
 .bgbrick {
