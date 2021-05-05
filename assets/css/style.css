@@ -5,6 +5,12 @@
     }
 }
 
+body {
+    background-image: url(../images/bc4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
 
 .school-name {
    font-size: 8vw;
@@ -40,8 +46,6 @@
 .school-vision-box {
     margin: 7%;
 }
-
-
 
 .bgbrick {
     background-image: url(../images/brick2.jpeg);
