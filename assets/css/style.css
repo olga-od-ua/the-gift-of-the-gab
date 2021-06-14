@@ -9,8 +9,15 @@
 }
 }
 
-body {
+.body-home {
     background-image: url(../images/bc4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.body-image-blur {
+    background-image: url(../images/bg_photo_blur_fade.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 10px;
