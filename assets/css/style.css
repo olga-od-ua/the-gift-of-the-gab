@@ -127,6 +127,16 @@ nav {
     }
 
 
+.change-text {
+    font-size: larger;
+    word-wrap: break-word;
+}
+
+.add-border {
+    border: 2px solid #726c6c;
+    border-radius: 7%;
+}
+
 /* The form code was borrowed  from W3schools and modified */
 
 input, select, textarea {
