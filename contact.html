@@ -79,7 +79,7 @@
                 <div class="contact-text">
 
 <div class="form-container">
-  <form action="/action_page.php">
+  <form onsubmit="return sendMail(this);">
   <div class="row">
     <div class="col-25">
       <label for="name">Name</label>
@@ -400,5 +400,6 @@
 <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 <script src="index.js"></script>
 
+<script src="assets/js/sendEmail.js"></script>
 </body>
 </html>
