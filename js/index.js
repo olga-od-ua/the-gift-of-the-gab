@@ -5,3 +5,4 @@ $('.contact-info').mouseenter(function() {
 $('.contact-info').mouseleave(function() {
     $(this).removeClass('add-border').removeClass('change-text');
 });
+
