@@ -9,9 +9,11 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            alert("Your details were sent successfully! We will get back to you shortly.");
         },
         function(error) {
             console.log("FAILED", error);
+            alert("Something went wrong. Please try again or choose an alternative contact method. Thank you!");
         })
     .then (
         function() {
