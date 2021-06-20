@@ -68,7 +68,7 @@
                     <p class="contact-info">phone: 5555555555</p>
                     <p class="contact-info">fax: 00555555555</p>
                     <p class="contact-info">email: GiftOfTheGab@gmail.com</p>
-                    <p class="contact-info">business hours: Mon-Fri 9:00-18:00</p>
+                    <p class="contact-info">business hours: <br>Mon-Fri 9:00-18:00</p>
                 </div>
             </div>
         
@@ -375,7 +375,8 @@
     <div class="col-md contact-box">
         <h2>Send us mail</h2>
             <div class="contact-bg-box">
-                <div class="contact-text contact-info">
+                <div class="contact-text contact-info" id="mail-address">
+                    
                     Sir Arthur Guinness
                     <br>"The Gift Of The Gab"
                     <br>PO Box 54321
@@ -383,7 +384,11 @@
                     <br>Co. Cork
                     <br>T11 RTW22
                     <br>Ireland
+                    <br><button onclick="handleCopyTextFromParagraph()" id="copy-button">
+      Copy the address
+    </button>
                 </div>
+                     
             </div>
     </div>
     <div class="col-md contact-box">

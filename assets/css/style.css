@@ -208,4 +208,20 @@ form {
 
 /* END of borrowed form from W3school*/
 
+
+#copy-button
+{
+  color: white;
+  padding: 12px 20px;
+  font-size: 0.9em;
+  border: none;
+  border-radius: 4px;
+  cursor:pointer;
+  background-color:rgb(163, 159, 159);
+}
+
+#copy-button:hover {
+  background-color: rgb(129, 123, 123);
+}
+
 div#map {min-height: 300px;}
