@@ -8,8 +8,8 @@ $('.contact-info').mouseleave(function() {
 
 
 function handleCopyTextFromParagraph() {
-  const body = document.getElementById('mail-address');
-  const paragraph = document.getElementById('mail-address');
+  const body = document.getElementById('mailAddress');
+  const paragraph = document.getElementById('mailAddress');
   const area = document.createElement('textarea');
   body.appendChild(area);
 
@@ -21,3 +21,11 @@ function handleCopyTextFromParagraph() {
   alert("Copied to clipboard")
 }
 
+function printDiv(divName) {
+     var printContents = document.getElementById(divName).innerHTML;
+     var originalContents = document.body.innerHTML;
+     document.body.innerHTML = printContents;
+     window.print();
+     document.body.innerHTML = originalContents;
+
+}

@@ -1,5 +1,3 @@
-
-
 function sendMail(contactForm) {
     emailjs.send("service_r0g6ngj", "template_ddggyvm", {
 "user_email": contactForm.email.value,

@@ -224,4 +224,22 @@ form {
   background-color: rgb(129, 123, 123);
 }
 
+#print-button {
+  color: white;
+  padding: 12px 20px;
+  font-size: 0.9em;
+  border: none;
+  border-radius: 4px;
+  cursor:pointer;
+  background-color:rgb(163, 159, 159);
+}
+
+#print-button:hover {
+  background-color: rgb(129, 123, 123);
+}
+
+#print-button, #copy-button {
+  display:inline-block;
+}
+
 div#map {min-height: 300px;}

@@ -97,7 +97,7 @@
       <input type="email" id="email" name="email" placeholder="Your email address.." required>
     </div>
   </div>
-  <!--<div class="row">
+  <div class="row">
     <div class="col-25">
       <label for="country">Country</label>
     </div>
@@ -350,7 +350,7 @@
                 <option value="Zimbabwe">Zimbabwe</option>
       </select>
     </div>
-  </div> -->
+  </div>  <!--End of country div-->
   <div class="row">
     <div class="col-25">
       <label for="message">Message</label>
@@ -375,22 +375,23 @@
     <div class="col-md contact-box">
         <h2>Send us mail</h2>
             <div class="contact-bg-box">
-                <div class="contact-text contact-info" id="mail-address">
-                    
-                    Sir Arthur Guinness
-                    <br>"The Gift Of The Gab"
-                    <br>PO Box 54321
-                    <br>Passage West
-                    <br>Co. Cork
-                    <br>T11 RTW22
-                    <br>Ireland
-                    <br><button onclick="handleCopyTextFromParagraph()" id="copy-button">
-      Copy the address
-    </button>
+                <div class="contact-text contact-info" id="mailAddress">
+                    <div id="printableArea">
+                        Sir Arthur Guinness
+                        <br>"The Gift Of The Gab"
+                        <br>PO Box 54321
+                        <br>Passage West
+                        <br>Co. Cork
+                        <br>T11 RTW22
+                        <br>Ireland
+                        </div>
+                        <button onclick="handleCopyTextFromParagraph()" id="copy-button">
+                        Copy
+                        </button>
+                        <button onclick="printDiv('printableArea')" id="print-button">Print</button>
+                    </div>   
                 </div>
-                     
             </div>
-    </div>
     <div class="col-md contact-box">
         <h2>Our locations</h2>
         <div class="contact-bg-box">
