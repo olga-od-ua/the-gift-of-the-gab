@@ -262,3 +262,25 @@ footer {
    bottom: 0;
    width: 100%;
 }
+
+.row {
+   text-align: center;
+}   
+ 
+.social-networks{
+   text-align: center;
+}
+ 
+.social-networks li {
+   display: inline;
+}
+ 
+.social-networks i {
+   padding-right: 14%;
+   color: #6c757d;
+}
+ 
+.phrase, .copyright {
+   text-align: center;
+   color: #6c757d;
+}
