@@ -258,12 +258,13 @@ div#map {min-height: 300px;}
 
 footer {
    position: fixed;
-   left: 0;
-   bottom: 0;
    width: 100%;
+   height: 8%;
+   bottom: 0;
+   padding: 0;
 }
 
-.row {
+.footer-row {
    text-align: center;
 }   
  
