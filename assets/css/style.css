@@ -281,7 +281,14 @@ footer {
    color: #6c757d;
 }
  
-.phrase, .copyright {
+
+.phrase a {
+    text-decoration: none;
+    color: #6c757d;
+    text-align: center;
+}
+
+.copyright {
    text-align: center;
    color: #6c757d;
 }
