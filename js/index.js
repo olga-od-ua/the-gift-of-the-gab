@@ -29,3 +29,7 @@ function printDiv(divName) {
      document.body.innerHTML = originalContents;
 
 }
+
+
+var exampleEl = document.getElementById('phrase')
+var tooltip = new bootstrap.Tooltip(exampleEl, options)
