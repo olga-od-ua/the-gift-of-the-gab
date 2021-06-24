@@ -46,7 +46,7 @@ html, body {
 .body-image-blur {
     background-image: url(../images/bg_photo_blur_fade.jpeg);
     background-size: cover;
-    background-repeat: repeat-y;
+    background-repeat: repeat;
 }
 
 nav {
