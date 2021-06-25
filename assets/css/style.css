@@ -136,6 +136,9 @@ nav {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
+    border-color: #726c6c;
+    border: 1px;
+    border-style: solid;
 }
 
 .photo-block {
