@@ -120,6 +120,16 @@ nav {
 
 
 /* About Us page */
+
+.bio-info {
+    border-color: #726c6c;
+    border: 4px;
+    border-style: groove;
+    text-align: center;
+    padding: 2px;
+    height: 100%;
+}
+
 .member-photo {
     background: no-repeat center center;
     padding: 0;
