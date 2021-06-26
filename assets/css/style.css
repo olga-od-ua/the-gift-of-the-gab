@@ -121,6 +121,9 @@ nav {
 
 /* About Us page */
 
+.the-team {
+    margin-bottom: 10px;
+}
 .about-us-summary {
     text-align: center;
     margin: 17px 220px;
