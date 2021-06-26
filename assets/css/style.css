@@ -128,6 +128,7 @@ nav {
     text-align: center;
     padding: 2px;
     height: 100%;
+    margin-top: 25px;
 }
 
 .member-photo {
@@ -143,6 +144,7 @@ nav {
 
 .photo-block {
     margin-left: 50px;
+    margin-top: -10px;    
 }
 
 /*Contact us page*/
