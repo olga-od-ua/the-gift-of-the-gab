@@ -130,6 +130,15 @@ nav {
     margin: 25px 0 50px 0;
 }
 
+@media (max-width: 1022px){
+    .about-us-summary {
+        margin: 7px 50px;
+    }
+
+    .meet-team-heading {
+    margin: 15px 0 30px 0;
+}
+}
 
 .bio-info {
     border-color: #726c6c;
