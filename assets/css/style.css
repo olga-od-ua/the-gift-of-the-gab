@@ -118,6 +118,12 @@ nav {
     margin: 3%;
 }
 
+/* Course Info page */
+video {
+  max-width: 100%;
+  height: auto;
+}
+/*End of Course Info page */
 
 /* About Us page */
 
