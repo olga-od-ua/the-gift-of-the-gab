@@ -121,7 +121,10 @@ nav {
 /* Course Info page */
 
 .free-lesson-box {
-    margin: 15px;
+    margin: auto;
+    margin-top: 15px;
+    width: 50%;
+    
 }
 
 .course-info-row {
