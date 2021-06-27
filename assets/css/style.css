@@ -119,9 +119,19 @@ nav {
 }
 
 /* Course Info page */
+
+.free-lesson-box {
+    margin: 15px;
+}
+
+.course-info-row {
+    margin: 15px;
+}
+
 video {
   max-width: 100%;
   height: auto;
+  margin: 15px;
 }
 /*End of Course Info page */
 
