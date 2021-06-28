@@ -178,6 +178,15 @@ nav {
 
 
 /* __________________________Knowledge Test page ____________________*/
+
+.userAnswer {
+    display: inline-block;
+}
+
+.userAnswer {
+    background-color: bisque;
+    padding: 5px;
+}
 /* __________________________End of Knowledge Test page ____________________*/
 
 
