@@ -120,6 +120,11 @@ nav {
 
 /* Course Info page */
 
+.countdown {
+  display: inline;
+  font-size: 20px;
+}
+
 .free-lesson-box {
     margin: auto;
     margin-top: 15px;
