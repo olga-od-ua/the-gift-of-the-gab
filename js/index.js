@@ -33,3 +33,5 @@ function printDiv(divName) {
 
 var exampleEl = document.getElementById('phrase')
 var tooltip = new bootstrap.Tooltip(exampleEl, options)
+
+
