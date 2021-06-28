@@ -53,6 +53,8 @@ nav {
     opacity: 0.8;
 }
 
+/* __________________________Home page ____________________*/
+
 .school-name {
    font-size: 7vw;
    font-family: Arial, Helvetica, sans-serif;
@@ -118,7 +120,9 @@ nav {
     margin: 3%;
 }
 
-/* Course Info page */
+/* __________________________End of Home page ____________________*/
+
+/* __________________________ Course Info page ____________________*/
 
 .countdown {
   display: inline;
@@ -169,9 +173,23 @@ nav {
     position:absolute;
     border: rgb(210, 166, 121);
 }
-/*End of Course Info page */
+/* __________________________End of Course Info page ____________________*/
 
-/* About Us page */
+
+
+/* __________________________Knowledge Test page ____________________*/
+/* __________________________End of Knowledge Test page ____________________*/
+
+
+
+
+/* __________________________Pricing page ____________________*/
+/* __________________________End of Pricing page ____________________*/
+
+
+
+
+/* _____________________________ About Us page __________________________*/
 
 .the-team {
     margin-bottom: 10px;
@@ -221,7 +239,11 @@ nav {
     margin-top: -10px;    
 }
 
-/*Contact us page*/
+/* _____________________________ END of About Us page __________________________*/
+
+
+
+/* _____________________________ Contact us page __________________________*/
 
 .contact-box {
    text-align: center;
@@ -424,3 +446,5 @@ footer {
   color: whitesmoke;
   border-radius: 2px;
 }
+
+/* _____________________________ END of Contact us page __________________________*/
