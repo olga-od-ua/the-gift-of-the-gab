@@ -136,12 +136,6 @@ nav {
     margin: 15px;
 }
 
-video {
-  max-width: 100%;
-  height: auto;
-  margin: 15px;
-}
-
 @media (max-width: 992px){
     .free-lesson-box {
     margin: auto;
@@ -164,6 +158,7 @@ video {
     padding-bottom:56.25%;
     position:relative;
     height:0;
+    margin: 0 10px 10px 10px;
 }
 
 .video-responsive iframe{
