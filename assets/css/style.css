@@ -187,6 +187,38 @@ nav {
     background-color: bisque;
     padding: 5px;
 }
+
+/*Questionnaire*/
+
+#questionnaire {
+    border: 2px solid #726c6c;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#type-of-course, #group-or-indiv, #learning-intensity, #accent {
+    padding: 17px;
+    margin: 1px;
+
+}
+
+#type-of-course {
+    border: 2px solid #726c6c;
+}
+
+#group-or-indiv {
+    border: 2px solid #726c6c;
+}
+
+#learning-intensity {
+    border: 2px solid #726c6c;
+}
+
+#accent {
+    border: 2px solid #726c6c;
+}
+
+
 /* __________________________End of Knowledge Test page ____________________*/
 
 
