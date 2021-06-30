@@ -187,12 +187,22 @@ nav {
    text-shadow: 3px 3px 3px rgb(255, 246, 232);
 }
 
+.test-instructions {
+    margin: 7px;
+    background-color: rgb(255, 246, 232);
+    
+}
+
+.test-instructions-p {
+    margin: 7px;
+    background-color: rgb(255, 246, 232);
+}
 .userAnswer {
     display: inline-block;
 }
 
 .userAnswer {
-    background-color: bisque;
+    background-color: rgb(255, 246, 232);
     padding: 5px;
 }
 
