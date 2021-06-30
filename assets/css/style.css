@@ -179,6 +179,14 @@ nav {
 
 /* __________________________Knowledge Test page ____________________*/
 
+.test-heading {
+    text-align: center;
+    margin-top: 17px;
+    text-align: center;
+   margin: 20px;
+   text-shadow: 3px 3px 3px rgb(255, 246, 232);
+}
+
 .userAnswer {
     display: inline-block;
 }
@@ -289,7 +297,7 @@ nav {
 .contact-box {
    text-align: center;
    margin: 20px;
-   font-family: 'Roboto', sans-serif;    /* CHANGE */
+   font-family: 'Roboto', sans-serif; 
    text-shadow: 3px 3px 3px rgb(255, 246, 232);
 }
 
