@@ -157,6 +157,7 @@ nav {
     margin-bottom: 20px;
     border: rgb(210, 166, 121);
 }
+
 .video-responsive{
     overflow:hidden;
     padding-bottom:56.25%;
@@ -189,14 +190,10 @@ nav {
 
 .test-instructions {
     margin: 7px;
+    padding: 7px 5px 3px 15px;
     background-color: rgb(255, 246, 232);
-    
 }
 
-.test-instructions-p {
-    margin: 7px;
-    background-color: rgb(255, 246, 232);
-}
 .userAnswer {
     display: inline-block;
 }
@@ -217,7 +214,6 @@ nav {
 #type-of-course, #group-or-indiv, #learning-intensity, #accent {
     padding: 17px;
     margin: 1px;
-
 }
 
 #type-of-course {
