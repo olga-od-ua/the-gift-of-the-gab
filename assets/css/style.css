@@ -237,10 +237,16 @@ nav {
     margin-bottom: 10px;
     padding-top: 7px;
     padding-bottom: 7px;
-
 }
 
 /*Questionnaire*/
+
+.course-recommendation-form-instructions {
+  text-align: left;
+  font-size: large;
+  background-color: rgba(255, 246, 232, 0.466);
+  padding: 7px;
+}
 
 #questionnaire {
     border: 2px solid #726c6c;
