@@ -275,6 +275,10 @@ nav {
     border: 2px solid #726c6c;
 }
 
+.submit-course-recommendation-form {
+  border: 2px solid rgb(255, 246, 232);
+  
+}
 
 /* __________________________End of Knowledge Test page ____________________*/
 
