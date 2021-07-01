@@ -199,6 +199,10 @@ nav {
     background-color: rgba(255, 246, 232, 0.459);
 }
 
+#test-table td{
+  padding: 7px;
+}
+
 #knowledge-level-heading {
   font-size: x-large;
   border: 1px solid #726c6c;
