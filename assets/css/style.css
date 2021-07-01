@@ -228,6 +228,18 @@ nav {
     padding: 4px;
     border-radius: 3px;
 }
+
+#result-level-message {
+    text-align: center;
+    font-size: x-large;
+    background-color: rgb(255, 246, 232);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+
 /*Questionnaire*/
 
 #questionnaire {
