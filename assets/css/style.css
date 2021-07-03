@@ -91,7 +91,7 @@ nav {
 }*/
 
 .bgbrick {
-    background-image: url(../images/brick2.jpeg);
+    background-image: url(../images/brick2bordered2.jpeg);
     background-color: #726c6c; /* In case the image is not available */
     background-size: cover;
     opacity: 0.9;
@@ -100,6 +100,7 @@ nav {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 105%;
+    background-position: center;
 } 
 
 .bgbrick:hover {
