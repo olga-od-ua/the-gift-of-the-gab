@@ -293,6 +293,25 @@ nav {
 .price {
   display: inline-block;
 }
+
+.book-button {
+  color: white;
+  padding: 12px 20px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 4px;
+  cursor:pointer;
+  background-color:rgb(163, 159, 159);
+}
+
+.book-button:hover {
+  background-color: rgb(129, 123, 123);
+}
+
+.book-button {
+  display:inline-block;
+}
+
 /* __________________________End of Pricing page ____________________*/
 
 
