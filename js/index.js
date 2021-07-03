@@ -76,7 +76,7 @@ function countdown() {
 //Accent request function
 
 
-function ShowHideDiv(chkAccentRequest) {
+function ShowHideAccents(chkAccentRequest) {
         var divAccents = document.getElementById("divAccents");
         divAccents.style.display = chkAccentRequest.checked ? "block" : "none";
     }
