@@ -278,6 +278,10 @@ nav {
     border: 2px solid #726c6c;
 }
 
+#divAccents {
+  display: none;
+}
+
 .submit-course-recommendation-form {
   border: 2px solid rgb(255, 246, 232);
   

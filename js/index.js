@@ -70,3 +70,13 @@ function countdown() {
     }
     }, 1000);
 }
+
+
+
+//Accent request function
+
+
+function ShowHideDiv(chkAccentRequest) {
+        var divAccents = document.getElementById("divAccents");
+        divAccents.style.display = chkAccentRequest.checked ? "block" : "none";
+    }
