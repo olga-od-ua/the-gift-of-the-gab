@@ -242,50 +242,7 @@ nav {
     padding-bottom: 7px;
 }
 
-/*Questionnaire*/
 
-.course-recommendation-form-instructions {
-  text-align: left;
-  font-size: large;
-  background-color: rgba(255, 246, 232, 0.466);
-  padding: 7px;
-}
-
-#questionnaire {
-    border: 2px solid #726c6c;
-    margin-top: 7px;
-    margin-bottom: 7px;
-}
-
-#type-of-course, #group-or-indiv, #learning-intensity, #accent {
-    padding: 17px;
-    margin: 1px;
-}
-
-#type-of-course {
-    border: 2px solid #726c6c;
-}
-
-#group-or-indiv {
-    border: 2px solid #726c6c;
-}
-
-#learning-intensity {
-    border: 2px solid #726c6c;
-}
-
-#accent {
-    border: 2px solid #726c6c;
-}
-
-#divAccents {
-  display: none;
-}
-
-.submit-course-recommendation-form {
-  border: 2px solid rgb(255, 246, 232);
-  
-}
 
 /* __________________________End of Knowledge Test page ____________________*/
 
@@ -376,6 +333,52 @@ nav {
 
 
 /* _____________________________ Contact us page __________________________*/
+
+/*Questionnaire*/
+
+.course-recommendation-form-instructions {
+  text-align: left;
+  font-size: large;
+  background-color: rgba(255, 246, 232, 0.466);
+  padding: 7px;
+}
+
+#questionnaire {
+    border: 2px solid #726c6c;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#type-of-course, #group-or-indiv, #learning-intensity, #accent {
+    padding: 17px;
+    margin: 1px;
+    background-color: rgba(255, 246, 232, 0.466);
+}
+
+#type-of-course {
+    border: 2px solid #726c6c;
+}
+
+#group-or-indiv {
+    border: 2px solid #726c6c;
+}
+
+#learning-intensity {
+    border: 2px solid #726c6c;
+}
+
+#accent {
+    border: 2px solid #726c6c;
+}
+
+#divAccents {
+  display: none;
+}
+
+.submit-course-recommendation-form {
+  border: 2px solid rgb(255, 246, 232);
+  
+}
 
 .contact-box {
    text-align: center;
