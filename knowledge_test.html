@@ -72,7 +72,8 @@
                     <span class="number-space"> </span>
                     <span>Can you sing? Yes, I</span>
                     <span>
-                        <div class="userAnswer">answer</div>
+                        <textarea id="basicQ1" onkeyup="getQuestionAnswer('basicQ1')"></textarea>
+                        <!--div class="userAnswer">answer</div-->
                     </span>
                     <span> REST OF THE QUESTION.</span>
                 </div>
@@ -82,7 +83,7 @@
             </td>
             <td>
                 <button class="submit-test-answer">Submit answer</button>
-                <div class="single-question-result">Result: </div> <!--this will appear upon submission of the user answer-->
+                <div id="answerQ1" class="single-question-result">Result: </div> <!--this will appear upon submission of the user answer-->
             </td>
         </tr> <!--End of Question row 1-->
         <tr> <!--Question row 2-->

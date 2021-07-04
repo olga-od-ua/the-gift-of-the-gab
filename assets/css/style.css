@@ -27,6 +27,17 @@ html, body {
   opacity: 0.8;       /* Footer height */
 }
 
+@media (max-width: 992px){
+
+  #content-wrap {
+    padding-bottom: 4.5rem;   /* Footer height */
+  }
+
+#footer {
+  height: 5rem;
+}
+}
+
 @media (min-width: 992px){
     .navbar li {
         margin-left : 2em;
@@ -183,6 +194,7 @@ nav {
 
 /* __________________________Knowledge Test page ____________________*/
 
+
 .test-heading {
     text-align: center;
     margin-top: 17px;
@@ -198,8 +210,8 @@ nav {
 }
 
 #test-table{
-    margin: 5px;
     background-color: rgba(255, 246, 232, 0.459);
+    width: 100%;
 }
 
 #test-table td{
@@ -230,6 +242,7 @@ nav {
     color: rgb(255, 246, 232);
     padding: 4px;
     border-radius: 3px;
+    width: auto;
 }
 
 #result-level-message {

@@ -21,9 +21,10 @@ function handleCopyTextFromParagraph() {
   alert("Copied to clipboard")
 }
 
+
 function printDiv(divName) {
-     var printContents = document.getElementById(divName).innerHTML;
-     var originalContents = document.body.innerHTML;
+     let printContents = document.getElementById(divName).innerHTML;
+     let originalContents = document.body.innerHTML;
      document.body.innerHTML = printContents;
      window.print();
      document.body.innerHTML = originalContents;
@@ -75,8 +76,15 @@ function countdown() {
 
 //Accent request function
 
-
 function ShowHideAccents(chkAccentRequest) {
         var divAccents = document.getElementById("divAccents");
         divAccents.style.display = chkAccentRequest.checked ? "block" : "none";
-    }
+}
+
+/*function getQuestionAnswer(questionId, answeId) {
+  const answer = document.getElementById(questionId).innerText;
+  
+  if (answer === expectedAnswer) {
+    document.getElementById(answerId).innerText += 'Correct!';
+  }
+}*/
