@@ -45,7 +45,7 @@ html, body {
 }
 
 .body-image-blur {
-    background-image: url(../images/bg_photo_blur_fade.jpeg);
+    background-image: url(../images/bg_image_fade.png);
     background-size: cover;
     background-repeat: repeat;
 }
