@@ -53,6 +53,8 @@ The target audience are people of all ages who are concerned about having succes
 
 9. I am Nelson from Mauritius and have recently landed a job with Heineken in Cork, Ireland. I am aiming to go for a promotion soon and I feel that I need to improve my Business English. (Business course)
 
+10. I'm Hannah from Mexico. I don't want to book a course, I just want to check my level of English. (knowledge test)
+
 - #### Corporate customers
 
 1. I am Rebecca, one of the managers from Voxpro. We have recently got financing from the corporate office to provide English language courses to all our employees who need or would like to improve their English. (Enquire corporate form)
@@ -121,6 +123,50 @@ Wireframe built with Balsamic can be found in the project documents under the fo
 
 ## Testing
 
+### Testing User Stories from User Experience (UX) Section
+
+- #### Non-corporate customers
+
+1. I am Pedro from The Dominican Republic who is moving to Dublin, Ireland, in 3 months and needs to urgently improve his English.
+
+   a. Upon landing on the Home page of the website Pedro will see what the school offers, among which are different types of courses, i.d. General Course, Business English course and Hospitality Course. Once Pedro selects the type of course he thinks he needs, he can click on that brick-type button and he will be brought to the Course Info page where he can learn more and place a booking request.
+   
+   b. Alternatively Pedro can navigate to the Course Info page through the nav bar.
+   
+   c. Once on thr Course Info page, Pedro will see short description of each course and will be able to learn more about the one he is interested in by clicking the Learn More button in that section. The button will open additional information.
+   
+2. I am Linda from Spain who now lives in Cork, Ireland. I studied English at school and college and thought I would be able to communicate in English rather easily however I struggle to understand the local accent and want to work on improving it.
+
+   a. Upon landing on the Home page of the website Linda will see what the school offers, among which is All Irish Accents. She will be able to click on the brick-like button that says "All Irish Accents" which will bring her to the Form on the contact page which has a section about specific accents that she will be able to fill out and send a request to the school to get more information.
+   
+   b. Once the form is submitted Linda will get an alert message that the school will connect her with one of the teachers from the chosen accent area.
+   
+   c. On the About Us page Linda will be able to see who the teachers are and what accents they cover.
+   
+   
+   
+
+3. I am Carla from Portugal and I work as an Au-pair in Ireland. I have spare time I would like to use to improve my English. (General course)
+
+4. I am Ben from Austria and I am studying Art in Galway, Ireland. I need to improve my English so I can feel more confident both in and outside college conversations. (General course, connect with a teacher from Connacht)
+
+5. I am Peter from Germany. I am moving to Dublin, Ireland, to work for one of the biggest hotel chains as an Assistant Front Desk Manager and I would like to improve my English for that purpose. (Hospitality English course)
+
+6. I am Sandra from Croatia who wants to move to Ireland next year and find a job in sales but I need to improve my English. (Business course)
+
+7. I am Maria from Poland who got a job as an online store manager with Zara in Cork, Ireland. I am starting the job in two months and I urgently need to refresh my sales English. (Intensive Business course)
+
+8. I am Pablo from Spain and I work in Marriott International Customer Engagement Center in Cork, Ireland, as a Loyalty Ambassador. I take a lot of calls from our clients and I sometimes struggle with finding appropriate words to express myself and I would like to sound more professional. (Hospitality course)
+
+9. I am Nelson from Mauritius and have recently landed a job with Heineken in Cork, Ireland. I am aiming to go for a promotion soon and I feel that I need to improve my Business English. (Business course)
+
+10. I'm Hannah from Mexico. I don't want to book a course, I just want to check my level of English.
+
+- #### Corporate customers
+
+1. I am Rebecca, one of the managers from Voxpro. We have recently got financing from the corporate office to provide English language courses to all our employees who need or would like to improve their English. (Enquire corporate form)
+
+2. I am Vanessa from a food company in Spain. We are extending our market to Ireland and we would love to have our area managers to be prepared for the business conversations with our Irish customers and colleages. (Enquire corporate form)
 
 
 BUGS
