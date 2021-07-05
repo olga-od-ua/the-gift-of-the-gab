@@ -134,6 +134,13 @@ nav {
     margin: 3%;
 }
 
+
+@media (max-width: 1197px){
+  .bgbrick {
+    height: 80px;
+  }
+}
+
 /* __________________________End of Home page ____________________*/
 
 /* __________________________ Course Info page ____________________*/
