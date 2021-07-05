@@ -95,7 +95,7 @@ function ShowHideAccents(chkAccentRequest) {
 
 //-------------------- About Us page -----------------------
 
-function makeTeacherSing() {
+function hoverOverTeacher() {
   document.getElementById('teacher').style.border = '5px solid rgba(255, 246, 232, 0.5)';
 }
 
@@ -103,12 +103,10 @@ function removeBorder() {
   document.getElementById('teacher').style.border = 'none';
 }
 
-function play() {
+function makeTeacherSing() {
   let audio = document.getElementById("audio");
    if (audio.paused) {audio.play()}
-     else {audio.pause()};
-
-     
+     else {audio.pause()}; 
 }
 
 function makeTeacherDance() {
