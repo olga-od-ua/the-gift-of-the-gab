@@ -88,3 +88,34 @@ function ShowHideAccents(chkAccentRequest) {
     document.getElementById(answerId).innerText += 'Correct!';
   }
 }*/
+
+
+
+
+
+//-------------------- About Us page -----------------------
+
+function makeTeacherSing() {
+  document.getElementById('teacher').style.border = '5px solid rgba(255, 246, 232, 0.5)';
+}
+
+function removeBorder() {
+  document.getElementById('teacher').style.border = 'none';
+}
+
+function play() {
+  let audio = document.getElementById("audio");
+   if (audio.paused) {audio.play()}
+     else {audio.pause()};
+
+     
+}
+
+function makeTeacherDance() {
+  let audio = document.getElementById("audio");
+  let teacher = document.getElementById("teacher");
+  if (audio.paused) {teacher.classList.add('teacher-dancing')}
+     else {teacher.classList.remove('teacher-dancing')};
+
+     
+}
