@@ -93,6 +93,11 @@ nav {
    margin-top: 7px;
 }
 
+.school-vision-box {
+    background-color: rgba(255, 246, 232, 0.459);
+    border-radius: 7px;
+}
+
 .school-vision {
    font-size: 2vw;
    font-family: Roboto, sans-serif;
@@ -101,10 +106,6 @@ nav {
    color: #363232;
    text-shadow: 0px 1px 0.5px #726c6c;
 }
-
-/*.school-vision-box {
-    margin: auto;
-}*/
 
 .bgbrick {
     background-image: url(../images/brick2bordered2.jpeg);
