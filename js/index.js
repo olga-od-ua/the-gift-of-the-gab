@@ -1,4 +1,10 @@
-//-------------------- About Us page ----------------------- (credit to loosenthedark for assistance on Slack)
+// Course info -------------------
+function learnAboutIndividualLessons() {
+  
+}
+
+
+//-------------------- About Us page ----------- (credit to loosenthedark for assistance on Slack)
 function makeTeacherPerform(e) {
     let audio = e.target.nextElementSibling;
     if (audio.paused) {
