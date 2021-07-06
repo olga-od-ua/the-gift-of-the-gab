@@ -1,6 +1,25 @@
+//-------------------- About Us page ----------------------- (credit to loosenthedark for assistance)
+function makeTeacherPerform(e) {
+    let audio = e.target.nextElementSibling;
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
 
 
+audio.addEventListener("playing", function() {
+  let teacher = this.previousElementSibling;
+   teacher.classList.add('teacher-dancing');
+});
 
+audio.addEventListener("pause", function() {
+  let teacher = this.previousElementSibling;
+   teacher.classList.remove('teacher-dancing');
+});
+}
+
+/* ---- Initial idea, incomplete --------
 // -------- Make Teacher Sing function ------- //
 function makeTeacherSing(id) {
   let audio = document.getElementById(id);
@@ -8,9 +27,18 @@ function makeTeacherSing(id) {
      else {audio.pause()};
 }
 
-/* function makeTeacherDance(id) {
+// ------- Make Teacher Dance function ------ //
+
+ function makeTeacherDance(id) { 
+let aud = document.getElementById("audio1");
+aud.addEventListener("playing", function() {
   let teacher = document.getElementById(id);
    teacher.classList.add('teacher-dancing');
+});
+aud.addEventListener("pause", function() {
+  let teacher = document.getElementById(id);
+   teacher.classList.remove('teacher-dancing');
+});
 } */
 
 // ------- CONTACT PAGE -------- //
@@ -34,19 +62,7 @@ $('.photo-block').mouseleave(function() {
 });
 
 
-// ------- Make Teacher Dance function ------ //
 
-function makeTeacherDance(id) { 
-let aud = document.getElementById("audio1");
-aud.addEventListener("playing", function() {
-  let teacher = document.getElementById(id);
-   teacher.classList.add('teacher-dancing');
-});
-aud.addEventListener("pause", function() {
-  let teacher = document.getElementById(id);
-   teacher.classList.remove('teacher-dancing');
-});
-}
 
 
 
@@ -139,7 +155,7 @@ function ShowHideAccents(chkAccentRequest) {
 
 
 
-//-------------------- About Us page -----------------------
+
 
 
 

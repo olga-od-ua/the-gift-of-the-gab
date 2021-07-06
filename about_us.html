@@ -76,14 +76,14 @@
     </div>
     <div class="col">
       <div class="photo-block" id="teacher1">
-        <img src="assets/images/team/jmcgahern-cropped.gif" alt="A photo of John McGahern" class="member-photo" onclick="makeTeacherSing('audio1');" onload="makeTeacherDance('teacher1');">
+        <img src="assets/images/team/jmcgahern-cropped.gif" alt="A photo of John McGahern" class="member-photo" onclick="makeTeacherPerform(event);">
           <audio id="audio1" src="assets/audio/whiskeyinthejar.mp3"></audio>
         </img>
       </div>
     </div>
     <div class="col">
       <div class="photo-block" id="teacher2">
-        <img src="assets/images/team/rdoyle.png" alt="A photo of Roddy Doyle" class="member-photo" onclick="makeTeacherSing('audio2');" onload="makeTeacherDance('teacher2');">
+        <img src="assets/images/team/rdoyle.png" alt="A photo of Roddy Doyle" class="member-photo" onclick="makeTeacherPerform(event);">
         <audio id="audio2" class="audios" src="assets/audio/illtellmyma.mp3"></audio>
       </img>
       </div>
@@ -108,13 +108,13 @@
       </div>
     </div>
     <div class="col">
-      <div class="photo-block" id="teacher3"><img src="assets/images/team/sheaney.jpeg" alt="A photo of Seamus Heaney" class="member-photo" onclick="makeTeacherSing('audio3');" onload="makeTeacherDance('teacher3');">
+      <div class="photo-block" id="teacher3"><img src="assets/images/team/sheaney.jpeg" alt="A photo of Seamus Heaney" class="member-photo" onclick="makeTeacherPerform(event);">
         <audio id="audio3" src="assets/audio/thewildrover.mp3"></audio>
       </img>
     </div>
     </div>
     <div class="col">
-      <div class="photo-block" id="teacher4"><img src="assets/images/team/owilde.jpeg" alt="A photo of Oscar Wilde" class="member-photo" onclick="makeTeacherSing('audio4');" onload="makeTeacherDance('teacher4');">
+      <div class="photo-block" id="teacher4"><img src="assets/images/team/owilde.jpeg" alt="A photo of Oscar Wilde" class="member-photo" onclick="makeTeacherPerform(event);">
         <audio id="audio4" src="assets/audio/dirtyoldtown.mp3"></audio>
       </img>
     </div>
@@ -140,10 +140,16 @@
       </div>
     </div>
     <div class="col">
-      <div class="photo-block" id="teacher5"><img src="assets/images/team/eorahilly.png" alt="A photo of Egan O'Rahilly" class="member-photo"></div>
+      <div class="photo-block" id="teacher5"><img src="assets/images/team/eorahilly.png" alt="A photo of Egan O'Rahilly" class="member-photo" onclick="makeTeacherPerform(event);">
+        <audio id="audio4" src="assets/audio/thekerrydance.mp3"></audio>
+      </img>
+    </div>
     </div>
     <div class="col">
-      <div class="photo-block" id="teacher6"><img src="assets/images/team/sbeckett.png" alt="A photo of Samuel Beckett" class="member-photo"></div>
+      <div class="photo-block" id="teacher6"><img src="assets/images/team/sbeckett.png" alt="A photo of Samuel Beckett" class="member-photo" onclick="makeTeacherPerform(event);">
+        <audio id="audio4" src="assets/audio/theroseoftralee.mp3"></audio>
+      </img>
+      </div>
     </div>
     <div class="col bio-info">
       <div class="p-3 border bg-light">
