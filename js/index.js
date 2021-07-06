@@ -1,9 +1,17 @@
+
+
+
 // -------- Make Teacher Sing function ------- //
-function play(id) {
+function makeTeacherSing(id) {
   let audio = document.getElementById(id);
   if (audio.paused) {audio.play()}
      else {audio.pause()};
 }
+
+/* function makeTeacherDance(id) {
+  let teacher = document.getElementById(id);
+   teacher.classList.add('teacher-dancing');
+} */
 
 // ------- CONTACT PAGE -------- //
 $('.contact-info').mouseenter(function() {
@@ -27,26 +35,18 @@ $('.photo-block').mouseleave(function() {
 
 
 // ------- Make Teacher Dance function ------ //
-/*.  $('.photo-block').onclick(function() {
-  $(this).addClass('hover-over-teacher');
+
+function makeTeacherDance(id) { 
+let aud = document.getElementById("audio1");
+aud.addEventListener("playing", function() {
+  let teacher = document.getElementById(id);
+   teacher.classList.add('teacher-dancing');
 });
-
-
-$('.photo-block').mouseleave(function() {
-  $(this).removeClass('hover-over-teacher');
-});   */
-
-
-
-
-
-/*function makeTeacherSing() {
-  let audio = document.getElementById("audio");
-   if (audio.paused) {audio.play()}
-     else {audio.pause()};
-}*/
-
-
+aud.addEventListener("pause", function() {
+  let teacher = document.getElementById(id);
+   teacher.classList.remove('teacher-dancing');
+});
+}
 
 
 
@@ -145,12 +145,7 @@ function ShowHideAccents(chkAccentRequest) {
 
 
 
-/*function makeTeacherDance() {
-  let teacher = document.getElementById("teacher1");
-  let audio = document.getElementById("audio");
-  if (audio.paused) {teacher.classList.add('teacher-dancing')}
-     else {teacher.classList.remove('teacher-dancing')};
-} */
+
 
 
 

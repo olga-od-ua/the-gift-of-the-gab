@@ -158,6 +158,11 @@ nav {
     
 }
 
+.leprechaun {
+  background-image: url(../images/leprechaun-blarney-stone.jpeg);
+  position: relative;
+}
+
 .course-info-row {
     margin: 15px;
 }

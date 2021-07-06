@@ -76,15 +76,15 @@
     </div>
     <div class="col">
       <div class="photo-block" id="teacher1">
-        <img src="assets/images/team/jmcgahern-cropped.gif" alt="A photo of John McGahern" class="member-photo" onclick="play('audio1');" >
+        <img src="assets/images/team/jmcgahern-cropped.gif" alt="A photo of John McGahern" class="member-photo" onclick="makeTeacherSing('audio1');" onload="makeTeacherDance('teacher1');">
           <audio id="audio1" src="assets/audio/whiskeyinthejar.mp3"></audio>
         </img>
       </div>
     </div>
     <div class="col">
       <div class="photo-block" id="teacher2">
-        <img src="assets/images/team/rdoyle.png" alt="A photo of Roddy Doyle" class="member-photo" onclick="play('audio2');" >
-        <audio id="audio2" src="assets/audio/illtellmyma.mp3"></audio>
+        <img src="assets/images/team/rdoyle.png" alt="A photo of Roddy Doyle" class="member-photo" onclick="makeTeacherSing('audio2');" onload="makeTeacherDance('teacher2');">
+        <audio id="audio2" class="audios" src="assets/audio/illtellmyma.mp3"></audio>
       </img>
       </div>
     </div>
@@ -108,10 +108,16 @@
       </div>
     </div>
     <div class="col">
-      <div class="photo-block" id="teacher3"><img src="assets/images/team/sheaney.jpeg" alt="A photo of Seamus Heaney" class="member-photo"></div>
+      <div class="photo-block" id="teacher3"><img src="assets/images/team/sheaney.jpeg" alt="A photo of Seamus Heaney" class="member-photo" onclick="makeTeacherSing('audio3');" onload="makeTeacherDance('teacher3');">
+        <audio id="audio3" src="assets/audio/thewildrover.mp3"></audio>
+      </img>
+    </div>
     </div>
     <div class="col">
-      <div class="photo-block" id="teacher4"><img src="assets/images/team/owilde.jpeg" alt="A photo of Oscar Wilde" class="member-photo"></div>
+      <div class="photo-block" id="teacher4"><img src="assets/images/team/owilde.jpeg" alt="A photo of Oscar Wilde" class="member-photo" onclick="makeTeacherSing('audio4');" onload="makeTeacherDance('teacher4');">
+        <audio id="audio4" src="assets/audio/dirtyoldtown.mp3"></audio>
+      </img>
+    </div>
     </div>
     <div class="col bio-info">
       <div class="p-3 border bg-light">
