@@ -1,10 +1,56 @@
+// -------- Make Teacher Sing function ------- //
+function play(id) {
+  let audio = document.getElementById(id);
+  if (audio.paused) {audio.play()}
+     else {audio.pause()};
+}
+
+// ------- CONTACT PAGE -------- //
 $('.contact-info').mouseenter(function() {
-    $(this).addClass('add-border').addClass('change-text');
+  $(this).addClass('add-border').addClass('change-text');
 });
 
 $('.contact-info').mouseleave(function() {
-    $(this).removeClass('add-border').removeClass('change-text');
+  $(this).removeClass('add-border').removeClass('change-text');
 });
+
+
+
+// ------ Hover-over-teacher function ------ //
+$('.photo-block').mouseenter(function() {
+  $(this).addClass('hover-over-teacher');
+});
+
+$('.photo-block').mouseleave(function() {
+  $(this).removeClass('hover-over-teacher');
+});
+
+
+// ------- Make Teacher Dance function ------ //
+/*.  $('.photo-block').onclick(function() {
+  $(this).addClass('hover-over-teacher');
+});
+
+
+$('.photo-block').mouseleave(function() {
+  $(this).removeClass('hover-over-teacher');
+});   */
+
+
+
+
+
+/*function makeTeacherSing() {
+  let audio = document.getElementById("audio");
+   if (audio.paused) {audio.play()}
+     else {audio.pause()};
+}*/
+
+
+
+
+
+
 
 
 function handleCopyTextFromParagraph() {
@@ -95,25 +141,19 @@ function ShowHideAccents(chkAccentRequest) {
 
 //-------------------- About Us page -----------------------
 
-function hoverOverTeacher() {
-  document.getElementById('teacher').style.border = '5px solid rgba(255, 246, 232, 0.5)';
-}
 
-function removeBorder() {
-  document.getElementById('teacher').style.border = 'none';
-}
 
-function makeTeacherSing() {
+
+
+/*function makeTeacherDance() {
+  let teacher = document.getElementById("teacher1");
   let audio = document.getElementById("audio");
-   if (audio.paused) {audio.play()}
-     else {audio.pause()}; 
-}
-
-function makeTeacherDance() {
-  let audio = document.getElementById("audio");
-  let teacher = document.getElementById("teacher");
   if (audio.paused) {teacher.classList.add('teacher-dancing')}
      else {teacher.classList.remove('teacher-dancing')};
+} */
 
-     
-}
+
+
+
+
+  

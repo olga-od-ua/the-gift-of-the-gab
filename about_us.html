@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple|fire|3d">
    <link rel="shortcut icon" type="image/png" href="assets/images/b_brick.png"/>
    <script src="https://kit.fontawesome.com/3784920e35.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    <title>The Gift of the Gab</title>
 </head>
 
@@ -66,7 +67,7 @@
     <div class="col bio-info">
       <div class="p-3 border bg-light">
         <h5>John McGahern</h5>
-        <p>
+        <p id="test">
         City: Galway
         <br>Accents: Connacht
         <br>Hobby: teaching
@@ -74,16 +75,16 @@
       </div>
     </div>
     <div class="col">
-      <div class="photo-block" id="teacher" onmouseenter="hoverOverTeacher()" onmouseleave="removeBorder()" onclick="makeTeacherSing()">
-        <img src="assets/images/team/jmcgahern-cropped.gif" alt="A photo of John McGahern" class="member-photo" onclick="makeTeacherDance()">
-          <audio id="audio" src="assets/audio/whiskeyinthejar.mp3"></audio>
+      <div class="photo-block" id="teacher1">
+        <img src="assets/images/team/jmcgahern-cropped.gif" alt="A photo of John McGahern" class="member-photo" onclick="play('audio1');" >
+          <audio id="audio1" src="assets/audio/whiskeyinthejar.mp3"></audio>
         </img>
       </div>
     </div>
     <div class="col">
-      <div class="photo-block" id="teacher" onmouseenter="hoverOverTeacher()" onmouseleave="removeBorder()" onclick="makeTeacherSing()">
-        <img src="assets/images/team/rdoyle.png" alt="A photo of Roddy Doyle" class="member-photo" onclick="makeTeacherDance()">
-        <audio id="audio" src="assets/audio/illtellmyma.mp3"></audio>
+      <div class="photo-block" id="teacher2">
+        <img src="assets/images/team/rdoyle.png" alt="A photo of Roddy Doyle" class="member-photo" onclick="play('audio2');" >
+        <audio id="audio2" src="assets/audio/illtellmyma.mp3"></audio>
       </img>
       </div>
     </div>
@@ -107,10 +108,10 @@
       </div>
     </div>
     <div class="col">
-      <div class="photo-block"><img src="assets/images/team/sheaney.jpeg" alt="A photo of Seamus Heaney" class="member-photo"></div>
+      <div class="photo-block" id="teacher3"><img src="assets/images/team/sheaney.jpeg" alt="A photo of Seamus Heaney" class="member-photo"></div>
     </div>
     <div class="col">
-      <div class="photo-block"><img src="assets/images/team/owilde.jpeg" alt="A photo of Oscar Wilde" class="member-photo"></div>
+      <div class="photo-block" id="teacher4"><img src="assets/images/team/owilde.jpeg" alt="A photo of Oscar Wilde" class="member-photo"></div>
     </div>
     <div class="col bio-info">
       <div class="p-3 border bg-light">
@@ -133,10 +134,10 @@
       </div>
     </div>
     <div class="col">
-      <div class="photo-block"><img src="assets/images/team/eorahilly.png" alt="A photo of Egan O'Rahilly" class="member-photo"></div>
+      <div class="photo-block" id="teacher5"><img src="assets/images/team/eorahilly.png" alt="A photo of Egan O'Rahilly" class="member-photo"></div>
     </div>
     <div class="col">
-      <div class="photo-block"><img src="assets/images/team/sbeckett.png" alt="A photo of Samuel Beckett" class="member-photo"></div>
+      <div class="photo-block" id="teacher6"><img src="assets/images/team/sbeckett.png" alt="A photo of Samuel Beckett" class="member-photo"></div>
     </div>
     <div class="col bio-info">
       <div class="p-3 border bg-light">
