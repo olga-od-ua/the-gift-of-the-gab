@@ -217,6 +217,15 @@ nav {
     position:absolute;
     border: rgb(210, 166, 121);
 }
+
+.animated-button {
+  animation: animation 0.7s infinite;
+}
+
+@keyframes animation {
+  100% {border: 10px solid rgb(168, 231, 73);}
+}
+
 /* __________________________End of Course Info page ____________________*/
 
 
