@@ -1,7 +1,30 @@
 // Course info -------------------
-function learnAboutIndividualLessons() {
+
+
+$('#learn-more-button1').click(function() {
+  $('#individual-lessons').slideToggle(500);
+})
   
-}
+$('#learn-more-button2').click(function() {
+  $('#group-lessons').slideToggle(500);
+})
+
+$('#learn-more-button3').click(function() {
+  $('#business-english').slideToggle(500);
+})
+
+$('#learn-more-button4').click(function() {
+  $('#hospitality-english').slideToggle(500);
+})
+
+$('#learn-more-button5').click(function() {
+  $('#regular-paced-learning').slideToggle(500);
+})
+
+$('#learn-more-button6').click(function() {
+  $('#intensive-learning').slideToggle(500);
+})
+
 
 
 //-------------------- About Us page ----------- (credit to loosenthedark for assistance on Slack)
