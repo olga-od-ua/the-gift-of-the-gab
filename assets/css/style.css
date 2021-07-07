@@ -188,6 +188,10 @@ nav {
 }
 }
 
+.hidden-paragraph {
+  display: none;
+}
+
 .video {
     height: 50%;
     width: 50%;
