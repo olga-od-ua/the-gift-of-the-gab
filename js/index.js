@@ -1,4 +1,4 @@
-// Course info -------------------
+// ---------- Course Info Page ------------- //
 
 
 $('#learn-more-button1').click(function() {
@@ -27,7 +27,7 @@ $('#learn-more-button6').click(function() {
 
 
 
-//-------------------- About Us page ----------- (credit to loosenthedark for assistance on Slack)
+//-------------------- About Us page ----------- (credit to loosenthedark for assistance on Slack with combining the two functions: makeTeacherSing and makeTeacherDance, as well as with helping reuse the function on each image)
 function makeTeacherPerform(e) {
     let audio = e.target.nextElementSibling;
     if (audio.paused) {
@@ -35,7 +35,6 @@ function makeTeacherPerform(e) {
     } else {
       audio.pause();
     }
-
 
 audio.addEventListener("playing", function() {
   let teacher = this.previousElementSibling;
@@ -48,6 +47,7 @@ audio.addEventListener("pause", function() {
 });
 }
 
+
 /* ---- Initial idea, incomplete --------
 // -------- Make Teacher Sing function ------- //
 function makeTeacherSing(id) {
@@ -56,8 +56,7 @@ function makeTeacherSing(id) {
      else {audio.pause()};
 }
 
-// ------- Make Teacher Dance function ------ //
-
+// Make Teacher Dance function
  function makeTeacherDance(id) { 
 let aud = document.getElementById("audio1");
 aud.addEventListener("playing", function() {
@@ -70,18 +69,7 @@ aud.addEventListener("pause", function() {
 });
 } */
 
-// ------- CONTACT PAGE -------- //
-$('.contact-info').mouseenter(function() {
-  $(this).addClass('add-border').addClass('change-text');
-});
-
-$('.contact-info').mouseleave(function() {
-  $(this).removeClass('add-border').removeClass('change-text');
-});
-
-
-
-// ------ Hover-over-teacher function ------ //
+// Hover-over-teacher function
 $('.photo-block').mouseenter(function() {
   $(this).addClass('hover-over-teacher');
 });
@@ -90,12 +78,14 @@ $('.photo-block').mouseleave(function() {
   $(this).removeClass('hover-over-teacher');
 });
 
+// ------- CONTACT PAGE -------- //
+$('.contact-info').mouseenter(function() {
+  $(this).addClass('add-border').addClass('change-text');
+});
 
-
-
-
-
-
+$('.contact-info').mouseleave(function() {
+  $(this).removeClass('add-border').removeClass('change-text');
+});
 
 
 function handleCopyTextFromParagraph() {
@@ -172,6 +162,10 @@ function ShowHideAccents(chkAccentRequest) {
         divAccents.style.display = chkAccentRequest.checked ? "block" : "none";
 }
 
+
+
+//KNOWLEDGE TEST function
+
 /*function getQuestionAnswer(questionId, answeId) {
   const answer = document.getElementById(questionId).innerText;
   
@@ -180,7 +174,10 @@ function ShowHideAccents(chkAccentRequest) {
   }
 }*/
 
-
+function checkAnswer() {
+  
+  document.getElementsByClassName('correct-answer')[0].style.visibility = "visible";
+}
 
 
 
