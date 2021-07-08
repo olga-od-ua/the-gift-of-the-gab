@@ -113,8 +113,8 @@ function printDiv(divName) {
 }
 
 
-var exampleEl = document.getElementById('phrase')
-var tooltip = new bootstrap.Tooltip(exampleEl, options)
+var exampleEl = document.getElementById('phrase');
+var tooltip = new bootstrap.Tooltip(exampleEl, options);
 
 
 // Countdown function
@@ -160,23 +160,6 @@ function countdown() {
 function ShowHideAccents(chkAccentRequest) {
         var divAccents = document.getElementById("divAccents");
         divAccents.style.display = chkAccentRequest.checked ? "block" : "none";
-}
-
-
-
-//KNOWLEDGE TEST function
-
-/*function getQuestionAnswer(questionId, answeId) {
-  const answer = document.getElementById(questionId).innerText;
-  
-  if (answer === expectedAnswer) {
-    document.getElementById(answerId).innerText += 'Correct!';
-  }
-}*/
-
-function checkAnswer() {
-  
-  document.getElementsByClassName('correct-answer')[0].style.visibility = "visible";
 }
 
 
