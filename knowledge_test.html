@@ -77,7 +77,7 @@
                         <!-- suggested by mentor <textarea id="basicQ1" onkeyup="getQuestionAnswer('basicQ1')"></textarea>-->
                         <!--div class="userAnswer">answer</div-->
 
-                        <input type="text" id="userInput1">
+                        <input type="text" id="userInput1" required>
                     </span>
                     <span>.</span>
                 </div>
@@ -86,7 +86,7 @@
                 </div>
             </td>
             <td>
-                <input id="submit-button1" type = "button" value="Submit answer" class="submit-test-answer" onclick="checkAnswer('correct-answer1')"></input>
+                <input id="submit-button1" type = "button" value="Submit answer" class="submit-test-answer" onclick="checkAnswer('correct-answer1', 'resultQ1')"></input>
                 <div id="resultQ1" class="single-question-result">Result: </div> <!--this will appear upon submission of the user answer-->
             </td>
         </tr> <!--End of Question row 1-->
@@ -128,7 +128,7 @@
                     <span> sandwich.</span>
                 </div>
                 <div class="correct-answer" id="correct-answer3">
-                    <span>correct answer is: "an/the"</span>
+                    correct answer is: "an/the"
                 </div>
             </td>
             <td>
