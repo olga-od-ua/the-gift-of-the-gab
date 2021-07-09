@@ -15,16 +15,37 @@ function checkAnswer(correctAnswerId, resultId) {
     let userAnswer2 = document.getElementById('userInput2').value;
     let userAnswer3 = document.getElementById('userInput3').value;
 
-    
+    //let correctAnswerCount = 0;
     
     
     if (userAnswer1 == "can") {
         document.getElementById(resultId).innerHTML = "Result: correct";
+        correctAnswerCount++;
         
     } else {
         document.getElementById(resultId).innerHTML = "Result: wrong";
         document.getElementById(correctAnswerId).style.visibility = "visible";
+        document.getElementById('test-table').style.display = "none";
+        document.getElementById('your-level').style.display = "initial";
     }
+
+   if (userAnswer2 == "am") {
+      document.getElementById(resultId).innerHTML = "Result: correct";
+      correctAnswerCount++;
+      
+  } else {
+      document.getElementById(resultId).innerHTML = "Result: wrong";
+      document.getElementById(correctAnswerId).style.visibility = "visible";
+  }
+
+  if (userAnswer3 == "a") {
+    document.getElementById(resultId).innerHTML = "Result: correct";
+    correctAnswerCount++;
+    
+} else {
+    document.getElementById(resultId).innerHTML = "Result: wrong";
+    document.getElementById(correctAnswerId).style.visibility = "visible";
+}
   }
 
   

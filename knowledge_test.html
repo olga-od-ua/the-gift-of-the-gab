@@ -77,7 +77,7 @@
                         <!-- suggested by mentor <textarea id="basicQ1" onkeyup="getQuestionAnswer('basicQ1')"></textarea>-->
                         <!--div class="userAnswer">answer</div-->
 
-                        <input type="text" id="userInput1" required>
+                        <input type="text" id="userInput1">
                     </span>
                     <span>.</span>
                 </div>
@@ -109,8 +109,8 @@
                 </div>
             </td>
             <td>
-                <input id="submit-button1" type = "button" value="Submit answer" class="submit-test-answer" onclick="checkAnswer('correct-answer2')"></input>
-                <div class="single-question-result">Result: </div> <!--this will appear upon submission of the user answer-->
+                <input id="submit-button1" type = "button" value="Submit answer" class="submit-test-answer" onclick="checkAnswer('correct-answer2', 'resultQ2')"></input>
+                <div id="resultQ2" class="single-question-result">Result: </div> <!--this will appear upon submission of the user answer-->
             </td>
         </tr> <!--End of Question row 2-->
         <tr> <!--Question row 3-->
@@ -132,8 +132,8 @@
                 </div>
             </td>
             <td>
-                <input id="submit-button3" type = "button" value="Submit answer" class="submit-test-answer" onclick="checkAnswer('correct-answer3')"></input>
-                <div class="single-question-result">Result: </div> <!--this will appear upon submission of the user answer-->
+                <input id="submit-button1" type = "button" value="Submit answer" class="submit-test-answer" onclick="checkAnswer('correct-answer3', 'resultQ3')"></input>
+                <div id="resultQ3" class="single-question-result">Result: </div> <!--this will appear upon submission of the user answer-->
             </td>
         </tr> <!--End of Question row 3-->
         <tr> <!--Question row 4-->
@@ -596,6 +596,23 @@
 </table>
 </form>
 <!--END of test-->
+<div id="your-level">
+    <div class="card text-center justify-content-md-center free-lesson-box">
+        <div class="card-header">
+          -----Result messsage-----
+        </div>
+        <div class="card-body default-card-color">
+          <h5 class="card-title">-----Result messsage-----</p></h5>
+          <p class="card-text">-----Result messsage-----</p>
+            
+          <a href="contact.html" class="btn btn-primary book-button">Book now!</a>
+          
+        </div>
+        <div class="card-footer text-muted">
+            
+        </div>
+      </div>
+</div>
 <div id="result-level-message">Well done! Your test is complete! Your current level is <span id="result-level"><strong>level</strong></span>.</div>
 </section>
 
