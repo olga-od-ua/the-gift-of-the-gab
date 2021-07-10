@@ -27,10 +27,18 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId) {
   
   } else {
     document.getElementById('test-table').style.display = 'none';
-    if (correctAnswerCount <= 4) {
-      document.getElementById('result-level').innerHTML = 'Beginner/Elementary';
-    } else if (correctAnswerCount >= 5 && correctAnswerCount <=9) {
+    if (correctAnswerCount <=1 && correctAnswerCount <5) {
+      document.getElementById('result-level').innerHTML = 'Beginner';
+    } else if (correctAnswerCount >= 5 && correctAnswerCount <10) {
+      document.getElementById('result-level').innerHTML = 'Elementary';
+    } else if (correctAnswerCount >=10 && correctAnswerCount <15) {
       document.getElementById('result-level').innerHTML = 'Pre-Intermediate';
+    } else if (correctAnswerCount >=15 && correctAnswerCount <20) {
+      document.getElementById('result-level').innerHTML = 'Intermediate';
+    } else if (correctAnswerCount >=21 && correctAnswerCount <25) {
+      document.getElementById('result-level').innerHTML = 'Upper-Intermediate';
+    } else if (correctAnswerCount == 25) {
+      document.getElementById('result-level').innerHTML = 'Advanced';
     } else {
       alert("try again")
     }
