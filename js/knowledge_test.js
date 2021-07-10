@@ -9,6 +9,7 @@
 }*/
 
 
+var correctAnswerCount = 0;
 
 function checkAnswer(userAnswerId, correctAnswerId, resultId) {
   
@@ -16,21 +17,29 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId) {
   let userAnswer = document.getElementById(userAnswerId).value.trim();
   let correctAnswer = document.getElementById(correctAnswerId).value;
   let result = document.getElementById(resultId);
-  let correctAnswerCount = 0;
+  
+  
 
   if (userAnswer == correctAnswer) {
+
     result.innerHTML = 'Correct!';
-    correctAnswerCount++;
+    correctAnswerCount += 1;
+  
   } else {
     document.getElementById('test-table').style.display = 'none';
+    if (correctAnswerCount <= 4) {
+      document.getElementById('result-level').innerHTML = 'Beginner/Elementary';
+    } else if (correctAnswerCount >= 5 && correctAnswerCount <=9) {
+      document.getElementById('result-level').innerHTML = 'Pre-Intermediate';
+    } else {
+      alert("try again")
+    }
   }
 
-  if (correctAnswerCount <= 5) {
-    document.getElementById('result-level-message').innerHTML = 'Your level is Beginner/Elementary';
-  } else (
-    alert("Please Try Again!")
-  )
+  
 }
+
+
 
 
   

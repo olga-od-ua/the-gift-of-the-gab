@@ -85,7 +85,7 @@
             </td>
             <td>
                 <input id="submit-button1" type = "button" value="Submit answer" class="submit-test-answer" onclick="checkAnswer('userInput1', 'correct-answer1', 'resultQ1')"></input>
-                <div id="resultQ1" class="single-question-result">Result: </div> <!--this will appear upon submission of the user answer-->
+                <div id="resultQ1" class="single-question-result"></div>
             </td>
         </tr> <!--End of Question row 1-->
         <tr> <!--Question row 2-->
@@ -116,9 +116,6 @@
                     <span class="number-space"> </span>
                     <span>What would you like for lunch? I want </span>
                     <span class="userAnswer">
-                        <!-- suggested by mentor <textarea id="basicQ1" onkeyup="getQuestionAnswer('basicQ1')"></textarea>-->
-                        <!--div class="userAnswer">answer</div-->
-
                         <input type="text" id="userInput3">
                     </span>
                     <span> sandwich.</span>
@@ -127,7 +124,7 @@
             </td>
             <td>
                 <input id="submit-button1" type = "button" value="Submit answer" class="submit-test-answer" onclick="checkAnswer('userInput3', 'correct-answer3', 'resultQ3')"></input>
-                <div id="resultQ3" class="single-question-result">Result: </div> <!--this will appear upon submission of the user answer-->
+                <div id="resultQ3" class="single-question-result">Result: </div>
             </td>
         </tr> <!--End of Question row 3-->
         <tr> <!--Question row 4-->
@@ -136,18 +133,16 @@
                     <span class="question-number">4.</span>
                     <span class="number-space"> </span>
                     <span>Do you work here? - No, I </span>
-                    <span>
-                        <div class="userAnswer">answer</div>
+                    <span class="userAnswer">
+                        <input type="text" id="userInput4">
                     </span>
-                    <span> .</span>
+                    <span>.</span>
                 </div>
-                <div class="correct-answer">
-                    <span>correct answer is: "don't"</span>
-                </div>
+                <input class="correct-answer" id="correct-answer4" value="don't">
             </td>
             <td>
-                <button class="submit-test-answer">Submit answer</button>
-                <div class="single-question-result">Result: </div> <!--this will appear upon submission of the user answer-->
+                <input id="submit-button1" type = "button" value="Submit answer" class="submit-test-answer" onclick="checkAnswer('userInput4', 'correct-answer4', 'resultQ4')"></input>
+                <div id="resultQ4" class="single-question-result">Result: </div>
             </td>
         </tr> <!--End of Question row 4-->
         <tr> <!--Question row 5-->
@@ -156,18 +151,16 @@
                     <span class="question-number">5.</span>
                     <span class="number-space"> </span>
                     <span>Where are you from? I am </span>
-                    <span>
-                        <div class="userAnswer">answer</div>
+                    <span class="userAnswer">
+                        <input type="text" id="userInput5">
                     </span>
-                    <span> Australia.</span>
+                    <span>Australia.</span>
                 </div>
-                <div class="correct-answer">
-                    <span>correct answer is: "from"</span>
-                </div>
+                <input class="correct-answer" id="correct-answer5" value="from">
             </td>
             <td>
-                <button class="submit-test-answer">Submit answer</button>
-                <div class="single-question-result">Result: </div> <!--this will appear upon submission of the user answer-->
+                <input id="submit-button5" type = "button" value="Submit answer" class="submit-test-answer" onclick="checkAnswer('userInput5', 'correct-answer5', 'resultQ5')"></input>
+                <div id="resultQ5" class="single-question-result">Result: </div>
             </td>
         </tr> <!--End of Question row 5-->
 
@@ -180,18 +173,16 @@
                     <span class="question-number">6.</span>
                     <span class="number-space"> </span>
                     <span>Let's take children </span>
-                    <span>
-                        <div class="userAnswer">answer</div>
+                    <span class="userAnswer">
+                        <input type="text" id="userInput6">
                     </span>
                     <span> the zoo tomorrow.</span>
                 </div>
-                <div class="correct-answer">
-                    <span>correct answer is: "to"</span>
-                </div>
+                <input class="correct-answer" id="correct-answer6" value="to">
             </td>
             <td>
-                <button class="submit-test-answer">Submit answer</button>
-                <div class="single-question-result">Result: </div> <!--this will appear upon submission of the user answer-->
+                <input id="submit-button6" type = "button" value="Submit answer" class="submit-test-answer" onclick="checkAnswer('userInput6', 'correct-answer6', 'resultQ6')"></input>
+                <div id="resultQ6" class="single-question-result">Result: </div>
             </td>
         </tr> <!--End of Question row 6-->
         <tr> <!--Question row 7-->
