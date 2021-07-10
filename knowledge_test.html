@@ -123,12 +123,10 @@
                     </span>
                     <span> sandwich.</span>
                 </div>
-                <div class="correct-answer" id="correct-answer3">
-                    correct answer is: "an/the"
-                </div>
+                <input class="correct-answer" id="correct-answer3" value="a">
             </td>
             <td>
-                <input id="submit-button1" type = "button" value="Submit answer" class="submit-test-answer"></input>
+                <input id="submit-button1" type = "button" value="Submit answer" class="submit-test-answer" onclick="checkAnswer('userInput3', 'correct-answer3', 'resultQ3')"></input>
                 <div id="resultQ3" class="single-question-result">Result: </div> <!--this will appear upon submission of the user answer-->
             </td>
         </tr> <!--End of Question row 3-->
