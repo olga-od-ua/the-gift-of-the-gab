@@ -81,12 +81,10 @@
                     </span>
                     <span>.</span>
                 </div>
-                <div class="correct-answer" id="correct-answer1">
-                    <span>correct answer is: "can"</span>
-                </div>
+                <input class="correct-answer" id="correct-answer1" value="can">
             </td>
             <td>
-                <input id="submit-button1" type = "button" value="Submit answer" class="submit-test-answer" onclick="checkAnswer('correct-answer1', 'resultQ1')"></input>
+                <input id="submit-button1" type = "button" value="Submit answer" class="submit-test-answer" onclick="checkAnswer('userInput1', 'correct-answer1', 'resultQ1')"></input>
                 <div id="resultQ1" class="single-question-result">Result: </div> <!--this will appear upon submission of the user answer-->
             </td>
         </tr> <!--End of Question row 1-->
@@ -104,12 +102,10 @@
                     </span>
                     <span> great!</span>
                 </div>
-                <div class="correct-answer" id="correct-answer2">
-                    <span>correct answer is: "am"</span>
-                </div>
+                <input class="correct-answer" id="correct-answer2" value="am">
             </td>
             <td>
-                <input id="submit-button1" type = "button" value="Submit answer" class="submit-test-answer" onclick="checkAnswer('correct-answer2', 'resultQ2')"></input>
+                <input id="submit-button1" type = "button" value="Submit answer" class="submit-test-answer" onclick="checkAnswer('userInput2', 'correct-answer2', 'resultQ2')"></input>
                 <div id="resultQ2" class="single-question-result">Result: </div> <!--this will appear upon submission of the user answer-->
             </td>
         </tr> <!--End of Question row 2-->
@@ -132,7 +128,7 @@
                 </div>
             </td>
             <td>
-                <input id="submit-button1" type = "button" value="Submit answer" class="submit-test-answer" onclick="checkAnswer('correct-answer3', 'resultQ3')"></input>
+                <input id="submit-button1" type = "button" value="Submit answer" class="submit-test-answer"></input>
                 <div id="resultQ3" class="single-question-result">Result: </div> <!--this will appear upon submission of the user answer-->
             </td>
         </tr> <!--End of Question row 3-->
