@@ -302,6 +302,29 @@ nav {
   display: none;
 }
 
+#result-message-header {
+  font-size: 35px;
+}
+
+@media (max-width: 992px){
+#result-message-header {
+  font-size: 22px;
+}
+}
+
+#result-message-header2 {
+  font-size: 30px;
+  
+}
+
+#result-message {
+  font-size: 25px;
+}
+
+#after-test-book-button {
+  font-size: 20px;
+}
+
 #result-level {
   font-size: smaller;
   padding: 3px;
