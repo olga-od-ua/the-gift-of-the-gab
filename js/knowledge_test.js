@@ -51,7 +51,7 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
 
 
 $(document).ready(function() {
-  $('#test-table-body').find('tr').slice(2).hide();
+  $('#test-table-body').find('tr').slice(1).hide();
   $('.submit-test-answer').on('click', function() {
     $('#test-table-body').find('tr:visible').next().show();
   });
