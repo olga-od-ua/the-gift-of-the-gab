@@ -27,10 +27,15 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
 
     
     correctAnswerCount += 1;
-     if (correctAnswerCount == 25) {
+     if (correctAnswerCount == 2) {
       document.getElementById('test-table').style.display = 'none';
       document.getElementById('result-level-message').style.display = 'none';
+      document.getElementById('test-instructions').style.display = 'none';
       document.getElementById('your-level').style.display = 'block';
+      document.getElementById('result-message-header').innerHTML = 'CONGRATULATIONS!!!';
+      document.getElementById('result-message-header2').innerHTML = 'WOW! We are impressed!';
+      document.getElementById('result-message').innerHTML = 'Your level is <strong>ADVANCED</strong>! <br>But the sky is the limit. We will be delighted to have you join our school!';
+      
 
      } else if (correctAnswerCount == 1) {
       document.getElementById('result-level').innerText = 'Beginner';
