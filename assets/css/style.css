@@ -302,7 +302,10 @@ nav {
   display: none;
 }
 
-
+#result-level {
+  font-size: smaller;
+  padding: 3px;
+}
 
 /* __________________________End of Knowledge Test page ____________________*/
 

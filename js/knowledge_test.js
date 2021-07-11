@@ -29,8 +29,36 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
     correctAnswerCount += 1;
      if (correctAnswerCount == 25) {
       document.getElementById('test-table').style.display = 'none';
-      document.getElementById('result-level').innerHTML = 'Advanced';
+      document.getElementById('result-level-message').style.display = 'none';
+      document.getElementById('your-level').style.display = 'block';
+
+     } else if (correctAnswerCount == 1) {
+      document.getElementById('result-level').innerText = 'Beginner';
+      document.getElementById('result-level').style.fontSize = 'larger';
+      document.getElementById('result-level').style.backgroundColor = 'rgb(58, 181, 89)';
+      document.getElementById('result-level').style.color = 'white';
+     } else if (correctAnswerCount == 5) {
+      document.getElementById('result-level').innerText = 'Elementary';
+      document.getElementById('result-level').style.fontSize = 'larger';
+      document.getElementById('result-level').style.backgroundColor = 'rgb(61, 174, 191)';
+      document.getElementById('result-level').style.color = 'white';
+     } else if (correctAnswerCount == 10) {
+      document.getElementById('result-level').innerText = 'Pre-Intermediate';
+      document.getElementById('result-level').style.fontSize = 'larger';
+      document.getElementById('result-level').style.backgroundColor = 'rgb(117, 61, 191)';
+      document.getElementById('result-level').style.color = 'white';
+     } else if (correctAnswerCount == 15) {
+      document.getElementById('result-level').innerText = 'Intermediate';
+      document.getElementById('result-level').style.fontSize = 'larger';
+      document.getElementById('result-level').style.backgroundColor = 'rgb(181, 119, 33)';
+      document.getElementById('result-level').style.color = 'white';
+     } else if (correctAnswerCount == 20) {
+      document.getElementById('result-level').innerText = 'Upper-Intermediate';
+      document.getElementById('result-level').style.fontSize = 'larger';
+      document.getElementById('result-level').style.backgroundColor = 'rgb(252, 186, 3)';
+      document.getElementById('result-level').style.color = 'white';
      }
+     
   } else {
     document.getElementById('test-table').style.display = 'none';
     if (correctAnswerCount >=1 && correctAnswerCount <5) {
@@ -49,7 +77,7 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
   }
 }
 
-
+// credit to Nikhil Patil from https://stackoverflow.com/questions/65504888/how-to-continuously-click-on-button-to-show-next-element-in-javascript
 $(document).ready(function() {
   $('#test-table-body').find('tr').slice(1).hide();
   $('.submit-test-answer').on('click', function() {
