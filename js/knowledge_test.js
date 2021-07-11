@@ -18,14 +18,14 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
   let correctAnswer = document.getElementById(correctAnswerId).value;
   let result = document.getElementById(resultId);
   let submitButton;
-  
-  
 
   if (userAnswer == correctAnswer) {
 
     result.innerHTML = 'Correct!';
     submitButton = document.getElementById(submitButtonId).disabled = true;
     submitButton = document.getElementById(submitButtonId).style.display = "none";
+
+    
     correctAnswerCount += 1;
      if (correctAnswerCount == 25) {
       document.getElementById('test-table').style.display = 'none';
@@ -50,6 +50,9 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
 }
 
 
-
-
-  
+$(document).ready(function() {
+  $('#test-table-body').find('tr').slice(2).hide();
+  $('.submit-test-answer').on('click', function() {
+    $('#test-table-body').find('tr:visible').next().show();
+  });
+});
