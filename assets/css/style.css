@@ -8,6 +8,8 @@ html, body {
  height: 100%;
  margin: 0;
  font-family: Arial, Helvetica, sans-serif;
+ --lgt-blue: #3db5eb;
+ --black: #32383c;
 }
 
 #page-container {
@@ -287,8 +289,22 @@ nav {
 
 .userAnswer {
     display: inline-flex;
-    background-color: rgba(255, 246, 232, 0.76);
     padding: 5px;
+}
+
+input {
+  font-size: 16px;
+  color: black;
+  background-color: #fff;
+  border: 1px solid #726c6c;
+  border-radius: 8px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  background-color: rgba(255, 176, 6, 0.25);
 }
 
 .correct-answer {
@@ -561,6 +577,17 @@ input, select, textarea {
   border-radius: 4px;
   resize: block;
   font-size: 0.9em;
+}
+
+textarea {
+  color: black;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+textarea:focus {
+  outline: none;
+  background-color: rgba(255, 176, 6, 0.25);
 }
 
 label {
