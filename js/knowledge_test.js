@@ -17,10 +17,32 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
     
     correctAnswerCount += 1;
 
-    var count = correctAnswerCount;
-var pcg = Math.floor(count*4);        
-document.getElementsByClassName('progress-bar').item(0).setAttribute('aria-valuenow',pcg);
-document.getElementsByClassName('progress-bar').item(0).setAttribute('style','width:'+Number(pcg)+'%');
+    let count = correctAnswerCount;
+    let pcg = Math.floor(count*4);        
+    document.getElementsByClassName('progress-bar').item(0).setAttribute('aria-valuenow',pcg);
+    document.getElementsByClassName('progress-bar').item(0).setAttribute('style','width:'+Number(pcg)+'%');
+      if (correctAnswerCount >=1 && correctAnswerCount <5) {
+        document.getElementById('user-progress-fill').style.backgroundColor = 'rgb(58, 181, 89)';
+        document.getElementById('user-progress-fill').innerHTML = '<strong>Great job!</strong>';
+      } else if (correctAnswerCount >= 5 && correctAnswerCount <10) {
+        document.getElementById('user-progress-fill').style.backgroundColor = 'rgba(61, 174, 191)';
+        document.getElementById('user-progress-fill').innerHTML = '<strong>Amazing! Keep going!</strong>';
+      } else if (correctAnswerCount >=10 && correctAnswerCount <15) {
+        document.getElementById('user-progress-fill').style.backgroundColor = 'rgba(117, 61, 191)';
+        document.getElementById('user-progress-fill').innerHTML = "<strong>Fantastic! Show us what you've got!</strong>";
+      } else if (correctAnswerCount >=15 && correctAnswerCount <20) {
+        document.getElementById('user-progress-fill').style.backgroundColor = 'rgb(181, 119, 33)';
+        document.getElementById('user-progress-fill').innerHTML = "<strong>Way to go!</strong>";
+      } else if (correctAnswerCount >=20 && correctAnswerCount <23) {
+        document.getElementById('user-progress-fill').style.backgroundColor = 'rgb(252, 186, 3)';
+        document.getElementById('user-progress-fill').innerHTML = "<strong>Impressive! Only a few left..</strong>";
+      } else if (correctAnswerCount >=23 && correctAnswerCount <24) {
+        document.getElementById('user-progress-fill').style.backgroundColor = 'rgb(252, 115, 3)';
+        document.getElementById('user-progress-fill').innerHTML = "<strong>Almost there!</strong>";
+      } else if (correctAnswerCount == 24) {
+        document.getElementById('user-progress-fill').style.backgroundColor = 'rgb(252, 61, 3)';
+        document.getElementById('user-progress-fill').innerHTML = "<strong>Last one!</strong>";
+      }
 
      if (correctAnswerCount == 25) {
       document.getElementById('test-table').style.display = 'none';
@@ -30,7 +52,8 @@ document.getElementsByClassName('progress-bar').item(0).setAttribute('style','wi
       document.getElementById('result-message-header').innerHTML = 'CONGRATULATIONS!!!';
       document.getElementById('result-message-header2').innerHTML = 'WOW! We are impressed!<br>Your level is <strong>ADVANCED</strong>!';
       document.getElementById('result-message').innerHTML = 'But the sky is the limit.<br>We will be delighted to have you join our school!';
-      
+      document.getElementById('user-progress-fill').innerHTML = "<strong>You're a star!</strong>";
+      document.getElementById('user-progress-fill').style.backgroundColor = 'rgb(247, 12, 12)';
 
      } else if (correctAnswerCount == 1) {
       document.getElementById('result-level').innerText = 'Beginner';

@@ -357,11 +357,26 @@ input:focus {
   font-size: 20px;
 }
 
+#user-progress {
+  margin: 10px 0 0 0;
+  padding: 0;
+  border-radius: 0;
+  background-color: blanchedalmond;
+}
+
+.user-progress {
+    border-right: 2px solid #726c6c;
+}
+
 #result-level {
   font-size: smaller;
   padding: 3px;
 }
 
+#progress-levels {
+  margin-bottom: 10px;
+  height: 30px;
+}
 
 /*Progress bar. Colours match the bg colours from level message in knowledge_test.js*/
 .bg-elementary {
@@ -376,6 +391,8 @@ input:focus {
   background-color: rgb(181, 119, 33);
 }
 
+
+
 .bg-upper-intermediate {
   background-color: rgb(252, 186, 3);
 }
@@ -384,10 +401,7 @@ input:focus {
   background-color: rgb(247, 12, 12);
 }
 
-.progress {
-  margin-bottom: 10px;
-  height: 30px;
-}
+
 /* __________________________End of Knowledge Test page ____________________*/
 
 
