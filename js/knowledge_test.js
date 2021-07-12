@@ -16,7 +16,7 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
 
     
     correctAnswerCount += 1;
-     if (correctAnswerCount == 2) {
+     if (correctAnswerCount == 25) {
       document.getElementById('test-table').style.display = 'none';
       document.getElementById('result-level-message').style.display = 'none';
       document.getElementById('test-instructions').style.display = 'none';
@@ -56,7 +56,14 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
   } else {
     document.getElementById('test-table').style.display = 'none';
     if (correctAnswerCount >=1 && correctAnswerCount <5) {
-      document.getElementById('result-level').innerHTML = 'Beginner';
+      document.getElementById('test-table').style.display = 'none';
+      document.getElementById('result-level-message').style.display = 'none';
+      document.getElementById('test-instructions').style.display = 'none';
+      document.getElementById('your-level').style.display = 'block';
+      document.getElementById('result-message-header').innerHTML = 'Ooops...';
+      document.getElementById('result-message-header2').innerHTML = 'There was a mistake in your answer.<br>Your level is <strong>Beginner</strong>.';
+      document.getElementById('result-message').innerHTML = 'We will be delighted to have you join our school and help you grow on your English language journey!';
+      
     } else if (correctAnswerCount >= 5 && correctAnswerCount <10) {
       document.getElementById('result-level').innerHTML = 'Elementary';
     } else if (correctAnswerCount >=10 && correctAnswerCount <15) {
