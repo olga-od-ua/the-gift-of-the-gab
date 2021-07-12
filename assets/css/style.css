@@ -363,7 +363,7 @@ input:focus {
 }
 
 
-/*Progress bar*/
+/*Progress bar. Colours match the bg colours from level message in knowledge_test.js*/
 .bg-elementary {
   background-color: rgb(61, 174, 191);
 }
@@ -384,6 +384,10 @@ input:focus {
   background-color: rgb(247, 12, 12);
 }
 
+.progress {
+  margin-bottom: 10px;
+  height: 30px;
+}
 /* __________________________End of Knowledge Test page ____________________*/
 
 

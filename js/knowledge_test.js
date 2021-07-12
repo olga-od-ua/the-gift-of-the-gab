@@ -16,6 +16,12 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
 
     
     correctAnswerCount += 1;
+
+    var count = correctAnswerCount;
+var pcg = Math.floor(count*4);        
+document.getElementsByClassName('progress-bar').item(0).setAttribute('aria-valuenow',pcg);
+document.getElementsByClassName('progress-bar').item(0).setAttribute('style','width:'+Number(pcg)+'%');
+
      if (correctAnswerCount == 25) {
       document.getElementById('test-table').style.display = 'none';
       document.getElementById('result-level-message').style.display = 'none';
