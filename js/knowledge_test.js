@@ -97,8 +97,8 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
       document.getElementById('result-message-header2').innerHTML = 'Unfortunately, there was a mistake in your last answer.<br>Your current level is <strong>Upper-Intermediate</strong>.';
       document.getElementById('result-message').innerHTML = 'We will be delighted to have you join our school and help you grow on your English language journey!';
     } else {
-      alert("try again")
-    }
+      alert("Please try again");
+    } 
   }
 }
 
