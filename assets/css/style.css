@@ -293,12 +293,12 @@ nav {
 }
 
 input {
+  width: 100%;
   font-size: 16px;
   color: black;
   background-color: #fff;
   border: 1px solid #726c6c;
-  border-radius: 8px;
-  width: 100%;
+  border-radius: 7px;
   transition: all 0.3s ease;
 }
 
@@ -360,6 +360,28 @@ input:focus {
 #result-level {
   font-size: smaller;
   padding: 3px;
+}
+
+
+/*Progress bar*/
+.bg-elementary {
+  background-color: rgb(61, 174, 191);
+}
+
+.bg-pre-intermediate {
+  background-color: rgb(117, 61, 191);
+}
+
+.bg-intermediate {
+  background-color: rgb(181, 119, 33);
+}
+
+.bg-upper-intermediate {
+  background-color: rgb(252, 186, 3);
+}
+
+.bg-advanced {
+  background-color: rgb(247, 12, 12);
 }
 
 /* __________________________End of Knowledge Test page ____________________*/
