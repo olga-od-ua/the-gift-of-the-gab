@@ -241,10 +241,14 @@ nav {
    text-shadow: 3px 3px 3px rgb(255, 246, 232);
 }
 
-.test-instructions {
-    margin: 7px;
-    padding: 7px 5px 3px 15px;
-    background-color: rgb(255, 246, 232);
+#test-instructions {
+  background-color: rgba(255, 246, 232, 0.7);  
+  width: 900px;
+  max-width: calc(100% - 20px);
+  margin: 5px auto;
+  padding: 5px 10px;
+  border: 1.7px solid #726c6c;
+  border-radius: 7px;
 }
 
 #test-table{
