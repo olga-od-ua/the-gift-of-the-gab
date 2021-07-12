@@ -245,10 +245,15 @@ nav {
   background-color: rgba(255, 246, 232, 0.7);  
   width: 900px;
   max-width: calc(100% - 20px);
-  margin: 5px auto;
-  padding: 5px 10px;
+  margin: 10px auto;
+  padding: 10px 10px 2px 10px;
   border: 1.7px solid #726c6c;
   border-radius: 7px;
+}
+
+#instructions-shamrock {
+  width: 35px;
+  margin: 0 0 0 10px;
 }
 
 #test-table{
