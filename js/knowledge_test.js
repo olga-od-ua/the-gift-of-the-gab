@@ -11,8 +11,8 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
   if (userAnswer == correctAnswer) {
 
     result.innerHTML = 'Correct!';
-    submitButton = document.getElementById(submitButtonId).disabled = true;
-    submitButton = document.getElementById(submitButtonId).style.display = "none";
+    submitButton = document.getElementById(submitButtonId).disabled = true;  //Prevents multiple submissions
+    submitButton = document.getElementById(submitButtonId).style.display = "none";//Prevents multiple submissions
 
     
     correctAnswerCount += 1;
@@ -65,13 +65,37 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
       document.getElementById('result-message').innerHTML = 'We will be delighted to have you join our school and help you grow on your English language journey!';
       
     } else if (correctAnswerCount >= 5 && correctAnswerCount <10) {
-      document.getElementById('result-level').innerHTML = 'Elementary';
+      document.getElementById('test-table').style.display = 'none';
+      document.getElementById('result-level-message').style.display = 'none';
+      document.getElementById('test-instructions').style.display = 'none';
+      document.getElementById('your-level').style.display = 'block';
+      document.getElementById('result-message-header').innerHTML = 'Ooops...';
+      document.getElementById('result-message-header2').innerHTML = 'There was a mistake in your last answer.<br>Your current level is <strong>Elementary</strong>.';
+      document.getElementById('result-message').innerHTML = 'We will be delighted to have you join our school and help you grow on your English language journey!';
     } else if (correctAnswerCount >=10 && correctAnswerCount <15) {
-      document.getElementById('result-level').innerHTML = 'Pre-Intermediate';
+      document.getElementById('test-table').style.display = 'none';
+      document.getElementById('result-level-message').style.display = 'none';
+      document.getElementById('test-instructions').style.display = 'none';
+      document.getElementById('your-level').style.display = 'block';
+      document.getElementById('result-message-header').innerHTML = 'Ooops...';
+      document.getElementById('result-message-header2').innerHTML = 'There was a mistake in your last answer.<br>Your current level is <strong>Pre-Intermediate</strong>.';
+      document.getElementById('result-message').innerHTML = 'We will be delighted to have you join our school and help you grow on your English language journey!';
     } else if (correctAnswerCount >=15 && correctAnswerCount <20) {
-      document.getElementById('result-level').innerHTML = 'Intermediate';
+      document.getElementById('test-table').style.display = 'none';
+      document.getElementById('result-level-message').style.display = 'none';
+      document.getElementById('test-instructions').style.display = 'none';
+      document.getElementById('your-level').style.display = 'block';
+      document.getElementById('result-message-header').innerHTML = 'WELL DONE!';
+      document.getElementById('result-message-header2').innerHTML = 'Unfortunately, there was a mistake in your last answer.<br>Your current level is <strong>Intermediate</strong>.';
+      document.getElementById('result-message').innerHTML = 'We will be delighted to have you join our school and help you grow on your English language journey!';
     } else if (correctAnswerCount >=21 && correctAnswerCount <25) {
-      document.getElementById('result-level').innerHTML = 'Upper-Intermediate';
+      document.getElementById('test-table').style.display = 'none';
+      document.getElementById('result-level-message').style.display = 'none';
+      document.getElementById('test-instructions').style.display = 'none';
+      document.getElementById('your-level').style.display = 'block';
+      document.getElementById('result-message-header').innerHTML = 'WAY TO GO!';
+      document.getElementById('result-message-header2').innerHTML = 'Unfortunately, there was a mistake in your last answer.<br>Your current level is <strong>Upper-Intermediate</strong>.';
+      document.getElementById('result-message').innerHTML = 'We will be delighted to have you join our school and help you grow on your English language journey!';
     } else {
       alert("try again")
     }
