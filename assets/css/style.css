@@ -640,6 +640,10 @@ label {
   text-align: start;
 }
 
+.left-centered-label {
+  text-align: left;
+}
+
 input[type=submit] {
   background-color: rgb(163, 159, 159);
   color: white;
