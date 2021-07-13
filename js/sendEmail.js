@@ -1,12 +1,19 @@
+
+
+
 function sendMail(contactForm) {
 
     var selectedCountry = $('#country :selected').text();
+    var selectedAccent = $('#accents :selected').text();
     
+ 
+
     emailjs.send("service_r0g6ngj", "template_ddggyvm", {
 "user_email": contactForm.email.value,
 "user_name": contactForm.name.value,
 "country": selectedCountry,
-"the_gift_of_the_gab_message": contactForm.message.value
+"the_gift_of_the_gab_message": contactForm.message.value,
+"selected_accents": selectedAccent
     })
     .then(
         function(response) {
