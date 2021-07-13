@@ -244,7 +244,7 @@ nav {
 }
 
 #test-instructions {
-  background-color: rgba(255, 246, 232, 0.7);  
+  background-color: rgba(255, 246, 232, 0.5);  
   width: 800px;
   max-width: calc(100% - 20px);
   margin: 10px auto;
@@ -267,7 +267,7 @@ nav {
   }
 
   tr {
-    background-color: rgba(255, 246, 232, 0.5);
+    background-color: rgba(255, 246, 232, 0.85);
   }
 
   td {
@@ -349,7 +349,6 @@ input:focus {
 
 #result-message-header2 {
   font-size: 30px;
-  
 }
 
 #result-message {
@@ -394,8 +393,6 @@ input:focus {
 .bg-intermediate {
   background-color: rgb(181, 119, 33);
 }
-
-
 
 .bg-upper-intermediate {
   background-color: rgb(252, 186, 3);
@@ -527,51 +524,6 @@ input:focus {
 
 /* _____________________________ Contact us page __________________________*/
 
-/*Questionnaire*/
-
-.course-recommendation-form-instructions {
-  text-align: left;
-  font-size: large;
-  background-color: rgba(255, 246, 232, 0.466);
-  padding: 7px;
-}
-
-#questionnaire {
-    border: 2px solid #726c6c;
-    margin-top: 7px;
-    margin-bottom: 7px;
-}
-
-#type-of-course, #group-or-indiv, #learning-intensity, #accent {
-    padding: 17px;
-    margin: 1px;
-    background-color: rgba(255, 246, 232, 0.466);
-}
-
-#type-of-course {
-    border: 2px solid #726c6c;
-}
-
-#group-or-indiv {
-    border: 2px solid #726c6c;
-}
-
-#learning-intensity {
-    border: 2px solid #726c6c;
-}
-
-#accent {
-    border: 2px solid #726c6c;
-}
-
-#divAccents {
-  display: none;
-}
-
-.submit-course-recommendation-form {
-  border: 2px solid rgb(255, 246, 232);
-  
-}
 
 .contact-box {
    text-align: center;
