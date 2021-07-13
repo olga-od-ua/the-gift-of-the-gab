@@ -8,6 +8,8 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
   let result = document.getElementById(resultId);
   let submitButton;
 
+  
+
   if (userAnswer == correctAnswer) {
 
     result.innerHTML = 'Correct!';
@@ -96,6 +98,8 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
       document.getElementById('result-message-header2').innerHTML = 'There was a mistake in your answer.<br>Your level is <strong>Beginner</strong>.';
       document.getElementById('result-message').innerHTML = 'We will be delighted to have you join our school and help you grow on your English language journey!';
       document.getElementById('user-progress-fill').innerHTML = "";
+    
+  
     } else if (correctAnswerCount >= 5 && correctAnswerCount <10) {
       document.getElementById('test-table').style.display = 'none';
       document.getElementById('result-level-message').style.display = 'none';
@@ -145,3 +149,16 @@ $(document).ready(function() {
     $('#test-table-body').find('tr:visible').next().show();
   });
 });
+
+
+
+/*not working
+$(document).ready(function() {
+  $('#after-test-book-button').click(function() {
+      $('#message').text('It was a dark and stormy night…');
+  })
+});   
+*/
+
+
+
