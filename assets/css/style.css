@@ -361,11 +361,8 @@ input:focus {
   margin: 10px 0 0 0;
   padding: 0;
   border-radius: 0;
-  background-color: blanchedalmond;
-}
-
-.user-progress {
-    border-right: 2px solid #726c6c;
+  background-color: rgb(255, 246, 232, 0.5);
+  height: 27px;
 }
 
 #result-level {

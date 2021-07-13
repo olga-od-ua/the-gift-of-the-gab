@@ -92,7 +92,7 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
       document.getElementById('result-message-header').innerHTML = 'Ooops...';
       document.getElementById('result-message-header2').innerHTML = 'There was a mistake in your answer.<br>Your level is <strong>Beginner</strong>.';
       document.getElementById('result-message').innerHTML = 'We will be delighted to have you join our school and help you grow on your English language journey!';
-      
+      document.getElementById('user-progress-fill').innerHTML = "";
     } else if (correctAnswerCount >= 5 && correctAnswerCount <10) {
       document.getElementById('test-table').style.display = 'none';
       document.getElementById('result-level-message').style.display = 'none';
@@ -101,6 +101,7 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
       document.getElementById('result-message-header').innerHTML = 'Ooops...';
       document.getElementById('result-message-header2').innerHTML = 'There was a mistake in your last answer.<br>Your current level is <strong>Elementary</strong>.';
       document.getElementById('result-message').innerHTML = 'We will be delighted to have you join our school and help you grow on your English language journey!';
+      document.getElementById('user-progress-fill').innerHTML = "";
     } else if (correctAnswerCount >=10 && correctAnswerCount <15) {
       document.getElementById('test-table').style.display = 'none';
       document.getElementById('result-level-message').style.display = 'none';
@@ -109,6 +110,7 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
       document.getElementById('result-message-header').innerHTML = 'Ooops...';
       document.getElementById('result-message-header2').innerHTML = 'There was a mistake in your last answer.<br>Your current level is <strong>Pre-Intermediate</strong>.';
       document.getElementById('result-message').innerHTML = 'We will be delighted to have you join our school and help you grow on your English language journey!';
+      document.getElementById('user-progress-fill').innerHTML = "";
     } else if (correctAnswerCount >=15 && correctAnswerCount <20) {
       document.getElementById('test-table').style.display = 'none';
       document.getElementById('result-level-message').style.display = 'none';
@@ -117,6 +119,7 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
       document.getElementById('result-message-header').innerHTML = 'WELL DONE!';
       document.getElementById('result-message-header2').innerHTML = 'Unfortunately, there was a mistake in your last answer.<br>Your current level is <strong>Intermediate</strong>.';
       document.getElementById('result-message').innerHTML = 'We will be delighted to have you join our school and help you grow on your English language journey!';
+      document.getElementById('user-progress-fill').innerHTML = "";
     } else if (correctAnswerCount >=21 && correctAnswerCount <25) {
       document.getElementById('test-table').style.display = 'none';
       document.getElementById('result-level-message').style.display = 'none';
@@ -125,6 +128,7 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
       document.getElementById('result-message-header').innerHTML = 'WAY TO GO!';
       document.getElementById('result-message-header2').innerHTML = 'Unfortunately, there was a mistake in your last answer.<br>Your current level is <strong>Upper-Intermediate</strong>.';
       document.getElementById('result-message').innerHTML = 'We will be delighted to have you join our school and help you grow on your English language journey!';
+      document.getElementById('user-progress-fill').innerHTML = "";
     } else {
       alert("Please try again");
     } 
