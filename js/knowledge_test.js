@@ -21,7 +21,10 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
     let pcg = Math.floor(count*4);        
     document.getElementsByClassName('progress-bar').item(0).setAttribute('aria-valuenow',pcg);
     document.getElementsByClassName('progress-bar').item(0).setAttribute('style','width:'+Number(pcg)+'%');
-      if (correctAnswerCount >=1 && correctAnswerCount <5) {
+      if (correctAnswerCount == 1) {
+        document.getElementById('user-progress-fill').style.backgroundColor = 'rgb(58, 181, 89)';
+        document.getElementById('user-progress-fill').innerHTML = '<strong>Good!</strong>';
+      } else if (correctAnswerCount >=2 && correctAnswerCount <5) {
         document.getElementById('user-progress-fill').style.backgroundColor = 'rgb(58, 181, 89)';
         document.getElementById('user-progress-fill').innerHTML = '<strong>Great job!</strong>';
       } else if (correctAnswerCount >= 5 && correctAnswerCount <10) {
