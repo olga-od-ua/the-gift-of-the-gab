@@ -153,7 +153,7 @@ $(document).ready(function() {
 
 //credit: Coc Core, https://stackoverflow.com/questions/10719848/scroll-page-on-text-input-focus-for-mobile-devices
 
-$('i').focus(function () {
+$('input, textarea').focus(function () {
   $('html, body').animate({ scrollTop: ($('input, textarea').offset().top - 10) }, 1);
   return false;
 });
