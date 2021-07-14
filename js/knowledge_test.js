@@ -138,7 +138,8 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
       document.getElementById('user-progress-fill').innerHTML = "";
     } else {
       alert("Please try again");
-    } 
+      window.location.reload();
+    }
   }
 }
 
@@ -153,8 +154,8 @@ $(document).ready(function() {
 
 //credit: Coc Core, https://stackoverflow.com/questions/10719848/scroll-page-on-text-input-focus-for-mobile-devices
 
-$('input, textarea').focus(function () {
-  $('html, body').animate({ scrollTop: ($('input, textarea').offset().top - 10) }, 1);
+$('.answer-input-focus').focus(function () {
+  $('html').animate({ scrollTop: ($('.answer-input-focus').offset().top) }, 1);
   return false;
 });
 
