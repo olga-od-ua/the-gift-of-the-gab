@@ -137,6 +137,9 @@ nav {
     margin: 3%;
 }
 
+.brick-col {
+  text-decoration: none;
+}
 
 @media (max-width: 1197px){
   .bgbrick {
