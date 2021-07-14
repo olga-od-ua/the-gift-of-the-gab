@@ -1,6 +1,3 @@
-
-
-
 function sendMail(contactForm) {
 
     var selectedCountry = $('#country :selected').text();
@@ -27,7 +24,7 @@ function sendMail(contactForm) {
     .then (
         function() {
             document.getElementById("myForm").reset(); 
-        }) 
+        });
     return false;
 }
 
