@@ -1,3 +1,5 @@
+
+
 var correctAnswerCount = 0;
 
 function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
@@ -87,6 +89,12 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
       document.getElementById('result-level').style.color = 'white';
      }
      
+
+     
+
+
+
+
   } else {
     document.getElementById('test-table').style.display = 'none';
     if (correctAnswerCount >=1 && correctAnswerCount <5) {
@@ -143,20 +151,14 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
   }
 }
 
-// credit to Nikhil Patil from https://stackoverflow.com/questions/65504888/how-to-continuously-click-on-button-to-show-next-element-in-javascript
+//credit to Nikhil Patil from https://stackoverflow.com/questions/65504888/how-to-continuously-click-on-button-to-show-next-element-in-javascript modified
 $(document).ready(function() {
   $('#test-table-body').find('tr').slice(1).hide();
   $('.submit-test-answer').on('click', function() {
     $('#test-table-body').find('tr:visible').next().show();
+    $('#test-table-body').find('tr:visible').prevAll().hide();
+    
   });
-});
-
-
-//credit: Coc Core, https://stackoverflow.com/questions/10719848/scroll-page-on-text-input-focus-for-mobile-devices
-
-$('.answer-input-focus').focus(function () {
-  $('html').animate({ scrollTop: ($('.answer-input-focus').offset().top) }, 1);
-  return false;
 });
 
 /*not working

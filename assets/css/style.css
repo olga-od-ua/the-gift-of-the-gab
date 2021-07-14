@@ -688,6 +688,7 @@ div#map {min-height: 300px;}
 
 footer {
    width: 100%;
+   bottom: 0;
 }
 
 .footer-row {
