@@ -163,6 +163,10 @@ nav {
     
 }
 
+.free-lesson-box-card {
+  margin: -8px;
+}
+
 #leprechaun-left {
   width: 20%;
   margin-right: 30px;
