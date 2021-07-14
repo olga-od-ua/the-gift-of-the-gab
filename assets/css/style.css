@@ -362,6 +362,16 @@ input:focus {
   font-size: 20px;
 }
 
+.after-test-book-button {
+  text-decoration: none;
+  color: white;
+}
+
+.after-test-book-button:hover {
+  text-decoration: none;
+  color: white;
+}
+
 #user-progress {
   margin: 0;
   padding: 0;
