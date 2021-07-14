@@ -1,29 +1,31 @@
 // ---------- Course Info Page ------------- //
-
-
 $('#learn-more-button1').click(function() {
-  $('#individual-lessons').slideToggle(500);
-})
-  
-$('#learn-more-button2').click(function() {
-  $('#group-lessons').slideToggle(500);
-})
+  $('#general-english').slideToggle(500);
+});
 
+$('#learn-more-button2').click(function() {
+  $('#individual-lessons').slideToggle(500);
+});
+  
 $('#learn-more-button3').click(function() {
-  $('#business-english').slideToggle(500);
-})
+  $('#group-lessons').slideToggle(500);
+});
 
 $('#learn-more-button4').click(function() {
-  $('#hospitality-english').slideToggle(500);
-})
+  $('#business-english').slideToggle(500);
+});
 
 $('#learn-more-button5').click(function() {
-  $('#regular-paced-learning').slideToggle(500);
-})
+  $('#hospitality-english').slideToggle(500);
+});
 
 $('#learn-more-button6').click(function() {
+  $('#regular-paced-learning').slideToggle(500);
+});
+
+$('#learn-more-button7').click(function() {
   $('#intensive-learning').slideToggle(500);
-})
+});
 
 
 
@@ -99,7 +101,7 @@ function handleCopyTextFromParagraph() {
   document.execCommand('copy');
 
   body.removeChild(area);
-  alert("Copied to clipboard")
+  alert("Copied to clipboard");
 }
 
 
