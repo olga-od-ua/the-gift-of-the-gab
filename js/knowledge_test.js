@@ -90,14 +90,10 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
      }
      
 
-     
-
-
-
 
   } else {
     document.getElementById('test-table').style.display = 'none';
-    if (correctAnswerCount >=1 && correctAnswerCount <5) {
+    if (correctAnswerCount >=0 && correctAnswerCount <5) {
       document.getElementById('test-table').style.display = 'none';
       document.getElementById('result-level-message').style.display = 'none';
       document.getElementById('test-instructions').style.display = 'none';
