@@ -147,10 +147,21 @@ Wireframe built with Balsamic can be found in the project documents under the fo
    
 
 3. I am Carla from Portugal and I work as an Au-pair in Ireland. I have spare time I would like to use to improve my English. (General course)
+	
+	a. Upon landing on Home page Carla can navigate to Course Info tab from the Navbar. Once she is on the Course Info Page she will see the General Course information that can attract her. From there she will be able to hit the Book button which will prompt her to complete her booking by contacting the school.
+	
+	b. Alternatively Carla can hit General Course brick-like button from Home page which will bring her to the Course Info page. Once she is on the Course Info Page she will see the General Course information that can attract her. From there she will be able to hit the Book button which will prompt her to complete her booking by contacting the school.
+	
+	c. Carla may also want to go straight to the Contact Us tab from the Navbar to enquire more information through one of the contact options.
 
 4. I am Ben from Austria and I am studying Art in Galway, Ireland. I need to improve my English so I can feel more confident both in and outside college conversations. (General course, connect with a teacher from Connacht)
 
+	a. 
+
 5. I am Peter from Germany. I am moving to Dublin, Ireland, to work for one of the biggest hotel chains as an Assistant Front Desk Manager and I would like to improve my English for that purpose. (Hospitality English course)
+
+	a. Upon landing on the Home Page Peter can click on the brick-like button Hospitality English which is the most likely one to get his attention. From there Peter will be redirected to the Course Info page, more specifically, to the Hospitality English card. From there Peter can hit the Learn More button or go straight to Book button which will prompt her to complete her booking by contacting the school.
+	
 
 6. I am Sandra from Croatia who wants to move to Ireland next year and find a job in sales but I need to improve my English. (Business course)
 
