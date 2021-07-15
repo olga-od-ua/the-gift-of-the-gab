@@ -14,8 +14,9 @@
    <title>The Gift of the Gab</title>
 </head>
 
-<body class="body-home">
 
+
+<body class="body-home">
     <div id="page-container">
    <div id="content-wrap">
 
@@ -47,12 +48,27 @@
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
+        <!--test li--><li class="nav-item">
+          <a class="nav-link" href="sender.html">Sender</a>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
 </header>
 
+
+<h1>Value receiver</h1>
+
+<script>
+    var b = localStorage.getItem("myValue");
+    alert("the value received is" + b);
+    var resetValue = 0;
+    localStorage.setItem("myValue", resetValue);
+
+
+
+</script>
 <section>
     <div class="container">
   <div class="row justify-content-md-center school-name-box">
@@ -68,7 +84,13 @@
 </div>
 
 </section>
-<button onclick="highlightCard()">test button</button>
+
+
+
+
+
+
+
 <section>
     <div class="container bricks">
   <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">

@@ -30,7 +30,7 @@ $('#learn-more-button7').click(function() {
 
 function highlightCard() {
   
-  let cardToHighlight = window.document.getElementById("general-english-card");
+  let cardToHighlight = window.document.getElementById("test-test-card");
   cardToHighlight.classList.add('highlighted-card');
 }
 

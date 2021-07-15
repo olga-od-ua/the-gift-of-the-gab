@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <title>Value Sender</title>
+</head>
+<body>
+    <h1>This is Value Sender</h1>
+    <button onclick="valueSender()">Send value</button>
+
+    <script>
+        function valueSender() {
+            var a = 101;
+            localStorage.setItem("myValue", a);
+            window.location.href="index.html";
+        }
+    </script>
+</body>
+</html>
