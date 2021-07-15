@@ -565,6 +565,12 @@ input:focus {
     border-style: groove;
     }
 
+  @media screen and (max-width: 600px) {
+      .contact-bg-box {
+        height: 100%;
+      }
+    }
+
 .contact-text{
     text-align: center;
     background-color: rgb(255, 246, 232);
