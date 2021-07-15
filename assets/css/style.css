@@ -670,6 +670,19 @@ form {
   }
 }
 
+@media (max-width: 768px) {
+  #copy-button {
+    visibility: hidden;
+  }
+
+  #print-button {
+    visibility: hidden;
+  }
+
+  #mailAddress {
+    padding-top: 25px;
+  } /*to make text more centered*/
+}
 /* END of borrowed form from W3school*/
 
 
