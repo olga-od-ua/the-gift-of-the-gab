@@ -56,7 +56,16 @@
 
 
 
-<div id="test-test-card">TEST TEST</div>
+<h1>Value receiver</h1>
+
+<script>
+    var b = localStorage.getItem("myValue");
+    alert("the value received is" + b);
+    if (b) {b.classList.add('highlighted-card');}
+    
+
+   
+</script>
 
 
 

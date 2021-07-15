@@ -48,9 +48,6 @@
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
-        <!--test li--><li class="nav-item">
-          <a class="nav-link" href="sender.html">Sender</a>
-        </li>
       </ul>
     </div>
   </div>
@@ -58,17 +55,20 @@
 </header>
 
 
-<h1>Value receiver</h1>
 
-<script>
-    var b = localStorage.getItem("myValue");
-    alert("the value received is" + b);
-    var resetValue = 0;
-    localStorage.setItem("myValue", resetValue);
+<h1>This is Value Sender</h1>
+    <button onclick="valueSender()">Send value</button>
+    <script>
+        function valueSender() {
+            var a = 101;
+            localStorage.setItem("myValue", a);
+            window.location.href="index.html";
+        }
+    </script>
 
 
 
-</script>
+
 <section>
     <div class="container">
   <div class="row justify-content-md-center school-name-box">
