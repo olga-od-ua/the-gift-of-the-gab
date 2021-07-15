@@ -236,8 +236,7 @@ nav {
 }
 
 .highlighted-card {
-  border: 20px solid #000;
-  color: white;
+  border: 10px solid rgb(129, 123, 123);
 }
 
 

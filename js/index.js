@@ -1,3 +1,7 @@
+
+
+
+
 // ---------- Course Info Page ------------- //
 $('#learn-more-button1').click(function() {
   $('#general-english').slideToggle(500);

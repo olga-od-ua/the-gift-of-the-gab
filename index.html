@@ -55,27 +55,27 @@
 </header>
 
 
-
-
 <script>
-  function get () {
-    // (A) GET FROM SESSION
-    var first = sessionStorage.getItem("first");
-        // JSON parse to turn stored sting back into array
-  
-    // (B) IT WORKS!
-    // Manually opening 1b-session.html will not work though
-    // Session data will perish once tab/window is closed
-    console.log(first); // Foo Bar
-    
-  }
+  function store () {
+  // (A) VARIABLES TO PASS
+  var courseType = document.getElementById('general-course-brick');
 
-  function highlightCard() {
-    first = sessionStorage.getItem('first').classList.add('highlighted-card');
-  }
-  </script>
+      
+ 
+  // (B) SAVE TO SESSION STORAGE
+  // sessionStorage.setItem("KEY", "VALUE");
+  sessionStorage.setItem("courseType", courseType);
+ 
+  // (C) REDIRECT
+  location.href = "course_info.html";
+}
+
+</script>
   
-  <input type="button" value="Get From Session Storage" onclick="get()"/>
+
+
+
+
 
 
 
@@ -108,12 +108,12 @@
 <section>
     <div class="container bricks">
   <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-    <div class="col"><a href="course_info.html#general-course-card" class="brick-col" id="general-course-brick">
+    <div class="col"><a href="course_info.html#general-course-card" class="brick-col" id="general-course-brick" onclick="store()">
       <div class="p-3 border bg-light text-center bgbrick">General Course</div>
       </a>
     </div>
     <div class="col"><a href="course_info.html#business-english-card" class="brick-col">
-      <div class="p-3 border bg-light text-center bgbrick">Business English</div>
+      <div class="p-3 border bg-light text-center bgbrick" id="business-english-brick">Business English</div>
       </a>
     </div>
     <div class="col"><a href="course_info.html#hospitality-english-card" class="brick-col">

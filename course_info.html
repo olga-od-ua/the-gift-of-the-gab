@@ -55,29 +55,22 @@
 </header>
 
 
-
-
-    <script>
-      function store () {
-        // (A) VARIABLES TO PASS
-        var first = document.getElementById('general-english-card');
-            
-       
-        // (B) SAVE TO SESSION STORAGE
-        // sessionStorage.setItem("KEY", "VALUE");
-        sessionStorage.setItem("first", first);
-       
-        // (C) REDIRECT
-        location.href = "index.html";
-        // Opening new window works too
-        // window.open("1b-session.html");
-      }
-      </script>
+<script>
+  function get () {
+  // (A) GET FROM SESSION
+  var courseType = sessionStorage.getItem("courseType");
       
-      <input type="button" value="Store To Session Storage" onclick="store()"/>
+  if (courseType) {
+        document.getElementById('general-english-card').classList.add('highlighted-card');
+      }
+  
+  // Manually opening 1b-session.html will not work
+  // Session data will perish once tab/window is closed
+  console.log(courseType);
+}
+</script>
 
-
-
+<input type="button" onclick="get()">
 
 
 
