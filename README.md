@@ -160,7 +160,7 @@ Wireframe built with Balsamic can be found in the project documents under the fo
 
 5. I am Peter from Germany. I am moving to Dublin, Ireland, to work for one of the biggest hotel chains as an Assistant Front Desk Manager and I would like to improve my English for that purpose. (Hospitality English course)
 
-	a. Upon landing on the Home Page Peter can click on the brick-like button Hospitality English which is the most likely one to get his attention. From there Peter will be redirected to the Course Info page, more specifically, to the Hospitality English card. From there Peter can hit the Learn More button or go straight to Book button which will prompt her to complete her booking by contacting the school.
+	a. Upon landing on the Home Page Peter can click on the brick-like button Hospitality English which is the most likely one to get his attention. From there Peter will be redirected to the Course Info page, more specifically, to the Hospitality English card. From there Peter can hit the Learn More button or go straight to Book button which will prompt her to complete his booking by contacting the school.
 	
 
 6. I am Sandra from Croatia who wants to move to Ireland next year and find a job in sales but I need to improve my English. (Business course)
@@ -169,13 +169,19 @@ Wireframe built with Balsamic can be found in the project documents under the fo
 
 7. I am Maria from Poland who got a job as an online store manager with Zara in Cork, Ireland. I am starting the job in two months and I urgently need to refresh my sales English. (Intensive Business course)
 
-   Upon landing on the Home Page Maria can click on the brick-like button Intensive learning which is the most likely one to get her attention. From there Maria will be redirected to the Course Info page, more specifically, to the Intensive English card. From there she can hit the Learn More button to get more information or go straight to Book button which will prompt her to complete her booking by contacting the school.
+   Upon landing on the Home Page Maria can click on the brick-like button Intensive learning which is the most likely one to get her attention. From there Maria will be redirected to the Course Info page, more specifically, to the Intensive English card. From there she will also find out that she can take an Intensive Business course. She can also hit the Learn More button to get more information or go straight to Book button which will prompt her to complete her booking by contacting the school.
 
 8. I am Pablo from Spain and I work in Marriott International Customer Engagement Center in Cork, Ireland, as a Loyalty Ambassador. I take a lot of calls from our clients and I sometimes struggle with finding appropriate words to express myself and I would like to sound more professional. (Hospitality course)
 
+      Upon landing on the Home Page Pablo can click on the brick-like button Hospitality English which is the most likely one to get his attention. From there Pablo will be redirected to the Course Info page, more specifically, to the Hospitality English card. From there Pablo can hit the Learn More button or go straight to Book button which will prompt her to complete his booking by contacting the school. When clicked on Learn more button, Pable will see that this course will help him with Hospitality etiquette.
+
 9. I am Nelson from Mauritius and have recently landed a job with Heineken in Cork, Ireland. I am aiming to go for a promotion soon and I feel that I need to improve my Business English. (Business course)
 
+      Upon landing on the Home Page Nelson can click on either the brick-like button Intensive learning or the Business English which are the most likely ones to get his attention. From there he will be redirected to the Course Info page, more specifically, to the Intensive English card or Business English card respectively. From there he will also find out that he can take an Intensive Business course. He can also hit the Learn More button to get more information or go straight to Book button which will prompt him to complete his booking by contacting the school.
+
 10. I'm Hannah from Mexico. I don't want to book a course, I just want to check my level of English.
+
+       Upon landing on the Home Page Hanna can click on the Knowledge Test where she will find out her knowledge level upon completing the test. Should she become interested in improving her knowledge the book button and an encouraging invitation message will be available upon completion of the test.
 
 - #### Corporate customers
 
