@@ -56,23 +56,42 @@
 
 
 
-<h1>Value receiver</h1>
 
-<script>
-    var b = localStorage.getItem("myValue");
-    alert("the value received is" + b);
-    if (b) {b.classList.add('highlighted-card');}
+    <script>
+      function store () {
+        // (A) VARIABLES TO PASS
+        var first = "Foo Bar",
+            second = ["Hello", "World"];
+       
+        // (B) SAVE TO SESSION STORAGE
+        // sessionStorage.setItem("KEY", "VALUE");
+        sessionStorage.setItem("first", first);
+        // session storage cannot store array and objects
+        // JSON encode before storing, convert to string
+        sessionStorage.setItem("second", JSON.stringify(second));
+       
+        // (C) REDIRECT
+        location.href = "index.html.html";
+        // Opening new window works too
+        // window.open("1b-session.html");
+      }
+      </script>
+      
+      <input type="button" value="Store To Session Storage" onclick="store()"/>
+
+
+
+
+
+
+
     
-
-   
-</script>
-
 
 
 <!--top row-->
 <div class="row course-info-row">
   <div class="col-sm-5">
-    <div class="card default-card-color">
+    <div class="card default-card-color" id="general-english-card">
       <div class="card-body">
         <h5 class="card-title">General English Course</h5>
         <p class="card-text">Our General English course will help you with the most basic English language needs. It will not only give you a practical understanding of the English language but will also help you cross those language and cultural barriers when it comes to area-specific difficulties.</p>

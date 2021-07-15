@@ -52,27 +52,6 @@ audio.addEventListener("pause", function() {
 }
 
 
-/* ---- Initial idea, incomplete --------
-// -------- Make Teacher Sing function ------- //
-function makeTeacherSing(id) {
-  let audio = document.getElementById(id);
-  if (audio.paused) {audio.play()}
-     else {audio.pause()};
-}
-
-// Make Teacher Dance function
- function makeTeacherDance(id) { 
-let aud = document.getElementById("audio1");
-aud.addEventListener("playing", function() {
-  let teacher = document.getElementById(id);
-   teacher.classList.add('teacher-dancing');
-});
-aud.addEventListener("pause", function() {
-  let teacher = document.getElementById(id);
-   teacher.classList.remove('teacher-dancing');
-});
-} */
-
 // Hover-over-teacher function
 $('.photo-block').mouseenter(function() {
   $(this).addClass('hover-over-teacher');
