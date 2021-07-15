@@ -216,6 +216,10 @@ Wireframe built with Balsamic can be found in the project documents under the fo
 
 BUGS
 
+The website is mostly PC user oriented hence the priority was to maintain the majority of design and functionality on the PC screen sizes.
+
+1. Copy and Print buttons on the Contact page are removed for mobile devices as they work inconsistently.
+
 
 ## Deployment
 
