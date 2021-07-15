@@ -63,6 +63,12 @@ The target audience are people of all ages who are concerned about having succes
 
 2. I am Vanessa from a food company in Spain. We are extending our market to Ireland and we would love to have our area managers to be prepared for the business conversations with our Irish customers and colleages. (Enquire corporate form)
 
+- #### Returning Customers
+
+1. I am Ollie and I am your current student. I have some questions and I can't find the answers on the website so I'd like to contact you.
+
+2. I am Mylah, your current student. I remember doing the knowledge test before I started learning English with your school three months ago. I'd like to do the test again to see how much I have improved.
+
 HOW THIS PROJECT IS DIFFERENT FROM COMPETITORS AND SUBSTITUTES
 
 While there is a plethora of English language courses available in Ireland, neither of them are aiming at teaching specific accents nor helping their customers to integrate culturally. The Gift Of The Gab school knows how important it is to feel comfortable when speaaking a foreign language, let alone when your interlocutor speaks with a strong accent and/or uses a lot of local slang.
@@ -128,7 +134,7 @@ Wireframe built with Balsamic can be found in the project documents under the fo
 
 ### Testing User Stories from User Experience (UX) Section
 
-- #### Non-corporate customers
+- #### Non-corporate new customers
 
 1. I am Pedro from The Dominican Republic who is moving to Dublin, Ireland, in 3 months and needs to urgently improve his English.
 
@@ -186,7 +192,7 @@ Wireframe built with Balsamic can be found in the project documents under the fo
 
        Upon landing on the Home Page Hanna can click on the Knowledge Test where she will find out her knowledge level upon completing the test. Should she become interested in improving her knowledge the book button and an encouraging invitation message will be available upon completion of the test regardless of the result.
 
-- #### Corporate customers
+- #### Corporate new customers
 
 1. I am Rebecca, one of the managers from Voxpro. We have recently got financing from the corporate office to provide English language courses to all our employees who need or would like to improve their English. (Enquire corporate form)
 
@@ -196,8 +202,17 @@ Wireframe built with Balsamic can be found in the project documents under the fo
 
 2. I am Vanessa from a food company in Spain. We are extending our market to Ireland and we would love to have our area managers to be prepared for the business conversations with our Irish customers and colleages. (Enquire corporate form)
 
-RETURNING CUSTOMERS
+- #### Returning Customers
 
+1. I am Ollie and I am your current student. I have some questions and I can't find the answers on the website so I'd like to contact you.
+
+      a. Ollie will be able to find contact details in the Navbar with various contacting options.
+
+      b. Ollie can also navigate to social media pages from the footer and get in touch with the school from there. (as this website is for educational purposes only, links to social media accounts bring the user to the main pages of that given website).
+
+2. I am Mylah, your current student. I remember doing the knowledge test before I started learning English with your school three months ago. I'd like to do the test again to see how much I have improved.
+
+      Upon landing on the Home Page Mylah can click on the Knowledge Test where she will find out her knowledge level upon completing the test.
 
 BUGS
 
