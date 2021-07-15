@@ -165,7 +165,11 @@ Wireframe built with Balsamic can be found in the project documents under the fo
 
 6. I am Sandra from Croatia who wants to move to Ireland next year and find a job in sales but I need to improve my English. (Business course)
 
+   Upon landing on the Home Page Sandra can click on the brick-like button Business English which is the most likely one to get her attention. From there Sandra will be redirected to the Course Info page, more specifically, to the Business English card. From there she can hit the Learn More button to get more information or go straight to Book button which will prompt her to complete her booking by contacting the school.
+
 7. I am Maria from Poland who got a job as an online store manager with Zara in Cork, Ireland. I am starting the job in two months and I urgently need to refresh my sales English. (Intensive Business course)
+
+   Upon landing on the Home Page Maria can click on the brick-like button Intensive learning which is the most likely one to get her attention. From there Maria will be redirected to the Course Info page, more specifically, to the Intensive English card. From there she can hit the Learn More button to get more information or go straight to Book button which will prompt her to complete her booking by contacting the school.
 
 8. I am Pablo from Spain and I work in Marriott International Customer Engagement Center in Cork, Ireland, as a Loyalty Ambassador. I take a lot of calls from our clients and I sometimes struggle with finding appropriate words to express myself and I would like to sound more professional. (Hospitality course)
 
