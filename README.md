@@ -59,6 +59,8 @@ The target audience are people of all ages who are concerned about having succes
 
 1. I am Rebecca, one of the managers from Voxpro. We have recently got financing from the corporate office to provide English language courses to all our employees who need or would like to improve their English. (Enquire corporate form)
 
+
+
 2. I am Vanessa from a food company in Spain. We are extending our market to Ireland and we would love to have our area managers to be prepared for the business conversations with our Irish customers and colleages. (Enquire corporate form)
 
 HOW THIS PROJECT IS DIFFERENT FROM COMPETITORS AND SUBSTITUTES
@@ -72,6 +74,7 @@ The website will have easy-to-follow information with intuitive experience for t
 The website is planned to have three main releases as identified in the table below in order to unfold new experiences for the users in the future. 
 
 <<<<!!!!!!!>>>>>>>
+
 
 Trip to Blarney raffle will acquire a more interactive visible for the user form.
 
@@ -181,13 +184,19 @@ Wireframe built with Balsamic can be found in the project documents under the fo
 
 10. I'm Hannah from Mexico. I don't want to book a course, I just want to check my level of English.
 
-       Upon landing on the Home Page Hanna can click on the Knowledge Test where she will find out her knowledge level upon completing the test. Should she become interested in improving her knowledge the book button and an encouraging invitation message will be available upon completion of the test.
+       Upon landing on the Home Page Hanna can click on the Knowledge Test where she will find out her knowledge level upon completing the test. Should she become interested in improving her knowledge the book button and an encouraging invitation message will be available upon completion of the test regardless of the result.
 
 - #### Corporate customers
 
 1. I am Rebecca, one of the managers from Voxpro. We have recently got financing from the corporate office to provide English language courses to all our employees who need or would like to improve their English. (Enquire corporate form)
 
+      a. Upon landing on the Home Page Rebecca can click on the course info page where she will see enquire corporate button, this will bring her to the contact page and prompt to get in touch for the corporate packages information as they will be tailored depending on mane conditions. 
+      
+      b. Since corporate clients usually head straight to the contact details, Rebecca will be able to do so from the navbar. There are various contact optipns available.
+
 2. I am Vanessa from a food company in Spain. We are extending our market to Ireland and we would love to have our area managers to be prepared for the business conversations with our Irish customers and colleages. (Enquire corporate form)
+
+RETURNING CUSTOMERS
 
 
 BUGS
