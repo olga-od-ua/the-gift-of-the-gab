@@ -235,6 +235,12 @@ nav {
   100% {border: 10px solid rgb(168, 231, 73);}
 }
 
+.highlighted-card {
+  border: 20px solid #000;
+  color: white;
+}
+
+
 /* __________________________End of Course Info page ____________________*/
 
 

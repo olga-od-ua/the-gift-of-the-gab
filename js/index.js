@@ -28,6 +28,12 @@ $('#learn-more-button7').click(function() {
 });
 
 
+function highlightCard() {
+  
+  let cardToHighlight = window.document.getElementById("general-english-card");
+  cardToHighlight.classList.add('highlighted-card');
+}
+
 
 //-------------------- About Us page ----------- (credit to loosenthedark for assistance on Slack with combining the two functions: makeTeacherSing and makeTeacherDance, as well as with helping reuse the function on each image)
 function makeTeacherPerform(e) {
