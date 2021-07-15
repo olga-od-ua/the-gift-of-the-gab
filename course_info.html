@@ -60,18 +60,15 @@
     <script>
       function store () {
         // (A) VARIABLES TO PASS
-        var first = "Foo Bar",
-            second = ["Hello", "World"];
+        var first = document.getElementById('general-english-card');
+            
        
         // (B) SAVE TO SESSION STORAGE
         // sessionStorage.setItem("KEY", "VALUE");
         sessionStorage.setItem("first", first);
-        // session storage cannot store array and objects
-        // JSON encode before storing, convert to string
-        sessionStorage.setItem("second", JSON.stringify(second));
        
         // (C) REDIRECT
-        location.href = "index.html.html";
+        location.href = "index.html";
         // Opening new window works too
         // window.open("1b-session.html");
       }
