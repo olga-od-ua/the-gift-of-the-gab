@@ -58,13 +58,12 @@
 <script>
   function store () {
   // (A) VARIABLES TO PASS
-  var courseType = document.getElementById('general-course-brick');
-
+  var clickedCourse = document.getElementById('general-course-brick').onclick();
       
  
   // (B) SAVE TO SESSION STORAGE
   // sessionStorage.setItem("KEY", "VALUE");
-  sessionStorage.setItem("courseType", courseType);
+  sessionStorage.setItem("clickedCourse", clickedCourse);
  
   // (C) REDIRECT
   location.href = "course_info.html";

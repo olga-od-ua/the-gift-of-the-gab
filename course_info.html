@@ -58,19 +58,19 @@
 <script>
   function get () {
   // (A) GET FROM SESSION
-  var courseType = sessionStorage.getItem("courseType");
-      
-  if (courseType) {
-        document.getElementById('general-english-card').classList.add('highlighted-card');
-      }
+  var clickedCourse = sessionStorage.getItem("clickedCourse");
   
+
   // Manually opening 1b-session.html will not work
   // Session data will perish once tab/window is closed
-  console.log(courseType);
+  console.log(clickedCourse);
+  if (clickedCourse) {
+        document.getElementById('general-english-card').classList.add('highlighted-card');
+      }
 }
 </script>
 
-<input type="button" onclick="get()">
+<input type="button">
 
 
 
