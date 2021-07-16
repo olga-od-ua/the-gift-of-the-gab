@@ -1,6 +1,6 @@
 let activeAudio = null;
 
-//Flashing cards
+//Flashing cards 
   function store (clickedCourseId) {
   var clickedCourse = document.getElementById(clickedCourseId).innerText;
       
@@ -37,7 +37,9 @@ function get () {
     }
 
 
-
+function book() {
+  alert("Please contact us with your preferred conatct method to complete your booking!");
+}
 
 // ---------- Course Info Page ------------- //
 $('#learn-more-button1').click(function() {
