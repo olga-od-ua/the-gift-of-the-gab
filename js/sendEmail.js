@@ -1,10 +1,8 @@
 function sendMail(contactForm) {
 
-    var selectedCountry = $('#country :selected').text();
-    var selectedAccent = $('#accents :selected').text();
+    let selectedCountry = $('#country :selected').text();
+    let selectedAccent = $('#accents :selected').text();
     
- 
-
     emailjs.send("service_r0g6ngj", "template_ddggyvm", {
 "user_email": contactForm.email.value,
 "user_name": contactForm.name.value,
