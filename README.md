@@ -237,6 +237,9 @@ Arial, Helvetica, sans-serif font is the main font used throughout the website w
 
       2. The website was viewed on the following devices: Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 
+      3. The Let Us Contact Form was tested and is working successfully.
+      Please see the ![screenshot](assets/images/screenshotemail.png).
+
 ### Known bugs
 
 The website is mostly PC user oriented hence the priority was to maintain the majority of design and functionality on the PC screen sizes.
@@ -267,6 +270,8 @@ The website is mostly PC user oriented hence the priority was to maintain the ma
 4. Animation of the teachers' photos on About Us page was achieved with the inspiration from [w3schools](https://www.w3schools.com/default.asp).
 
 5. Credit to Code Institute for the guidance on how to use Google Maps API.
+
+6. Credit to Code Institute for the guidance on how to use EmailJS.
 
 ### Content
 
