@@ -233,12 +233,12 @@ Arial, Helvetica, sans-serif font is the main font used throughout the website w
 
 ### Further testing
 
-      1. The website was tested on the following browsers: ...
+      1. The website was tested on the following browsers: <<<<<<<>>>>>>>
 
       2. The website was viewed on the following devices: Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 
       3. The Let Us Contact Form was tested and is working successfully.
-      Please see the ![screenshot](assets/images/screenshotemail.png).
+      Please see the [screenshot](assets/images/screenshotemail.png).
 
 ### Known bugs
 
