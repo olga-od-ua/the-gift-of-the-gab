@@ -524,6 +524,17 @@ input:focus {
     margin-top: -10px;    
 }
 
+@media (max-width: 450px){
+  .bio-info {
+    margin-top: 10px;
+}
+
+.photo-block {
+    margin-left: 10px;
+    margin-top: 10px;    
+}
+
+}
 
 /* Animate and Audio functions*/
 
