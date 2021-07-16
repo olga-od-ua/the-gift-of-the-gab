@@ -110,10 +110,18 @@ In the PC version, the navigation is presented by the Nav bar with inline elemen
 
 **The Sceleton Plane**
 
-Wireframe built with Balsamic can be found in the project documents under the following directory name: cork_coffee_club_wireframe.pdf <<<<<<<!!!!!!>>>>>>>
+Wireframe can be found [here](https://github.com/olga-od-ua/my-full-template/tree/master/assets/wireframes)
 
 **The Surface Plane**
->>>>>>>>>>>>>>>>>>>>
+
+*** Design
+*** Colour Scheme
+The two main colours used are Code Insititue red, and white.
+*** Typography
+Arial, Helvetica, sans-serif font is the main font used throughout the website with Sans Serif as the fallback font in case the main font isn't loading. Helvetica is believed to be a font loved by designers for its clean, bold and modern look, clear lines and characters.
+
+*** Imagery
+
 
 ### Existing Features
 
@@ -129,7 +137,13 @@ Wireframe built with Balsamic can be found in the project documents under the fo
 - [JavaScript](https://www.javascript.com/)
 
 ### Frameworks, Libraries & Programs
+- [Bootstrap 5](https://getbootstrap.com/)
+      Bootstrap was used throughout the website as an aid in ensuring a consistent and responsive styling.
 
+- [Google Fonts](https://fonts.google.com/)
+      Google Fonts was used to import Halvetica font.
+
+- 
 ## Testing
 
 ### Testing User Stories from User Experience (UX) Section
