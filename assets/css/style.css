@@ -235,8 +235,36 @@ nav {
   100% {border: 10px solid rgb(168, 231, 73);}
 }
 
-.highlighted-card {
-  border: 10px solid rgb(129, 123, 123);
+/* below animation was taken from hover.css*/
+@-webkit-keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.hvr-pulse-shrink {
+  border: 3px solid rgb(129, 123, 123);
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-animation-name: hvr-pulse-shrink;
+  animation-name: hvr-pulse-shrink;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 6;
+  animation-iteration-count: 6;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
 
 
