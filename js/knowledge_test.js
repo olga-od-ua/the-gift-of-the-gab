@@ -1,16 +1,11 @@
-
-
-var correctAnswerCount = 0;
+let correctAnswerCount = 0;
 
 function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
-  
   
   let userAnswer = document.getElementById(userAnswerId).value.trim();
   let correctAnswer = document.getElementById(correctAnswerId).value;
   let result = document.getElementById(resultId);
   let submitButton;
-
-  
 
   if (userAnswer == correctAnswer) {
 
@@ -89,8 +84,6 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
       document.getElementById('result-level').style.color = 'white';
      }
      
-
-
   } else {
     document.getElementById('test-table').style.display = 'none';
     if (correctAnswerCount >=0 && correctAnswerCount <5) {
@@ -103,7 +96,6 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
       document.getElementById('result-message').innerHTML = 'We will be delighted to have you join our school and help you grow on your English language journey!';
       document.getElementById('user-progress-fill').innerHTML = "";
     
-  
     } else if (correctAnswerCount >= 5 && correctAnswerCount <10) {
       document.getElementById('test-table').style.display = 'none';
       document.getElementById('result-level-message').style.display = 'none';
@@ -147,23 +139,14 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
   }
 }
 
-//credit to Nikhil Patil from https://stackoverflow.com/questions/65504888/how-to-continuously-click-on-button-to-show-next-element-in-javascript modified
+//credit to Nikhil Patil from https://stackoverflow.com/questions/65504888/how-to-continuously-click-on-button-to-show-next-element-in-javascript for the idea
 $(document).ready(function() {
   $('#test-table-body').find('tr').slice(1).hide();
   $('.submit-test-answer').on('click', function() {
     $('#test-table-body').find('tr:visible').next().show();
     $('#test-table-body').find('tr:visible').prevAll().hide();
-    
   });
 });
-
-/*not working
-$(document).ready(function() {
-  $('#after-test-book-button').click(function() {
-      $('#message').text('It was a dark and stormy night…');
-  })
-});   
-*/
 
 
 
