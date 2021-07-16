@@ -1,28 +1,26 @@
 let activeAudio = null;
 
 //Flashing cards 
-  function store (clickedCourseId) {
-  var clickedCourse = document.getElementById(clickedCourseId).innerText;
+function store (clickedCourseId) {
+  let clickedCourse = document.getElementById(clickedCourseId).innerText;
       
   sessionStorage.setItem("clickedCourse", clickedCourse);
  
   location.href = "course_info.html";
 }
 
-
-
 function get () {
 
-  var clickedCourse = sessionStorage.getItem("clickedCourse");
+  let clickedCourse = sessionStorage.getItem("clickedCourse");
 
   if (clickedCourse == "General Course") {
-        document.getElementById('general-english-card').classList.add('hvr-pulse-shrink');
+      document.getElementById('general-english-card').classList.add('hvr-pulse-shrink');
   } else if (clickedCourse == "Business English") {
-    document.getElementById('business-english-card').classList.add('hvr-pulse-shrink');
+      document.getElementById('business-english-card').classList.add('hvr-pulse-shrink');
   } else if (clickedCourse == "Hospitality English") {
-    document.getElementById('hospitality-english-card').classList.add('hvr-pulse-shrink');
+      document.getElementById('hospitality-english-card').classList.add('hvr-pulse-shrink');
   } else if (clickedCourse == "Intensive Learning") {
-    document.getElementById('intensive-learning-card').classList.add('hvr-pulse-shrink');
+      document.getElementById('intensive-learning-card').classList.add('hvr-pulse-shrink');
   } else if (clickedCourse == "Individual Lessons") {
     document.getElementById('individual-lessons-card').classList.add('hvr-pulse-shrink');
   } else if (clickedCourse == "Group Lessons") {
@@ -32,9 +30,9 @@ function get () {
   } else if (clickedCourse == "Group Lessons") {
     document.getElementById('group-lessons-card').classList.add('hvr-pulse-shrink');
   }
-        sessionStorage.removeItem("clickedCourse");
-        sessionStorage.clear();
-    }
+  sessionStorage.removeItem("clickedCourse");
+  sessionStorage.clear();
+}
 
 
 function book() {
@@ -72,11 +70,9 @@ $('#learn-more-button7').click(function() {
 
 
 
-
-
-//-------------------- About Us page ----------- (credit to loosenthedark for assistance on Slack with combining the two functions: makeTeacherSing and makeTeacherDance, as well as with helping reuse the function on each image)
+//-------------------- About Us page ----------- (credit to @loosenthedark for assistance on Slack with combining the two functions: makeTeacherSing and makeTeacherDance, as well as with helping reuse the function on each image)
 function makeTeacherPerform(e) {
-    let audio = e.target.nextElementSibling;
+  let audio = e.target.nextElementSibling;
     if (audio.paused) {
       if (activeAudio) {
         activeAudio.pause();
@@ -108,6 +104,7 @@ $('.photo-block').mouseleave(function() {
   $(this).removeClass('hover-over-teacher');
 });
 
+
 // ------- CONTACT PAGE -------- //
 $('.contact-info').mouseenter(function() {
   $(this).addClass('add-border').addClass('change-text');
@@ -134,62 +131,46 @@ function handleCopyTextFromParagraph() {
 
 
 function printDiv(divName) {
-     let printContents = document.getElementById(divName).innerHTML;
-     let originalContents = document.body.innerHTML;
-     document.body.innerHTML = printContents;
-     window.print();
-     document.body.innerHTML = originalContents;
-
+  let printContents = document.getElementById(divName).innerHTML;
+  let originalContents = document.body.innerHTML;
+  document.body.innerHTML = printContents;
+  window.print();
+  document.body.innerHTML = originalContents;
 }
 
 
-var exampleEl = document.getElementById('phrase');
-var tooltip = new bootstrap.Tooltip(exampleEl, null);
+let exampleEl = document.getElementById('phrase');
+let tooltip = new bootstrap.Tooltip(exampleEl, null);
 
 
-// Countdown function
-
+// Free Lesson Promo Countdown function
 function countdown() {
-  // The data/time we want to countdown to
-    var countDownDate = new Date("Dec 25, 2021 23:59:59").getTime();
+  let countDownDate = new Date("Dec 25, 2021 23:59:59").getTime();
 
-    // Run myfunc every second
-    var myfunc = setInterval(function() {
+  let myfunc = setInterval(function() {
 
-    var now = new Date().getTime();
-    var timeleft = countDownDate - now;
-        
-    // Calculating the days, hours, minutes and seconds left
-    var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
-        
-    // Result is output to the specific element
+    let now = new Date().getTime();
+    let timeleft = countDownDate - now;
+          
+    let days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
+          
     document.getElementById("days").innerHTML = days + "d ";
     document.getElementById("hours").innerHTML = hours + "h ";
     document.getElementById("mins").innerHTML = minutes + "m ";
     document.getElementById("secs").innerHTML = seconds + "s "; 
-        
-    // Display the message when countdown is over
+          
     if (timeleft < 0) {
-        clearInterval(myfunc);
-        document.getElementById("days").innerHTML = "";
-        document.getElementById("hours").innerHTML = ""; 
-        document.getElementById("mins").innerHTML = "";
-        document.getElementById("secs").innerHTML = "";
-        document.getElementById("end").innerHTML = "TIME UP!!";
+      clearInterval(myfunc);
+      document.getElementById("days").innerHTML = "";
+      document.getElementById("hours").innerHTML = ""; 
+      document.getElementById("mins").innerHTML = "";
+      document.getElementById("secs").innerHTML = "";
+      document.getElementById("end").innerHTML = "TIME UP!!";
     }
-    }, 1000);
-}
-
-
-
-//Accent request function
-
-function ShowHideAccents(chkAccentRequest) {
-        var divAccents = document.getElementById("divAccents");
-        divAccents.style.display = chkAccentRequest.checked ? "block" : "none";
+  }, 1000);
 }
 
 
