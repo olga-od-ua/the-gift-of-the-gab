@@ -273,6 +273,8 @@ The website is mostly PC user oriented hence the priority was to maintain the ma
 
 6. Credit to Code Institute for the guidance on how to use EmailJS.
 
+7. Credit to [Dan Shahin](https://www.youtube.com/watch?v=nvPOUdz5PL4) for the idea on how to add an image to README.md.
+
 ### Content
 
 ### Media
