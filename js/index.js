@@ -1,3 +1,41 @@
+//Flash cards
+
+  function store () {
+  // (A) VARIABLES TO PASS
+  var clickedCourse = document.getElementById('general-course-brick').innerText;
+      
+ 
+  // (B) SAVE TO SESSION STORAGE
+  // sessionStorage.setItem("KEY", "VALUE");
+  sessionStorage.setItem("clickedCourse", clickedCourse);
+ 
+  // (C) REDIRECT
+  location.href = "course_info.html";
+
+
+  
+
+}
+
+
+
+  function get () {
+  // (A) GET FROM SESSION
+  var clickedCourse = sessionStorage.getItem("clickedCourse");
+  
+
+  // Manually opening 1b-session.html will not work
+  // Session data will perish once tab/window is closed
+  
+  
+
+  if (clickedCourse = "General English") {
+        document.getElementById('general-english-card').classList.add('highlighted-card');
+        sessionStorage.removeItem("clickedCourse");
+        sessionStorage.clear();
+      }
+      
+    }
 
 
 
