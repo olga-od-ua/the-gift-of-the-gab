@@ -1,37 +1,38 @@
-//Flash cards
 let activeAudio = null;
 
-  function store () {
-  // (A) VARIABLES TO PASS
-  var clickedCourse = document.getElementById('general-course-brick').innerText;
+//Flashing cards
+  function store (clickedCourseId) {
+  var clickedCourse = document.getElementById(clickedCourseId).innerText;
       
- 
-  // (B) SAVE TO SESSION STORAGE
-  // sessionStorage.setItem("KEY", "VALUE");
   sessionStorage.setItem("clickedCourse", clickedCourse);
  
-  // (C) REDIRECT
   location.href = "course_info.html";
-
 }
 
 
 
 function get () {
-  // (A) GET FROM SESSION
-  var clickedCourse = sessionStorage.getItem("clickedCourse");
-  
 
-  // Manually opening 1b-session.html will not work
-  // Session data will perish once tab/window is closed
-  
-  
+  var clickedCourse = sessionStorage.getItem("clickedCourse");
 
   if (clickedCourse == "General Course") {
-        document.getElementById('general-english-card').classList.add('highlighted-card');
-        
-      }
-      sessionStorage.removeItem("clickedCourse");
+        document.getElementById('general-english-card').classList.add('hvr-pulse-shrink');
+  } else if (clickedCourse == "Business English") {
+    document.getElementById('business-english-card').classList.add('hvr-pulse-shrink');
+  } else if (clickedCourse == "Hospitality English") {
+    document.getElementById('hospitality-english-card').classList.add('hvr-pulse-shrink');
+  } else if (clickedCourse == "Intensive Learning") {
+    document.getElementById('intensive-learning-card').classList.add('hvr-pulse-shrink');
+  } else if (clickedCourse == "Individual Lessons") {
+    document.getElementById('individual-lessons-card').classList.add('hvr-pulse-shrink');
+  } else if (clickedCourse == "Group Lessons") {
+    document.getElementById('group-lessons-card').classList.add('hvr-pulse-shrink');
+  } else if (clickedCourse == "First Lesson FREE") {
+    document.getElementById('free-lesson-card').classList.add('hvr-pulse-shrink');
+  } else if (clickedCourse == "Group Lessons") {
+    document.getElementById('group-lessons-card').classList.add('hvr-pulse-shrink');
+  }
+        sessionStorage.removeItem("clickedCourse");
         sessionStorage.clear();
     }
 
