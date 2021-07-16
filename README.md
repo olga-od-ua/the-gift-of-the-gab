@@ -255,6 +255,8 @@ The website is mostly PC user oriented hence the priority was to maintain the ma
 
 ## Credits
 
+1. The functionality of flashing cards on Course Info page upon a relative button click on Home page was achieved with Tutor support and [CODEBOXX](https://code-boxx.com/pass-variables-between-pages-javascript/).
+
 ### Content
 
 ### Media
