@@ -29,12 +29,12 @@
   
   
 
-  if (clickedCourse = "General English") {
+  if (clickedCourse == "General Course") {
         document.getElementById('general-english-card').classList.add('highlighted-card');
-        sessionStorage.removeItem("clickedCourse");
-        sessionStorage.clear();
+        
       }
-      
+      sessionStorage.removeItem("clickedCourse");
+        sessionStorage.clear();
     }
 
 
