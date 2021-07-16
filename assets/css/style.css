@@ -454,6 +454,21 @@ input:focus {
   display:inline-block;
 }
 
+#shamrock-left {
+  width: 20%;
+  margin-right: 30px;
+}
+
+#shamrock-right {
+  width: 20%;
+  margin-left: 30px;
+}
+
+@media (max-width: 500px){
+  #shamrock-right {
+    display: none;
+  }
+}
 /* __________________________End of Pricing page ____________________*/
 
 
