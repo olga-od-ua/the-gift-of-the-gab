@@ -39,6 +39,10 @@ function book() {
   alert("Please contact us with your preferred conatct method to complete your booking!");
 }
 
+function enquireCorporate() {
+  alert("Please contact us with your preferred conatct method to enquire about corporate packages.");
+}
+
 // ---------- Course Info Page ------------- //
 $('#learn-more-button1').click(function() {
   $('#general-english').slideToggle(500);
