@@ -266,6 +266,7 @@ The website is mostly PC user oriented hence the priority was to maintain the ma
 
 4. Animation of the teachers' photos on About Us page was achieved with the inspiration from [w3schools](https://www.w3schools.com/default.asp).
 
+5. Credit to Code Institute for the guidance on how to use Google Maps API.
 
 ### Content
 
