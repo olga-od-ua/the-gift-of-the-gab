@@ -109,6 +109,12 @@ nav {
    text-shadow: 0px 1px 0.5px #726c6c;
 }
 
+@media (max-width: 825px){
+  .school-vision {
+    font-size: 3.5vw;
+    text-align: center;
+ }
+}
 .bgbrick {
     background-image: url(../images/brick2bordered2.jpeg);
     background-color: #726c6c; /* In case the image is not available */
@@ -228,7 +234,7 @@ nav {
 }
 
 .animated-button {
-  animation: animation 0.7s infinite;
+  animation: animation 0.7s 6;
 }
 
 @keyframes animation {

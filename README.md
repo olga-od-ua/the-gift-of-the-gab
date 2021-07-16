@@ -228,11 +228,22 @@ Arial, Helvetica, sans-serif font is the main font used throughout the website w
 
       Upon landing on the Home Page Mylah can click on the Knowledge Test where she will find out her knowledge level upon completing the test.
 
-BUGS
+### Further testing
+
+      1. The website was tested on the following browsers: ...
+
+      2. The website was viewed on the following devices: Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+
+### Known bugs
 
 The website is mostly PC user oriented hence the priority was to maintain the majority of design and functionality on the PC screen sizes.
 
 1. Copy and Print buttons on the Contact page are removed for mobile devices as they work inconsistently.
+
+2. Links to social media are currently bringing the user to the main pages of the relevant social media platforms as The Gift Of The Gab website is built for educational purposes only.
+
+3. The 'book now' button on Course Info and Pricing pages pushes the content down because of the animation on mobile phones (tested on iPhone10 Xs and Samsung S20). Temporary solution: to animate the button only for a short amount of time and then stop the animation.
+
 
 
 ## Deployment
