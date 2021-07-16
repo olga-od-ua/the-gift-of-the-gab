@@ -143,7 +143,10 @@ Arial, Helvetica, sans-serif font is the main font used throughout the website w
 - [Google Fonts](https://fonts.google.com/)
       Google Fonts was used to import Halvetica font.
 
-- 
+- [LunaPic](https://www10.lunapic.com/editor/)
+      LunaPic was used to achieve desired image formats as well as for other imagery editing.
+
+
 ## Testing
 
 ### Testing User Stories from User Experience (UX) Section
@@ -258,6 +261,12 @@ The website is mostly PC user oriented hence the priority was to maintain the ma
 1. The functionality of flashing cards on Course Info page upon a relative button click on Home page was achieved with Tutor support and [CODEBOXX](https://code-boxx.com/pass-variables-between-pages-javascript/).
 
 2. Collages with the classs .bg-image-blur and .body-home were made with the help of [Spark](https://spark.adobe.com/sp).
+
+3. The favicon image with the class b_brick was borrowed from [Shutterstock](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fbrick%2Bletter%2Bb&psig=AOvVaw2VeMNAUt41heR_FDI2HNaK&ust=1619520250733000&source=images&cd=vfe&ved=2ahUKEwijhaSb3ZvwAhWMTxUIHWZrDfoQjhx6BAgAEBI).
+
+4. Animation of the teachers' photos on About Us page was achieved with the inspiration from [w3schools](https://www.w3schools.com/default.asp).
+
+
 ### Content
 
 ### Media
