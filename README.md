@@ -257,6 +257,7 @@ The website is mostly PC user oriented hence the priority was to maintain the ma
 
 1. The functionality of flashing cards on Course Info page upon a relative button click on Home page was achieved with Tutor support and [CODEBOXX](https://code-boxx.com/pass-variables-between-pages-javascript/).
 
+2. Collages with the classs .bg-image-blur and .body-home were made with the help of [Spark](https://spark.adobe.com/sp).
 ### Content
 
 ### Media
