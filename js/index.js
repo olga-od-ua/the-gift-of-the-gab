@@ -1,4 +1,5 @@
 //Flash cards
+let activeAudio = null;
 
   function store () {
   // (A) VARIABLES TO PASS
@@ -12,14 +13,11 @@
   // (C) REDIRECT
   location.href = "course_info.html";
 
-
-  
-
 }
 
 
 
-  function get () {
+function get () {
   // (A) GET FROM SESSION
   var clickedCourse = sessionStorage.getItem("clickedCourse");
   
@@ -77,6 +75,10 @@ $('#learn-more-button7').click(function() {
 function makeTeacherPerform(e) {
     let audio = e.target.nextElementSibling;
     if (audio.paused) {
+      if (activeAudio) {
+        activeAudio.pause();
+      }
+      activeAudio = audio;
       audio.play();
     } else {
       audio.pause();
@@ -139,7 +141,7 @@ function printDiv(divName) {
 
 
 var exampleEl = document.getElementById('phrase');
-var tooltip = new bootstrap.Tooltip(exampleEl, options);
+var tooltip = new bootstrap.Tooltip(exampleEl, null);
 
 
 // Countdown function
