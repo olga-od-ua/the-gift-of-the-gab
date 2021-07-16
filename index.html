@@ -54,34 +54,6 @@
 </nav>
 </header>
 
-
-<script>
-  function store () {
-  // (A) VARIABLES TO PASS
-  var clickedCourse = document.getElementById('general-course-brick').onclick();
-      
- 
-  // (B) SAVE TO SESSION STORAGE
-  // sessionStorage.setItem("KEY", "VALUE");
-  sessionStorage.setItem("clickedCourse", clickedCourse);
- 
-  // (C) REDIRECT
-  location.href = "course_info.html";
-}
-
-</script>
-  
-
-
-
-
-
-
-
-
-
-
-
 <section>
     <div class="container">
   <div class="row justify-content-md-center school-name-box">
@@ -95,12 +67,7 @@
     </div>
   </div>
 </div>
-
 </section>
-
-
-
-
 
 
 
@@ -179,5 +146,21 @@
 </div>
 
 <script src="js/index.js"></script>
+
+<script type="text/javascript">
+  function store () {
+  // (A) VARIABLES TO PASS
+  var clickedCourse = document.getElementById('general-course-brick').onclick();
+      
+ 
+  // (B) SAVE TO SESSION STORAGE
+  // sessionStorage.setItem("KEY", "VALUE");
+  sessionStorage.setItem("clickedCourse", clickedCourse);
+ 
+  // (C) REDIRECT
+  location.href = "course_info.html";
+}
+
+</script>
 </body>
 </html>
