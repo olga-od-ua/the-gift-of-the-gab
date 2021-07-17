@@ -528,6 +528,7 @@ input:focus {
 
 .book-button {
   display:inline-block;
+  margin: 3px;
 }
 
 #shamrock-left {
