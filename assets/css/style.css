@@ -545,6 +545,11 @@ input:focus {
     display: none;
   }
 }
+
+#blarney-castle-image-cartoon {
+  width: 22vw;
+  padding-bottom: 10px;
+}
 /* __________________________End of Pricing page ____________________*/
 
 
