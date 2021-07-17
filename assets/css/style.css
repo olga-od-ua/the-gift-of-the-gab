@@ -442,9 +442,11 @@ input:focus {
   height: 50px;
 }
 
+@media (max-width: 926px) {
 #user-progress-fill {
   font-size: x-small;
 }
+}/*this will help the user see the first message in full*/
 
 #result-level {
   font-size: smaller;
