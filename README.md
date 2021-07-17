@@ -257,7 +257,7 @@ The website is mostly PC user oriented hence the priority was to maintain the ma
 
 4. Keyframes @keyframes hvr-pulse-shrink and @keyframes animation for the class .animated-button are not currently functioning on Safari.
 
-5. User may not see the full message on small screens in the progress bar's div element with id=#user-progress-fill in the first few questions of the knowledge test.
+5. User may not see the full message on small screens in the progress bar's div element with id=#user-progress-fill depending on their prpgress of the knowledge test. A media query was added to make sure the first message ("Good!") is fully visible on smaller screens by resizing its font-size. Further messages, if not seen in full, may potentially encourage the user to keep going further in the test to reveal the full message. Similar issue was with the part of the progress bar with knowledge-level names; this was fixed with adding the wrapword class.
 
 ## Deployment
 
@@ -281,6 +281,8 @@ The website is mostly PC user oriented hence the priority was to maintain the ma
 6. Credit to Code Institute for the guidance on how to use EmailJS.
 
 7. Credit to [Dan Shahin](https://www.youtube.com/watch?v=nvPOUdz5PL4) for the idea on how to add an image to README.md.
+
+8. Wrapword functionality was borrowed from [Stackoverflow](https://stackoverflow.com/questions/3949762/how-to-wrap-text-using-css)
 
 ### Content
 

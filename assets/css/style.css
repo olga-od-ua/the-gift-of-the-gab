@@ -459,7 +459,25 @@ input:focus {
   border: 1px solid #726c6c;
   border-top: hidden;
   height: 50px;
+  font-size: large;
 }
+
+@media (max-width: 926px) {
+  #progress-levels {
+    font-size: small;
+  }
+  }
+
+  .wrapword {
+      white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+      white-space: -pre-wrap;      /* Opera 4-6 */
+      white-space: -o-pre-wrap;    /* Opera 7 */
+      white-space: pre-wrap;       /* css-3 */
+      word-wrap: break-word;       /* Internet Explorer 5.5+ */
+      white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
+      word-break: break-all;
+      white-space: normal;
+  }
 
 /*Progress bar. Colours match the bg colours from level message in knowledge_test.js*/
 .bg-elementary {
