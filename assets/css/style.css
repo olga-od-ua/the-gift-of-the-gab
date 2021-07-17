@@ -320,6 +320,13 @@ nav {
     padding-left: 30px;
   }
 
+  @media (max-width: 1024px) {
+    #test-table{
+      width: auto;
+      max-width: 250px;
+    }
+  }
+
 #knowledge-level-heading {
   font-size: x-large;
   border: 1px solid #726c6c;
@@ -378,7 +385,12 @@ input:focus {
     height: 55px;
 }
 
-
+@media (max-width: 1024px) {
+  #result-level-message {
+    font-size: medium;
+    height: 40px;
+  }
+}
 #your-level {
   display: none;
 }
