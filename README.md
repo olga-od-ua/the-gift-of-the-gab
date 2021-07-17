@@ -255,7 +255,9 @@ The website is mostly PC user oriented hence the priority was to maintain the ma
 
 3. The 'book now' button on Course Info and Pricing pages pushes the content down because of the animation on mobile phones (tested on iPhone10 Xs and Samsung S20). Temporary solution: to animate the button only for a short amount of time and then stop the animation.
 
-4. Keyframes @keyframes hvr-pulse-shrink and @keyframes animation for the class .animated-button are not currently functioning on Safari. 
+4. Keyframes @keyframes hvr-pulse-shrink and @keyframes animation for the class .animated-button are not currently functioning on Safari.
+
+5. User may not see the full message on small screens in the progress bar's div element with id=#user-progress-fill in the first few questions of the knowledge test.
 
 ## Deployment
 
