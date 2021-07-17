@@ -307,9 +307,12 @@ nav {
 #test-table{
   width: 950px;
   max-width: calc(100% - 20px);
-  margin: 10px auto;
+  margin: 15px auto;
   border-collapse: separate;
   border-spacing: 0 30px;
+  box-shadow: 10px 10px 10px rgb(129, 123, 123), 10px -10px 10px rgb(129, 123, 123), -10px -10px 10px rgb(129, 123, 123), -10px 10px 10px rgb(129, 123, 123); /*guidance taken from MDN reference*/
+  border-radius: 7px;
+  background-color: rgb(255, 246, 232);
   }
 
   tr {
@@ -343,7 +346,7 @@ nav {
   width: 95%;
 }
 
-.userAnswer {
+.userAnswer{
     display: inline-flex;
     padding: 5px;
 }
