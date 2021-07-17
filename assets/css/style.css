@@ -442,6 +442,10 @@ input:focus {
   height: 50px;
 }
 
+#user-progress-fill {
+  font-size: x-small;
+}
+
 #result-level {
   font-size: smaller;
   padding: 3px;
