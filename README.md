@@ -126,7 +126,10 @@ Arial, Helvetica, sans-serif font is the main font used throughout the website w
 ### Existing Features
 
 ### Features Left to Implement
+ 
+      1. At the moment the user receives alert messages with short instructions to contact the school to complete the booking and then is redirected to the contact page. In the future it is planned to create a working online booking system.
 
+      2. At the moment the user can only submit an answer in the Knowledge test by clicking on Submit answer button. In the future it is planned to add the possibility to submit the answer by clicking the "Enter" button.
 
 ## Technologies Used
 
