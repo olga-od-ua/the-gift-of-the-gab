@@ -323,7 +323,10 @@ nav {
   @media (max-width: 1024px) {
     #test-table{
       width: auto;
-      max-width: 250px;
+    }
+
+    td {
+      padding: 0 10px 0 10px;
     }
   }
 
