@@ -131,6 +131,8 @@ Arial, Helvetica, sans-serif font is the main font used throughout the website w
 
       2. At the moment the user can only submit an answer in the Knowledge test by clicking on Submit answer button. In the future it is planned to add the possibility to submit the answer by clicking the "Enter" button.
 
+      3. Back to top buttons for pages where user is redirected to when the user is brought to a section of the page which scrolls the page down and thus hides the footer.
+
 ## Technologies Used
 
 ### Languages
@@ -151,6 +153,20 @@ Arial, Helvetica, sans-serif font is the main font used throughout the website w
 
 
 ## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate all pages of the project.
+
+- [W3C Markup Validator](https://validator.w3.org/nu/)
+
+      1. Home page contains two warnings about two lacking headings where heading were not intended.
+
+      2. Course Info and Pricing pages have one warning each about the same isse: an empty heading on lines 105 and 72 respectively. This heading is being filled with data coming from the countdown function from index.js.
+
+      3. There were other minor errors (e.g. obsolete closing tags or stray closing tags) which were fixed.
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
+
+      A few minor errors were detected and fixed.
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -261,6 +277,13 @@ The website is mostly PC user oriented hence the priority was to maintain the ma
 4. Keyframes @keyframes hvr-pulse-shrink and @keyframes animation for the class .animated-button are not currently functioning on Safari.
 
 5. User may not see the full message on small screens in the progress bar's div element with id=#user-progress-fill depending on their prpgress of the knowledge test. A media query was added to make sure the first message ("Good!") is fully visible on smaller screens by resizing its font-size. Further messages, if not seen in full, may potentially encourage the user to keep going further in the test to reveal the full message. Similar issue was with the part of the progress bar with knowledge-level names; this was fixed with adding the wrapword class.
+
+#### Other
+Not a bug but a few remarks on the Knowledge Test questions' content.
+
+1. Question number 8 ("How ... do you see your friends?" - "Every weekend"). The answer here is "often". It is possible that the user may overthink the question and test whether the word "frequently" will give the question a pass, being a synonym to "often". However, this English course is about the Irish culture behind it and also about the speaking as a native English speaker, and a native English speaker would hardly ever ask such a question with the word "frequently" instead of "often".
+
+2. Question number 10 ("What ... is your car?" - "It's black"). The answer here is the word "colour" as the only one accepted in Ireland, not the American English spelling "color".
 
 ## Deployment
 
