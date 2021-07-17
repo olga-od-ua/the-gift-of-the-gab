@@ -139,6 +139,7 @@ function checkAnswer(userAnswerId, correctAnswerId, resultId, submitButtonId) {
   }
 }
 
+
 //credit to Nikhil Patil from https://stackoverflow.com/questions/65504888/how-to-continuously-click-on-button-to-show-next-element-in-javascript for the idea
 $(document).ready(function() {
   $('#test-table-body').find('tr').slice(1).hide();
@@ -147,6 +148,3 @@ $(document).ready(function() {
     $('#test-table-body').find('tr:visible').prevAll().hide();
   });
 });
-
-
-
