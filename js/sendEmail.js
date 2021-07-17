@@ -1,3 +1,4 @@
+//credit to Code Institute for guidance on how to use EmailJS 
 function sendMail(contactForm) {
 
     let selectedCountry = $('#country :selected').text();
