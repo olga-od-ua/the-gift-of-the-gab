@@ -707,7 +707,6 @@ input, select, textarea {
   padding: 4px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  resize: block;
   font-size: 0.9em;
 }
 
@@ -723,7 +722,7 @@ textarea:focus {
 }
 
 label {
-  padding-top: 2px 5px;
+  padding-top: 2px;
   display: inline-block;
   text-align: start;
 }
