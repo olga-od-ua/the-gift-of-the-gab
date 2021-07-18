@@ -886,8 +886,16 @@ footer {
 
 .social-networks i {
    color: #6c757d;
+   width: 18px;
+   height: 16px;
 }
- 
+
+.social-networks i:hover {
+  box-shadow: 2px 2px 2px rgb(129, 123, 123), 2px -2px 2px rgb(129, 123, 123), -2px -2px 2px rgb(129, 123, 123), -2px 2px 2px rgb(129, 123, 123); /*guidance taken from MDN reference*/
+  background-color: rgb(129, 123, 123);
+  color: whitesmoke;
+  border-radius: 2px;
+}
 
 #phrase a {
     text-decoration: none;
@@ -912,14 +920,6 @@ footer {
 .copyright {
    text-align: center;
    color: #6c757d;
-}
-
-.social-networks i:hover {
-  border: 5px solid rgb(129, 123, 123);
-  box-shadow: 5px 5px 10px rgb(129, 123, 123);
-  background-color: rgb(129, 123, 123);
-  color: whitesmoke;
-  border-radius: 2px;
 }
 
 /* _____________________________ END of Contact us page __________________________*/
