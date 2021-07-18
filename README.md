@@ -2,11 +2,11 @@
 
 [Live project can be viewed here](https://olga-od-ua.github.io/CCC-MS1-2020---master)    <<<<!!!!!!!!to change!!!!!!!!!>>>>
 
-The Primary goal of the website is represent and promote The Gift Of The Gab School that offers English language courses to anyone travelling to Ireland whether for a holiday or a lifetime. 
+The Primary goal of the website is to represent and promote The Gift Of The Gab School that offers English language courses to anyone travelling to Ireland whether for a holiday or a lifetime. 
 
-Irish accents are notorious for being hard to understand even for some native English speakers so this school is aiming to help their every customer feel comfortable in any conversation with an Irish person.
+Irish accents are notorious for being hard to understand even for some native English speakers so this school is aiming to help their customers feel comfortable in any conversation with an Irish person.
 
-The website will provide all the basic information about the school's offers, its team, prices and contact information. Apart from the General English Course the school also offers Business English Course and Hospitality English Course. There are also Intensive Course plans available. The website offers a knowledge test that any user can take to understand their level of competency. Users will be able to print the test results and/or send them to their email address.
+The website will provide all the basic information about the school's offers, its team, prices and contact information. Apart from the General English course the school also offers Business English Course and Hospitality English Course. There are also Intensive course plans available. The website offers a knowledge test that any user can take to understand their level of competency. Users will be able to print the test results and/or send them to their email address.
 
 ## UX
 
@@ -16,18 +16,18 @@ UX PROCESS
 
 THE RESEARCH PHASE
 
-Ireland is a country that has welcomed many different nationalities over the past many years and continues to do so, whether it is for business, educational or personal needs, whether for a short- or long-term stay or for a permanent settlement. According to the latest census, there are over half a million non-irish nationals among almost 5,000,000 people living in Iriland. "In April 2016, there were 535,475 non-Irish nationals living in Ireland, a 1.6 per cent decrease on the 2011 figure (544,357). The proportion of the population who were non-Irish nationals has also fallen from 12.2 per cent in 2011 to 11.6 per cent in 2016. This fall in non-Irish nationals can in part be explained by the rise in the number of those with dual Irish nationality, who are classified as Irish in the [census](https://www.cso.ie/en/releasesandpublications/ep/p-cp7md/p7md/p7anii/)."
+Ireland is a country that has welcomed many different nationalities over the past many years and continues to do so, whether it is for business, educational or personal needs, whether for a short- or long-term stay or for a permanent settlement. According to the latest census, there are over half a million non-irish nationals among almost 5,000,000 people living in Ireland. "In April 2016, there were 535,475 non-Irish nationals living in Ireland, a 1.6 per cent decrease on the 2011 figure (544,357). The proportion of the population who were non-Irish nationals has also fallen from 12.2 per cent in 2011 to 11.6 per cent in 2016. This fall in non-Irish nationals can in part be explained by the rise in the number of those with dual Irish nationality, who are classified as Irish in the [census](https://www.cso.ie/en/releasesandpublications/ep/p-cp7md/p7md/p7anii/)."
 
-As English is the main language in the bigger part of The Republic of Ireland, practically all the non-irish nationals residing in Ireland are expected to know the language on a fluent level. After conducting a survey we have found out that before arriving in Ireland the non-English speakers would have learnt English at schools or have taken courses in their countries. The survey showed that they were arriving in different areas in the Republic and almost equally found it very difficult to understand local accents and dialects, as well as slang which differs greatly from county to county and at times even from town to town.
+As English is the prodomantly spoken language in The Republic of Ireland, practically all the non-irish nationals residing in Ireland are expected to know the language on a fluent level. After conducting a survey we have found out that before arriving in Ireland the non-English speakers would have learnt English at schools or have taken courses in their countries. The survey showed that they were arriving in different areas in the Republic and almost equally found it very difficult to understand local accents and dialects, as well as slang which differs greatly from county to county and at times even from town to town.
 
 1. The primary goal. 
 The Gift Of The Gab Enlish courses are designed to help those moving to Ireland make their language adaptation journey smooth and enjoyable. The Gift Of The Gab teachers are extremely knowledgeable about all the traps and obstacles the students can expect once they land their feet on the Irish soil, whether those traps and obstacles are linguistic or cultural.
 
-2. The website will present all the basic information about the school and will have a few interactive features, i.e. the knowledge test, contact form, school brunches location on Google maps, print options and more. In future releases the school is planning to make studying materials available on the website as well as the online booking of classes.
+2. The website will present all the basic information about the school and will have a few interactive features, i.e. the knowledge test, contact form, print options and more. In future releases the school is planning to make studying materials available on the website as well as the online booking of classes.
 
 3. The business objectives of the website are set to attract new customers and promote The Gift Of The Gab School.
 
-4. The customer's estimated needs are to get a quick and easy information about what The Gift Of The Gab School has to offer and how/whether it can help them reach their goals. For those interested in their level of English language knowledge, the quick knowledge test will help get the result free of charge. A quick questionnaire will also help users with the choice of the course and its intensity. Businesses can also request their customised offer through the website.
+4. The customer's estimated needs are to get a quick and easy information about what The Gift Of The Gab School has to offer and how/whether it can help them reach their goals. For those interested in their level of English language knowledge, the quick knowledge test will help get the result free of charge. Businesses can also request their customised offer through the website (through inquire corparate button). 
 
 ### USER STORIES
 
@@ -35,33 +35,31 @@ The target audience are people of all ages who are concerned about having succes
 
 - #### Non-corporate customers
 
-1. I am Pedro from The Dominican Republic who is moving to Dublin, Ireland, in 3 months and needs to urgently improve his English. (Intensive general course)
+1. I am Pedro from The Dominican Republic who is moving to Dublin, Ireland, in 3 months and needs to urgently improve his English. 
 
-2. I am Linda from Spain who now lives in Cork, Ireland. I studied English at school and college and thought I would be able to communicate in English rather easily however I struggle to understand the local accent and want to work on improving it. (General course, connect the student with one of the teachers from Cork).
+2. I am Linda from Spain who now lives in Cork, Ireland. I studied English at school and college and thought I would be able to communicate in English rather easily however I struggle to understand the local accent and want to work on improving it. 
 
-3. I am Carla from Portugal and I work as an Au-pair in Ireland. I have spare time I would like to use to improve my English. (General course)
+3. I am Carla from Portugal and I work as an Au-pair in Ireland. I have spare time I would like to use to improve my English. 
 
-4. I am Ben from Austria and I am studying Art in Galway, Ireland. I need to improve my English so I can feel more confident both in and outside college conversations. (General course, connect with a teacher from Connacht)
+4. I am Ben from Austria and I am studying Art in Galway, Ireland. I need to improve my English so I can feel more confident both in and outside college conversations. 
 
-5. I am Peter from Germany. I am moving to Dublin, Ireland, to work for one of the biggest hotel chains as an Assistant Front Desk Manager and I would like to improve my English for that purpose. (Hospitality English course)
+5. I am Peter from Germany. I am moving to Dublin, Ireland, to work for one of the biggest hotel chains as an Assistant Front Desk Manager and I would like to improve my English for that purpose. 
 
-6. I am Sandra from Croatia who wants to move to Ireland next year and find a job in sales but I need to improve my English. (Business course)
+6. I am Sandra from Croatia who wants to move to Ireland next year and find a job in sales but I need to improve my English. 
 
-7. I am Maria from Poland who got a job as an online store manager with Zara in Cork, Ireland. I am starting the job in two months and I urgently need to refresh my sales English. (Intensive Business course)
+7. I am Maria from Poland who got a job as an online store manager with Zara in Cork, Ireland. I am starting the job in two months and I urgently need to refresh my sales English. 
 
-8. I am Pablo from Spain and I work in Marriott International Customer Engagement Center in Cork, Ireland, as a Loyalty Ambassador. I take a lot of calls from our clients and I sometimes struggle with finding appropriate words to express myself and I would like to sound more professional. (Hospitality course)
+8. I am Pablo from Spain and I work in Marriott International Customer Engagement Center in Cork, Ireland, as a Loyalty Ambassador. I take a lot of calls from our clients and I sometimes struggle with finding appropriate words to express myself and I would like to sound more professional. 
 
-9. I am Nelson from Mauritius and have recently landed a job with Heineken in Cork, Ireland. I am aiming to go for a promotion soon and I feel that I need to improve my Business English. (Business course)
+9. I am Nelson from Mauritius and have recently landed a job with Heineken in Cork, Ireland. I am aiming to go for a promotion soon and I feel that I need to improve my Business English. 
 
-10. I'm Hannah from Mexico. I don't want to book a course, I just want to check my level of English. (knowledge test)
+10. I'm Hannah from Mexico. I don't want to book a course, I just want to check my level of English.
 
 - #### Corporate customers
 
-1. I am Rebecca, one of the managers from Voxpro. We have recently got financing from the corporate office to provide English language courses to all our employees who need or would like to improve their English. (Enquire corporate form)
+1. I am Rebecca, one of the managers from Voxpro. We have recently got financing from the corporate office to provide English language courses to all our employees who need or would like to improve their English. 
 
-
-
-2. I am Vanessa from a food company in Spain. We are extending our market to Ireland and we would love to have our area managers to be prepared for the business conversations with our Irish customers and colleages. (Enquire corporate form)
+2. I am Vanessa from a food company in Spain. We are extending our market to Ireland and we would love to have our area managers to be prepared for the business conversations with our Irish customers and colleages. 
 
 - #### Returning Customers
 
@@ -71,9 +69,9 @@ The target audience are people of all ages who are concerned about having succes
 
 HOW THIS PROJECT IS DIFFERENT FROM COMPETITORS AND SUBSTITUTES
 
-While there is a plethora of English language courses available in Ireland, neither of them are aiming at teaching specific accents nor helping their customers to integrate culturally. The Gift Of The Gab school knows how important it is to feel comfortable when speaaking a foreign language, let alone when your interlocutor speaks with a strong accent and/or uses a lot of local slang.
+While there is a plethora of English language courses available in Ireland, none of them are aiming at teaching specific accents nor helping their customers to integrate culturally. The Gift Of The Gab school knows how important it is to feel comfortable when speaaking a foreign language, let alone when your interlocutor speaks with a strong accent and/or uses a lot of local slang.
 
-The website will have easy-to-follow information with intuitive experience for the user. The users' main questions will be answered upon the first landing on the Home page where the website's main sections will be presented in the form of button-links that will bring the user to discover more once the user cliks on the topic they are interested in.
+The website will have easy-to-follow information with intuitive experience for the user. The users' main questions will be answered upon the first landing on the Home page where the website's main sections will be presented in the form of brick-like buttons that will bring the user to discover more once the user cliks on the topic they are interested in.
 
 **The Scope Plane**
 
@@ -86,7 +84,7 @@ Trip to Blarney raffle will acquire a more interactive visible for the user form
 
 The implementation of online lessons and excercises will attract more customers in the future, the customers who prefer online independent education without human interaction.
 
-This website can be sellable as it will have unique studying materials.
+This website can be sellable as it will have unique studying and testing materials.
 
 **The Structure Plane**
 
@@ -252,9 +250,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate al
 
 ### Further testing
 
-   1. The website was tested on the following browsers: Chrome
+   1. The website was tested on the following browsers: Chrome, Safari, Samsung Internet app, Internet Explorer
 
-   2. The website was viewed on the following devices: Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+   2. The website was viewed on the following devices: MacBook Pro (main device for website creation), Samsung Galaxy S20, Samsung Galaxy S8, iPhone Xs, iPhone 11 Pro, iPad Pro, Samsung Curved C34H890 34", LG UltraFine 27UL650-W 27", Samsung Q7 QE55Q7FNA 55".
+
+   - the footer elements were not aligning on some devices thus creating a white line underneath the footer element. This was fixed by changing footer elements' padding.
 
    3. The Let Us Contact Form was tested and is working successfully.Please see the screenshot:
 
