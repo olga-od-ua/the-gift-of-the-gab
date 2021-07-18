@@ -1,170 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-   <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
-   <link rel="shortcut icon" type="image/png" href="assets/images/b_brick.png"/>
-   <script src="https://kit.fontawesome.com/3784920e35.js"></script>
-   <title>The Gift of the Gab</title>
+  <link rel="shortcut icon" type="image/png" href="assets/images/b_brick.png"/>
+  <script src="https://kit.fontawesome.com/3784920e35.js"></script>
+  <title>The Gift of the Gab</title>
 </head>
 
 <body class="body-image-blur" onload="countdown()">
- <div id="page-container">
-   <div id="content-wrap">
-<header>
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img src="assets/images/b_brick.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="course_info.html">Course Info</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="knowledge_test.html">Knowledge test</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="pricing.html">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about_us.html">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-</header>
-
-
-
-
-<div class="card text-center justify-content-md-center free-lesson-box">
-  <div class="card-header">
-    First Lesson FREE
-  </div>
-  <div class="card-body default-card-color">
-    <h5 class="card-title">First Lesson is FREE for any course you pick.</h5>
-    <p class="card-text">Promotion ends on the 26th of December 2021!</p>
-    <img src="assets/images/shamrock.png" alt="shamrock" id="shamrock-left">
-    <a href="contact.html" class="btn btn-primary book-button animated-button" onclick="book()">Book now!</a>
-    <img src="assets/images/shamrock-mirror.png" alt="shamrock" id="shamrock-right">
-  </div>
-  <div class="card-footer text-muted">
-      Time left:
-    <p class="countdown" id="days"></p>
-    <p class="countdown" id="hours"></p>
-    <p class="countdown" id="mins"></p>
-    <p class="countdown" id="secs"></p>
-    <h2 id="end"></h2>
-  </div>
-</div>
-
-
-<div class="row course-info-row">
-  <div class="col-sm-4">
-    <div class="card default-card-color">
-      <div class="card-body">
-        <h5 class="card-title">General Course</h5>
-        <p class="card-text">
-          <span class="price">Regular paced group - €20 per lesson</span>
-          <br><span class="price">Regular paced individual - €30 per lesson</span>
-          <br><span class="price">Intensive in group - €25 per lesson</span>
-          <br><span class="price">Intensive individual - €35 per lesson</span>
-</p>
-<a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
-<a href="contact.html" class="btn btn-primary book-button" onclick="enquireCorporate()">Enquire corporate</a>
-        
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="card default-card-color">
-      <div class="card-body">
-        <h5 class="card-title">Business English</h5>
-        <p class="card-text">
-          <span class="price">Regular paced group - €35 per lesson</span>
-          <br><span class="price">Regular paced individual - €45 per lesson</span>
-          <br><span class="price">Intensive in group - €40 per lesson</span>
-          <br><span class="price">Intensive individual - €50 per lesson</span>
-        </p>
-        <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
-        <a href="contact.html" class="btn btn-primary book-button" onclick="enquireCorporate()">Enquire corporate</a>
-    </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="card default-card-color">
-      <div class="card-body">
-        <h5 class="card-title">Hospitality English</h5>
-        <p class="card-text">
-          <span class="price">Regular paced group - €30 per lesson</span>
-          <br><span class="price">Regular paced individual - €40 per lesson</span>
-          <br><span class="price">Intensive in group - €35 per lesson</span>
-          <br><span class="price">Intensive individual - €45 per lesson</span>
-        </p>
-        <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
-        <a href="contact.html" class="btn btn-primary book-button" onclick="enquireCorporate()">Enquire corporate</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="row course-info-row text-center justify-content-md-center" id="blarney-trip-card">
-  <div class="col-sm">
-    <div class="card default-card-color">
-      <div class="card-body">
-        <img src="assets/images/Blarney_castle_tapped_out.png" alt="blarney_castle_tapped_out" id="blarney-castle-image-cartoon">
-        <h5 class="card-title">Win a trip to Blarney</h5>
-        <p class="card-text">You will be automatically entered into the monthly raffle upon becoming our student or you can purchase a tour to The Blarney Castle for the discounted price of <strong>€25</strong> per person here. That's where you get the gift of the gab!</p>
-        <a href="contact.html" class="btn btn-primary book-button" onclick="alert('Please get in touch with us to buy the tour or to learn more!')">Buy the tour for €25</a>
-        <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Become our student</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-</div>
-<footer id="footer" class="footer py-3 mt-auto bg-light">
-  <div class="container text-muted">
-        <div class="row footer-row">
-            <div class="col">
-              <p id="phrase" data-bs-toggle="tooltip" data-bs-placement="top" title="Click to learn about this phrase!"><a href="https://en.wiktionary.org/wiki/top_of_the_morning" target="_blank" >Top o' the morning to you!</a></p>
-            </div>
-             <div class="col">
-                  <ul class="social-networks">
-               <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-               <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-               <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
-               <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-               <li><a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a></li>
-           </ul>
+  <div id="page-container">
+    <div id="content-wrap">
+      <header>  
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/b_brick.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="course_info.html">Course Info</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="knowledge_test.html">Knowledge test</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about_us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
              </div>
-             <div class="col">
-               <p class="copyright">&copy; Copyright 2005-2021</p>
+           </div>
+        </nav>
+      </header>
+      <div class="card text-center justify-content-md-center free-lesson-box">
+        <div class="card-header">
+          First Lesson FREE
+        </div>
+        <div class="card-body default-card-color">
+          <h5 class="card-title">First Lesson is FREE for any course you pick.</h5>
+          <p class="card-text">Promotion ends on the 26th of December 2021!</p>
+          <img src="assets/images/shamrock.png" alt="shamrock" id="shamrock-left">
+          <a href="contact.html" class="btn btn-primary book-button animated-button" onclick="book()">Book now!</a>
+          <img src="assets/images/shamrock-mirror.png" alt="shamrock" id="shamrock-right">
+        </div>
+        <div class="card-footer text-muted">
+            Time left:
+          <p class="countdown" id="days"></p>
+          <p class="countdown" id="hours"></p>
+          <p class="countdown" id="mins"></p>
+          <p class="countdown" id="secs"></p>
+          <h2 id="end"></h2>
+        </div>
+      </div>
+      <div class="row course-info-row">
+        <div class="col-sm-4">
+          <div class="card default-card-color">
+            <div class="card-body">
+              <h5 class="card-title">General Course</h5>
+              <p class="card-text">
+                <span class="price">Regular paced group - €20 per lesson</span>
+                <br><span class="price">Regular paced individual - €30 per lesson</span>
+                <br><span class="price">Intensive in group - €25 per lesson</span>
+                <br><span class="price">Intensive individual - €35 per lesson</span>
+              </p>
+              <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
+              <a href="contact.html" class="btn btn-primary book-button" onclick="enquireCorporate()">Enquire corporate</a>
             </div>
-         </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card default-card-color">
+            <div class="card-body">
+              <h5 class="card-title">Business English</h5>
+              <p class="card-text">
+                <span class="price">Regular paced group - €35 per lesson</span>
+                <br><span class="price">Regular paced individual - €45 per lesson</span>
+                <br><span class="price">Intensive in group - €40 per lesson</span>
+                <br><span class="price">Intensive individual - €50 per lesson</span>
+              </p>
+              <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
+              <a href="contact.html" class="btn btn-primary book-button" onclick="enquireCorporate()">Enquire corporate</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card default-card-color">
+            <div class="card-body">
+              <h5 class="card-title">Hospitality English</h5>
+              <p class="card-text">
+                <span class="price">Regular paced group - €30 per lesson</span>
+                <br><span class="price">Regular paced individual - €40 per lesson</span>
+                <br><span class="price">Intensive in group - €35 per lesson</span>
+                <br><span class="price">Intensive individual - €45 per lesson</span>
+              </p>
+              <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
+              <a href="contact.html" class="btn btn-primary book-button" onclick="enquireCorporate()">Enquire corporate</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row course-info-row text-center justify-content-md-center" id="blarney-trip-card">
+        <div class="col-sm">
+          <div class="card default-card-color">
+            <div class="card-body">
+              <img src="assets/images/Blarney_castle_tapped_out.png" alt="blarney_castle_tapped_out" id="blarney-castle-image-cartoon">
+              <h5 class="card-title">Win a trip to Blarney</h5>
+              <p class="card-text">You will be automatically entered into the monthly raffle upon becoming our student or you can purchase a tour to The Blarney Castle for the discounted price of <strong>€25</strong> per person here. That's where you get the gift of the gab!</p>
+              <a href="contact.html" class="btn btn-primary book-button" onclick="alert('Please get in touch with us to buy the tour or to learn more!')">Buy the tour for €25</a>
+              <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Become our student</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer" class="footer py-3 mt-auto bg-light">
+      <div class="container text-muted">
+        <div class="row footer-row">
+          <div class="col">
+            <p id="phrase" data-bs-toggle="tooltip" data-bs-placement="top" title="Click to learn about this phrase!">
+              <a href="https://en.wiktionary.org/wiki/top_of_the_morning" target="_blank">Top o' the morning to you!</a>
+            </p>
+          </div>
+          <div class="col">
+            <ul class="social-networks">
+              <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+              <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+              <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <p class="copyright">&copy; Copyright 2005-2021</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   </div>
-</footer>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
-<script src="js/index.js"></script>
-
+  <script src="js/index.js"></script>
 </body>
 </html>
