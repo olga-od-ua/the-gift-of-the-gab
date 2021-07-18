@@ -77,8 +77,7 @@ The website will have easy-to-follow information with intuitive experience for t
 
 The website is planned to have three main releases as identified in the table below in order to unfold new experiences for the users in the future. 
 
-<<<<!!!!!!!>>>>>>>
-
+[ScopePlaneTable.pdf](https://github.com/olga-od-ua/my-full-template/files/6836051/ScopePlaneTable.pdf)
 
 Trip to Blarney raffle will acquire a more interactive visible for the user form.
 
