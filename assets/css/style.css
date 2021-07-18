@@ -54,7 +54,7 @@ html, body {
 .body-home {
     background-image: url(../images/bc4-mirror.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 }
 
 .body-image-blur {
@@ -866,8 +866,20 @@ footer {
 }
  
 @media (max-width: 461px) {
+
+  .social-networks {
+    padding: 0;
+  }
   .social-networks li {
-    padding: 1vw;
+    padding: 0.5px;
+  }
+
+  #phrase {
+    font-size: small;
+  }
+
+  .copyright {
+    font-size: small;
   }
 }
 
