@@ -121,8 +121,8 @@ $('.contact-info').mouseleave(function() {
 
 
 function handleCopyTextFromParagraph() {
-  const body = document.getElementById('mailAddress');
-  const paragraph = document.getElementById('mailAddress');
+  const body = document.getElementById('printableArea');
+  const paragraph = document.getElementById('printableArea');
   const area = document.createElement('textarea');
   body.appendChild(area);
 
