@@ -1,15 +1,15 @@
 *{
-   margin:0;
-   padding:0;
-   border:0;
+  margin:0;
+  padding:0;
+  border:0;
 }
 
 html, body {
- height: 100%;
- margin: 0;
- font-family: Arial, Helvetica, sans-serif;
- --lgt-blue: #3db5eb;
- --black: #32383c;
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  --lgt-blue: #3db5eb;
+  --black: #32383c;
 }
 
 #page-container {
@@ -30,41 +30,38 @@ html, body {
 }
 
 @media (max-width: 992px){
-
   #content-wrap {
     padding-bottom: 4.5rem;   /* Footer height */
   }
-
-#footer {
-  height: 5rem;
-}
+  #footer {
+    height: 5rem;
+  }
 }
 
 @media (min-width: 992px){
-    .navbar li {
-        margin-left : 2em;
-        margin-right : 2em;
-    }
-
-    .bricks {
-    margin-top: 20vw;
-}
+  .navbar li {
+      margin-left : 2em;
+      margin-right : 2em;
+  }
+  .bricks {
+  margin-top: 20vw;
+  }
 }
 
 .body-home {
-    background-image: url(../images/bc4-mirror.png);
-    background-size: cover;
-    background-repeat: repeat-y;
+  background-image: url(../images/bc4-mirror.png);
+  background-size: cover;
+  background-repeat: repeat-y;
 }
 
 .body-image-blur {
-    background-image: url(../images/bg_image_fade.png);
-    background-size: cover;
-    background-repeat: repeat;
+  background-image: url(../images/bg_image_fade.png);
+  background-size: cover;
+  background-repeat: repeat;
 }
 
 nav {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 .default-card-color {
@@ -74,21 +71,21 @@ nav {
 /* __________________________Home page ____________________*/
 
 .school-name {
-   font-size: 7vw;
-   font-family: Arial, Helvetica, sans-serif;
-   color: white;
-   text-shadow: 1px 1px 1px #726c6c,
-       1px 2px 1px #726c6c,
-       1px 3px 1px #726c6c,
-       1px 4px 1px #726c6c,
-       1px 5px 1px #726c6c,
-       1px 6px 1px #726c6c,
-       1px 7px 1px #726c6c,
-       1px 8px 1px #726c6c,
-       1px 9px 1px #726c6c,
-   1px 18px 6px #726c6c,
-   1px 20px 30px #726c6c,
-   1px 30px 60px #363232;
+  font-size: 7vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-shadow: 1px 1px 1px #726c6c,
+      1px 2px 1px #726c6c,
+      1px 3px 1px #726c6c,
+      1px 4px 1px #726c6c,
+      1px 5px 1px #726c6c,
+      1px 6px 1px #726c6c,
+      1px 7px 1px #726c6c,
+      1px 8px 1px #726c6c,
+      1px 9px 1px #726c6c,
+      1px 18px 6px #726c6c,
+      1px 20px 30px #726c6c,
+      1px 30px 60px #363232;
 }
 
 @media (min-width: 2140px) {
@@ -98,21 +95,21 @@ nav {
 }
 
 .school-name-box {
-   margin-top: 7px;
+  margin-top: 7px;
 }
 
 .school-vision-box {
-    background-color: rgba(255, 246, 232, 0.459);
-    border-radius: 7px;
+  background-color: rgba(255, 246, 232, 0.459);
+  border-radius: 7px;
 }
 
 .school-vision {
-   font-size: 2vw;
-   font-family: Roboto, sans-serif;
-   font-style: italic;
-   font-variant: small-caps;
-   color: #363232;
-   text-shadow: 0px 1px 0.5px #726c6c;
+  font-size: 2vw;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-variant: small-caps;
+  color: #363232;
+  text-shadow: 0px 1px 0.5px #726c6c;
 }
 
 @media (max-width: 825px){
@@ -124,7 +121,6 @@ nav {
   background-color: rgba(255, 246, 232, 0.8);
   margin-bottom: 7px;
 }
-
  .school-name {
   text-shadow: 1px 1px 1px #726c6c,
   1px 2px 1px #726c6c,
@@ -140,32 +136,32 @@ nav {
 }
 
 .bgbrick {
-    background-image: url(../images/brick2bordered2.jpeg);
-    background-color: #726c6c; /* In case the image is not available */
-    background-size: cover;
-    opacity: 0.9;
-    text-shadow: 2px 2px 3px black, 0 0 5px black;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 105%;
-    background-position: center;
-    position: relative;
+  background-image: url(../images/brick2bordered2.jpeg);
+  background-color: #726c6c; /* In case the image is not available */
+  background-size: cover;
+  opacity: 0.9;
+  text-shadow: 2px 2px 3px black, 0 0 5px black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 105%;
+  background-position: center;
+  position: relative;
 } 
 
 .bgbrick:hover {
-    padding: 15px 10px 15px 10px;
-    box-shadow: 0 0 5px 5px rgb(255, 246, 232);
-    text-shadow: 
-        -1px -1px 0px #000,
-         0px -1px 0px #000,
-         1px -1px 0px #000,
-        -1px  0px 0px #000,
-         1px  0px 0px #000,
-        -1px  1px 0px #000,
-         0px  1px 0px #000,
-         1px  1px 0px #000;
-    margin: 3%;
+  padding: 15px 10px 15px 10px;
+  box-shadow: 0 0 5px 5px rgb(255, 246, 232);
+  text-shadow: 
+      -1px -1px 0px #000,
+        0px -1px 0px #000,
+        1px -1px 0px #000,
+      -1px  0px 0px #000,
+        1px  0px 0px #000,
+      -1px  1px 0px #000,
+        0px  1px 0px #000,
+        1px  1px 0px #000;
+  margin: 3%;
 }
 
 .brick-col {
@@ -188,10 +184,9 @@ nav {
 }
 
 .free-lesson-box {
-    margin: auto;
-    margin-top: 15px;
-    width: 50%;
-    
+  margin: auto;
+  margin-top: 15px;
+  width: 50%;
 }
 
 .free-lesson-box-card {
@@ -216,15 +211,14 @@ nav {
 
 
 .course-info-row {
-    margin: 15px;
+  margin: 15px;
 }
 
 @media (max-width: 992px){
-    .free-lesson-box {
-    margin: auto;
-    margin-top: 15px;
-    width: 80%;
-    
+  .free-lesson-box {
+  margin: auto;
+  margin-top: 15px;
+  width: 80%;
 }
 }
 
@@ -233,29 +227,29 @@ nav {
 }
 
 .video {
-    height: 50%;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    border: rgb(210, 166, 121);
+  height: 50%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border: rgb(210, 166, 121);
 }
 
-.video-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-    margin: 0 10px 10px 10px;
+.video-responsive {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  margin: 0 10px 10px 10px;
 }
 
-.video-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-    border: rgb(210, 166, 121);
+.video-responsive iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  border: rgb(210, 166, 121);
 }
 
 .animated-button {
@@ -298,20 +292,16 @@ nav {
   animation-direction: alternate;
 }
 
-
 /* __________________________End of Course Info page ____________________*/
-
-
 
 /* __________________________Knowledge Test page ____________________*/
 
-
 .test-heading {
-    text-align: center;
-    margin-top: 17px;
-    text-align: center;
-   margin: 20px;
-   text-shadow: 3px 3px 3px rgb(255, 246, 232);
+  text-align: center;
+  margin-top: 17px;
+  text-align: center;
+  margin: 20px;
+  text-shadow: 3px 3px 3px rgb(255, 246, 232);
 }
 
 #test-instructions {
@@ -352,7 +342,6 @@ nav {
     #test-table{
       width: auto;
     }
-
     td {
       padding: 0 10px 0 10px;
     }
@@ -372,8 +361,8 @@ nav {
 }
 
 .userAnswer{
-    display: inline-flex;
-    padding: 5px;
+  display: inline-flex;
+  padding: 5px;
 }
 
 input {
@@ -392,28 +381,28 @@ input:focus {
 }
 
 .correct-answer {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .submit-test-answer {
-    background-color: rgb(79, 110, 79);
-    color: rgb(255, 246, 232);
-    padding: 4px;
-    border-radius: 3px;
-    width: auto;
+  background-color: rgb(79, 110, 79);
+  color: rgb(255, 246, 232);
+  padding: 4px;
+  border-radius: 3px;
+  width: auto;
 }
 
 #result-level-message {
-    text-align: center;
-    font-size: x-large;
-    background-color: rgb(255, 246, 232, 0.5);
-    margin-top: 10px;
-    margin-bottom: 0;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    border: 1px solid #726c6c;
-    border-bottom: hidden;
-    height: 55px;
+  text-align: center;
+  font-size: x-large;
+  background-color: rgb(255, 246, 232, 0.5);
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 1px solid #726c6c;
+  border-bottom: hidden;
+  height: 55px;
 }
 
 @media (max-width: 1024px) {
@@ -422,6 +411,7 @@ input:focus {
     height: 40px;
   }
 }
+
 #your-level {
   display: none;
 }
@@ -431,9 +421,9 @@ input:focus {
 }
 
 @media (max-width: 992px){
-#result-message-header {
-  font-size: 22px;
-}
+  #result-message-header {
+    font-size: 22px;
+  }
 }
 
 #result-message-header2 {
@@ -468,9 +458,9 @@ input:focus {
 }
 
 @media (max-width: 926px) {
-#user-progress-fill {
-  font-size: x-small;
-}
+  #user-progress-fill {
+    font-size: x-small;
+  }
 }/*this will help the user see the first message in full*/
 
 #result-level {
@@ -491,18 +481,18 @@ input:focus {
   #progress-levels {
     font-size: small;
   }
-  }
+}
 
-  .wrapword {
-      white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
-      white-space: -pre-wrap;      /* Opera 4-6 */
-      white-space: -o-pre-wrap;    /* Opera 7 */
-      white-space: pre-wrap;       /* css-3 */
-      word-wrap: break-word;       /* Internet Explorer 5.5+ */
-      white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
-      word-break: break-all;
-      white-space: normal;
-  }
+.wrapword {
+    white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    white-space: pre-wrap;       /* css-3 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
+    word-break: break-all;
+    white-space: normal;
+}
 
 /*Progress bar. Colours match the bg colours from level message in knowledge_test.js*/
 .bg-elementary {
@@ -525,10 +515,7 @@ input:focus {
   background-color: rgb(247, 12, 12);
 }
 
-
 /* __________________________End of Knowledge Test page ____________________*/
-
-
 
 
 /* __________________________Pricing page ____________________*/
@@ -578,78 +565,70 @@ input:focus {
 }
 /* __________________________End of Pricing page ____________________*/
 
-
-
-
 /* _____________________________ About Us page __________________________*/
 
 .the-team {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
+
 .about-us-summary {
-    text-align: center;
-    margin: 17px 220px;
+  text-align: center;
+  margin: 17px 220px;
 }
 
 .meet-team-heading {
-    margin: 25px 0 50px 0;
+  margin: 25px 0 50px 0;
 }
 
 @media (max-width: 1022px){
-    .about-us-summary {
-        margin: 7px 50px;
-    }
+  .about-us-summary {
+      margin: 7px 50px;
+  }
 
-    .meet-team-heading {
-    margin: 15px 0 30px 0;
-}
+  .meet-team-heading {
+  margin: 15px 0 30px 0;
+  }
 }
 
 .bio-info {
-    border-color: #726c6c;
-    border: 4px;
-    border-style: groove;
-    text-align: center;
-    padding: 2px;
-    height: 100%;
-    margin-top: 25px;
+  border-color: #726c6c;
+  border: 4px;
+  border-style: groove;
+  text-align: center;
+  padding: 2px;
+  height: 100%;
+  margin-top: 25px;
 }
 
 .member-photo {
-    background: no-repeat center center;
-    padding: 0;
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-    border-color: #726c6c;
-    border: 1px;
-    border-style: solid;
+  background: no-repeat center center;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border-color: #726c6c;
+  border: 1px;
+  border-style: solid;
 }
 
 .photo-block {
-    margin-left: 50px;
-    margin-top: -10px;    
+  margin-left: 50px;
+  margin-top: -10px;    
 }
 
 @media (max-width: 450px){
   .bio-info {
     margin-top: 10px;
-}
-
+  }
 .photo-block {
-    margin-left: 10px;
-    margin-top: 10px;    
-}
-
+  margin-left: 10px;
+  margin-top: 10px;    
+  }
 }
 
 /* Animate and Audio functions*/
-
 .teacher-dancing {
-  /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 0.8s;
-
-  /* When the animation is finished, start again */
   animation-iteration-count: infinite;
 }
 
@@ -671,20 +650,17 @@ input:focus {
   border: 25px solid rgba(255, 246, 232, 0.5);
   border-radius: 50%;
 }
-
-
 /* _____________________________ END of About Us page __________________________*/
-
 
 
 /* _____________________________ Contact us page __________________________*/
 
 
 .contact-box {
-   text-align: center;
-   margin: 20px 20px 50px 20px;
-   font-family: 'Roboto', sans-serif; 
-   text-shadow: 3px 3px 3px rgb(255, 246, 232);
+  text-align: center;
+  margin: 20px 20px 50px 20px;
+  font-family: 'Roboto', sans-serif; 
+  text-shadow: 3px 3px 3px rgb(255, 246, 232);
 }
 
 @media (max-width: 575px) {
@@ -693,49 +669,47 @@ input:focus {
   }
 }
 
-.contact-bg-box{
-    background-image: url(../images/brick1cut.jpeg);
-    background-color: #726c6c; /* In case the image is not available */
-    width: auto;
-    display: flex;
-    height: 90%;
-    border-color: rgb(255, 246, 232);
-    border: 3px;
-    border-style: groove;
-    }
+.contact-bg-box {
+  background-image: url(../images/brick1cut.jpeg);
+  background-color: #726c6c; /* In case the image is not available */
+  width: auto;
+  display: flex;
+  height: 90%;
+  border-color: rgb(255, 246, 232);
+  border: 3px;
+  border-style: groove;
+}
 
-  @media screen and (max-width: 600px) {
-      .contact-bg-box {
-        height: 100%;
-      }
-      #bottom-row {
-        margin-bottom: 40px;
-      } /*without it the footer was overlapping the map background*/
-    }
+@media screen and (max-width: 600px) {
+  .contact-bg-box {
+    height: 100%;
+  }
+  #bottom-row {
+    margin-bottom: 40px;
+  } /*without it the footer was overlapping the map background*/
+}
 
 .contact-text{
-    text-align: center;
-    background-color: rgb(255, 246, 232);
-    margin: auto;
-    position: relative;
-    padding: 10px;
-    line-height: 1.8;
-    width: 80%;
-    }
-
+  text-align: center;
+  background-color: rgb(255, 246, 232);
+  margin: auto;
+  position: relative;
+  padding: 10px;
+  line-height: 1.8;
+  width: 80%;
+}
 
 .change-text {
-    font-size: larger;
-    word-wrap: break-word;
+  font-size: larger;
+  word-wrap: break-word;
 }
 
 .add-border {
-    border: 2px solid #726c6c;
-    border-radius: 7%;
+  border: 2px solid #726c6c;
+  border-radius: 7%;
 }
 
 /* The form code was borrowed  from W3schools and modified */
-
 input, select, textarea {
   width: 100%;
   padding: 4px;
@@ -821,20 +795,16 @@ form {
   #copy-button {
     visibility: hidden;
   }
-
   #print-button {
     visibility: hidden;
   }
-
   #mailAddress {
     padding-top: 25px;
   } /*to make text more centered*/
 }
 /* END of borrowed form from W3school*/
 
-
-#copy-button
-{
+#copy-button {
   color: white;
   padding: 12px 20px;
   font-size: 0.9em;
@@ -871,48 +841,44 @@ div#map {
 }
 
 footer {
-   width: 100%;
-   bottom: 0;
+  width: 100%;
+  bottom: 0;
 }
 
 .footer-row {
-   text-align: center;
+  text-align: center;
 }   
 
 
 .social-networks{
-   text-align: center;
+  text-align: center;
 }
  
 .social-networks li {
-   display: inline;
-   padding-right: 3vw;
-   color: #6c757d;
+  display: inline;
+  padding-right: 3vw;
+  color: #6c757d;
 }
  
 @media (max-width: 461px) {
-
   .social-networks {
     padding: 0;
   }
   .social-networks li {
     padding: 0.5px;
   }
-
   #phrase {
     font-size: small;
   }
-
   .copyright {
     font-size: small;
   }
 }
 
-
 .social-networks i {
-   color: #6c757d;
-   width: 18px;
-   height: 16px;
+  color: #6c757d;
+  width: 18px;
+  height: 16px;
 }
 
 .social-networks i:hover {
@@ -923,18 +889,16 @@ footer {
 }
 
 #phrase a {
-    text-decoration: none;
-    color: #6c757d;
-    text-align: center;
+  text-decoration: none;
+  color: #6c757d;
+  text-align: center;
 }
-
 
 #phrase :hover {
   background-color: rgb(129, 123, 123);
   border-radius: 5px;
   padding: 5px;
 }
-
 
 #phrase a:hover {
   color: whitesmoke;
@@ -943,8 +907,8 @@ footer {
 }
 
 .copyright {
-   text-align: center;
-   color: #6c757d;
+  text-align: center;
+  color: #6c757d;
 }
 
 /* _____________________________ END of Contact us page __________________________*/
