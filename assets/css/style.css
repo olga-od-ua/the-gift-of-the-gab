@@ -668,9 +668,15 @@ input:focus {
 
 .contact-box {
    text-align: center;
-   margin: 20px;
+   margin: 20px 20px 50px 20px;
    font-family: 'Roboto', sans-serif; 
    text-shadow: 3px 3px 3px rgb(255, 246, 232);
+}
+
+@media (max-width: 575px) {
+  .contact-box {
+  margin: 20px 0 20px 0;
+  }
 }
 
 .contact-bg-box{
@@ -688,6 +694,9 @@ input:focus {
       .contact-bg-box {
         height: 100%;
       }
+      #bottom-row {
+        margin-bottom: 40px;
+      } /*without it the footer was overlapping the map background*/
     }
 
 .contact-text{
