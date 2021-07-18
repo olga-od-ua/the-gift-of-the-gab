@@ -1,6 +1,6 @@
 # The Gift Of The Gab
 
-[Live project can be viewed here](https://olga-od-ua.github.io/CCC-MS1-2020---master)    <<<<!!!!!!!!to change!!!!!!!!!>>>>
+[Live project can be viewed here]()
 
 The Primary goal of the website is to represent and promote The Gift Of The Gab School that offers English language courses to anyone travelling to Ireland whether for a holiday or a lifetime. 
 
@@ -95,36 +95,42 @@ The website has the nav bar that will feature six linear menu elements represent
 - About Us
 - Contact
 
-The footer will appear on each of the tabs and will have the following information to hand:
-- Partners and Sponsors 
+The footer will appear on each of the pages and will have the following information to hand:
+- a catch phrase with a link
 - Social networks 
-- Contact details  
 - Copyright 
 	
-Home page will have the main sections of the website presented on link-buttons for user to choose where they want to move next.
+Home page will have the main sections of the website presented on brick-like buttons for user to choose where they want to move next.
 
-In the PC version, the navigation is presented by the Nav bar with inline elements. In future releases the nav bar items will have room for subcategories. In the mobile version the navigation will be presented by the Burger Icon. In the future releases the burger icon will have room for additional layers.
+In the PC version, the navigation is presented by the Nav bar with inline elements. In the mobile version the navigation is presented by the Burger Icon.
 
 **The Sceleton Plane**
 
-Wireframe can be found [here](https://github.com/olga-od-ua/my-full-template/tree/master/assets/wireframes)
+Wireframe can be found [here](https://github.com/olga-od-ua/my-full-template/tree/master/assets/wireframes).
 
 **The Surface Plane**
 
 *** Design
-*** Colour Scheme
-The two main colours used are Code Insititue red, and white.
+
+**** Colour Scheme
+
+The two main colours used are rgb(129, 123, 123) (which represents the color of stone) and rgb(255, 246, 232).
+
 *** Typography
-Arial, Helvetica, sans-serif font is the main font used throughout the website with Sans Serif as the fallback font in case the main font isn't loading. Helvetica is believed to be a font loved by designers for its clean, bold and modern look, clear lines and characters.
+
+Helvetica font is the main font used throughout the website with Sans Serif as the fallback font in case the main font isn't loading. Helvetica is believed to be a font loved by designers for its clean, bold and modern look, clear lines and characters.
 
 *** Imagery
-1. Blarney Castle is not very photogenic hence the images may appear of bad quality at first sight.
 
-2. As the webaite is for demonstrational purposes only, watermarks have not been removed.
+1. Brick themed images prevail on the website as a symbol of both the Blarney Castle and the solidity of the knowledge provided by the school.
 
-3. Brick themed images prevail on the website as a symbol of both the Blarney Castle and the solidity of the knowledge provided by the school.
+2. As the website is for demonstrational purposes only, watermarks have not been removed.
 
 ### Existing Features
+
+1. Interactivity throughout the website.
+
+2. Responsiveness applies to the majority of popular devices.
 
 ### Features Left to Implement
  
@@ -132,7 +138,7 @@ Arial, Helvetica, sans-serif font is the main font used throughout the website w
 
       2. At the moment the user can only submit an answer in the Knowledge test by clicking on Submit answer button. In the future it is planned to add the possibility to submit the answer by clicking the "Enter" button.
 
-      3. Back to top buttons for pages where user is redirected to when the user is brought to a section of the page which scrolls the page down and thus hides the footer.
+      3. When the user is redirected to a section of a page where navbar isn't visible a back-to-top button will be inserted on the applicable pages.
 
 ## Technologies Used
 
@@ -152,6 +158,20 @@ Arial, Helvetica, sans-serif font is the main font used throughout the website w
 - [LunaPic](https://www10.lunapic.com/editor/)
       LunaPic was used to achieve desired image formats as well as for other imagery editing.
 
+- [Font Awesome](https://fontawesome.com/)
+      Font Awesome was used on some pages of the website to add icons for aesthetic and UX purposes.
+
+- [jQuery](https://jquery.com/)
+      jQuery was used to add short-hand interactivity to some elements.
+
+- [Git](http://git-scm.com/)
+      Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+- [GitHub](https://github.com/)
+      GitHub is used to store the project's code after being pushed from Git.
+
+- [Balsamiq](https://balsamiq.cloud/syvkevx/projects)
+      Balsamiq was used to create the wireframe for this project.
 
 ## Testing
 
@@ -159,9 +179,9 @@ All pages of the website, all CSS code and all JavaScript code were validated. T
 
 - [W3C Markup Validator](https://validator.w3.org/nu/)
 
-      1. Home page contains two warnings about two lacking headings where heading were not intended.
+      1. Home page contains two warnings about two lacking headings where headings were not intended.
 
-      2. Course Info and Pricing pages have one warning each about the same isse: an empty heading on lines 105 and 72 respectively. These headings are being filled with data coming from the countdown function from index.js.
+      2. Course Info and Pricing pages have one warning each about the same issue: an empty heading on lines 105 and 72 respectively. These headings are being filled with data coming from the countdown function from index.js.
 
       3. There were other minor errors (e.g. obsolete closing tags or stray closing tags) which were fixed.
 
@@ -179,26 +199,19 @@ All pages of the website, all CSS code and all JavaScript code were validated. T
 
 1. I am Pedro from The Dominican Republic who is moving to Dublin, Ireland, in 3 months and needs to urgently improve his English.
 
-   a. Upon landing on the Home page of the website Pedro will see what the school offers, among which are different types of courses, i.d. General Course, Business English course and Hospitality Course. Once Pedro selects the type of course he thinks he needs, he can click on that brick-type button and he will be brought to the Course Info page where he can learn more and place a booking request.
+   a. Upon landing on the Home page of the website Pedro will see what the school offers, among which are different types of courses, i.d. General course, Business English course and Hospitality Course. Once Pedro selects the type of course he thinks he needs, he can click on that brick-type button and he will be brought to the Course Info page where he can learn more and place a booking request. Upon click of a brick-like button Pedro will be redirected to the relevant page and if that page is Course Info, then a relevant card will flash to pinpoint where to continue exploring.
    
-   b. Alternatively Pedro can navigate to the Course Info page through the nav bar.
-   
-   c. Once on thr Course Info page, Pedro will see short description of each course and will be able to learn more about the one he is interested in by clicking the Learn More button in that section. The button will open additional information.
+   b. Alternatively Pedro can navigate to the Course Info page through the nav bar. Once on the Course Info page, Pedro will see short description of each course and will be able to learn more about the one he is interested in by clicking the Learn More button in that section. The button will open additional information.
    
 2. I am Linda from Spain who now lives in Cork, Ireland. I studied English at school and college and thought I would be able to communicate in English rather easily however I struggle to understand the local accent and want to work on improving it.
 
    a. Upon landing on the Home page of the website Linda will see what the school offers, among which is All Irish Accents. She will be able to click on the brick-like button that says "All Irish Accents" which will bring her to the Form on the contact page which has a section about specific accents that she will be able to fill out and send a request to the school to get more information.
    
-   b. Once the form is submitted Linda will get an alert message that the school will connect her with one of the teachers from the chosen accent area.
+   b. On the About Us page Linda will be able to see who the teachers are and what accents they cover.
    
-   c. On the About Us page Linda will be able to see who the teachers are and what accents they cover.
-   
-   
-   
-
-3. I am Carla from Portugal and I work as an Au-pair in Ireland. I have spare time I would like to use to improve my English. (General course)
+3. I am Carla from Portugal and I work as an Au-pair in Ireland. I have spare time I would like to use to improve my English.
 	
-	a. Upon landing on Home page Carla can navigate to Course Info tab from the Navbar. Once she is on the Course Info Page she will see the General Course information that can attract her. From there she will be able to hit the Book button which will prompt her to complete her booking by contacting the school.
+	a. Upon landing on Home page Carla can navigate to Course Info tab from the Navbar. Once she is on the Course Info page she will see the General Course information that can attract her. From there she will be able to hit the Book button which will prompt her to complete her booking by contacting the school.
 	
 	b. Alternatively Carla can hit General Course brick-like button from Home page which will bring her to the Course Info page. Once she is on the Course Info Page she will see the General Course information that can attract her. From there she will be able to hit the Book button which will prompt her to complete her booking by contacting the school.
 	
@@ -329,6 +342,15 @@ Not a bug but a few remarks on the Knowledge Test questions' content.
 4. Teachers' images were cropped out of the [image with business avatars](https://www.vectorstock.com/royalty-free-vector/cartoon-business-avatars-vector-21420497) taken from [VectorStock](https://www.vectorstock.com/).
 
 5. All six songs on About Us page were downloaded from [Ireland Information](https://www.ireland-information.com/).
+
+6. Home page background image was downloaded from [here](https://thegloss.ie/wp-content/uploads/2019/09/The-Gloss-Magazine-Glossy-Gardens-Blarney-Castle-featured-1390x868.jpg). It was then blurred with [LunaPic](https://www10.lunapic.com/editor/) for all the other pages' backgrounds.
+
+7. Contact page four sections' background image is taken from [here](https://static.bhphoto.com/images/images500x500/1576777553_1510224.jpg) and then adjusted with [LunaPic](https://www10.lunapic.com/editor/) to meet the website's needs.
+
+8. Image for the brick-like buttons' background was borrowed from [here](https://ae01.alicdn.com/kf/HTB1q.cgKXXXXXavXXXXq6xXFXXXQ/Fantasy-Vintage-Rock-Stone-Wall-Backgrounds-For-Kids-Props-Studio-Vinyl-Backdrop-Digital-Cloth-Photography-Background.jpg ) and then adjusted with [LunaPic](https://www10.lunapic.com/editor/) to meet the website's needs.
+
+
+
 
 ### Code
 1. The functionality of flashing cards on Course Info page upon a relative button click on Home page was achieved with Tutor support and [CODEBOXX](https://code-boxx.com/pass-variables-between-pages-javascript/).
