@@ -318,7 +318,6 @@ Not a bug but a few remarks on the Knowledge Test questions' content.
 
 1. [Irish Road Trip](https://www.theirishroadtrip.com/irish-slang-words/) website gave ideas for the questions 21 through 25 of the Knowledge test.
 
-2. 
 ### Media
 
 1. Sample lesson video was taken from [YouTube](https://www.youtube.com/watch?v=it9WajjCmro). This video is for a sample purpose only and in the scenario of this school going live, there would be lesson samples of every type of course.
@@ -329,7 +328,8 @@ Not a bug but a few remarks on the Knowledge Test questions' content.
 
 4. Teachers' images were cropped out of the [image with business avatars](https://www.vectorstock.com/royalty-free-vector/cartoon-business-avatars-vector-21420497) taken from [VectorStock](https://www.vectorstock.com/).
 
-5. All six songs on About Us page
+5. All six songs on About Us page were downloaded from [Ireland Information](https://www.ireland-information.com/).
+
 ### Code
 1. The functionality of flashing cards on Course Info page upon a relative button click on Home page was achieved with Tutor support and [CODEBOXX](https://code-boxx.com/pass-variables-between-pages-javascript/).
 
@@ -360,3 +360,8 @@ Not a bug but a few remarks on the Knowledge Test questions' content.
 
 ### Acknowledgements
 
+1. My mentor for professional support and guidance.
+
+2. My husband Kevin for continuous support and encouragement as well as help to think "out of the box".
+
+3. My 8 month old daughter Mila for constant presence while this project was being written.
