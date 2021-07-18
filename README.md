@@ -262,7 +262,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate al
 
       
       
-      
+### Fixed bugs
+
+1. Social media icons have a hover effect. When one of the icons is hovered over, other icons were pushed to the sides. This was fixed by detecting the largest icon's size (YouTube, 18x16) and assigning its width and height to all the social media icons when they are not overed over. This idea was borrowed from one of the [Stackoverflow questions](https://stackoverflow.com/questions/60215722/why-is-this-hover-effect-pushing-the-other-elements-that-are-next-to-it-away).
 
 ### Known bugs
 
