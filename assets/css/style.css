@@ -91,6 +91,12 @@ nav {
    1px 30px 60px #363232;
 }
 
+@media (min-width: 2140px) {
+  .school-name {
+    font-size: 150px;
+  }
+}
+
 .school-name-box {
    margin-top: 7px;
 }
@@ -98,7 +104,6 @@ nav {
 .school-vision-box {
     background-color: rgba(255, 246, 232, 0.459);
     border-radius: 7px;
-    position: ;
 }
 
 .school-vision {
@@ -125,6 +130,14 @@ nav {
   1px 3px 1px #726c6c;
  }
 }
+
+@media (min-width: 2140px) {
+  .school-vision {
+    font-size: 40px;
+    text-align: center;
+ }
+}
+
 .bgbrick {
     background-image: url(../images/brick2bordered2.jpeg);
     background-color: #726c6c; /* In case the image is not available */
@@ -852,7 +865,9 @@ form {
   display:inline-block;
 }
 
-div#map {min-height: 300px;}
+div#map {
+  min-height: 300px;
+}
 
 footer {
    width: 100%;
