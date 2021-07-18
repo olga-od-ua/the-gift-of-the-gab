@@ -119,7 +119,11 @@ The two main colours used are Code Insititue red, and white.
 Arial, Helvetica, sans-serif font is the main font used throughout the website with Sans Serif as the fallback font in case the main font isn't loading. Helvetica is believed to be a font loved by designers for its clean, bold and modern look, clear lines and characters.
 
 *** Imagery
+1. Blarney Castle is not very photogenic hence the images may appear of bad quality at first sight.
 
+2. As the webaite is for demonstrational purposes only, watermarks have not been removed.
+
+3. Brick themed images prevail on the website as a symbol of both the Blarney Castle and the solidity of the knowledge provided by the school.
 
 ### Existing Features
 
@@ -152,19 +156,23 @@ Arial, Helvetica, sans-serif font is the main font used throughout the website w
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate all pages of the project.
+All pages of the website, all CSS code and all JavaScript code were validated. The following validation was performed:
 
 - [W3C Markup Validator](https://validator.w3.org/nu/)
 
       1. Home page contains two warnings about two lacking headings where heading were not intended.
 
-      2. Course Info and Pricing pages have one warning each about the same isse: an empty heading on lines 105 and 72 respectively. This heading is being filled with data coming from the countdown function from index.js.
+      2. Course Info and Pricing pages have one warning each about the same isse: an empty heading on lines 105 and 72 respectively. These headings are being filled with data coming from the countdown function from index.js.
 
       3. There were other minor errors (e.g. obsolete closing tags or stray closing tags) which were fixed.
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
 
       A few minor errors were detected and fixed.
+
+- [JShint](https://jshint.com).
+
+      All code passed the validation with a few minor issues (missed semicolons) that were fixed.
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -266,9 +274,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate al
 
 1. Social media icons have a hover effect. When one of the icons is hovered over, other icons were pushed to the sides. This was fixed by detecting the largest icon's size (YouTube, 18x16) and assigning its width and height to all the social media icons when they are not overed over. This idea was borrowed from one of the [Stackoverflow questions](https://stackoverflow.com/questions/60215722/why-is-this-hover-effect-pushing-the-other-elements-that-are-next-to-it-away).
 
-### Known bugs
+2. On mobile devices with screen width of 575px and less there was an empty space appearing to the right of the navbar and footer and the page was scrollable to the right or left. This was fixed by adjusting top and bottom margins of the elemnts with the class .contact-box.
 
-The website is mostly PC user oriented hence the priority was to maintain the majority of design and functionality on the PC screen sizes.
+3. The map on the Contact page was not rendering after adding the map with cluster markers as per tutorial. This was fixed by adding the following css div#map {min-height: 300px;}.
+
+### Known bugs
 
 1. Copy and Print buttons on the Contact page are removed for mobile devices as they work inconsistently.
 
@@ -280,12 +290,21 @@ The website is mostly PC user oriented hence the priority was to maintain the ma
 
 5. User may not see the full message on small screens in the progress bar's div element with id=#user-progress-fill depending on their prpgress of the knowledge test. A media query was added to make sure the first message ("Good!") is fully visible on smaller screens by resizing its font-size. Further messages, if not seen in full, may potentially encourage the user to keep going further in the test to reveal the full message. Similar issue was with the part of the progress bar with knowledge-level names; this was fixed with adding the wrapword class.
 
+6. There is no hover effect on Contact Us lines when the website is being cast to another screen.
+
+7. On large screens hover over teacher border effect is distorted thus creatin a gap between the image and the border itself.
+
 #### Other
 Not a bug but a few remarks on the Knowledge Test questions' content.
 
 1. Question number 8 ("How ... do you see your friends?" - "Every weekend"). The answer here is "often". It is possible that the user may overthink the question and test whether the word "frequently" will give the question a pass, being a synonym to "often". However, this English course is about the Irish culture behind it and also about the speaking as a native English speaker, and a native English speaker would hardly ever ask such a question with the word "frequently" instead of "often".
 
 2. Question number 10 ("What ... is your car?" - "It's black"). The answer here is the word "colour" as the only one accepted in Ireland, not the American English spelling "color".
+
+3. "Input text required" message is purposefully omitted in the knowledge test so that the user receives the mistake message to point out that that particular sentence is incorrect without the missed word. Same applies to when numbers or symbols are used for the input. If it happens that a user submits an empty input or the one containing a number or a symbol, they will receive a mistake/end of test message with the invitation to book the course.
+
+4. The First Free lesson card was purposefully used on two pages for more chances to attract user's attention and also to achieve a more vibrant look of the website.
+
 
 ## Deployment
 
@@ -296,27 +315,48 @@ Not a bug but a few remarks on the Knowledge Test questions' content.
 
 ## Credits
 
-1. The functionality of flashing cards on Course Info page upon a relative button click on Home page was achieved with Tutor support and [CODEBOXX](https://code-boxx.com/pass-variables-between-pages-javascript/).
+### Content
+
+1. [Irish Road Trip](https://www.theirishroadtrip.com/irish-slang-words/) website gave ideas for the questions 21 through 25 of the Knowledge test.
+
+2. 
+### Media
+
+1. Sample lesson video was taken from [YouTube](https://www.youtube.com/watch?v=it9WajjCmro). This video is for a sample purpose only and in the scenario of this school going live, there would be lesson samples of every type of course.
 
 2. Collages with the classs .bg-image-blur and .body-home were made with the help of [Spark](https://spark.adobe.com/sp).
 
 3. The favicon image with the class b_brick was borrowed from [Shutterstock](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fbrick%2Bletter%2Bb&psig=AOvVaw2VeMNAUt41heR_FDI2HNaK&ust=1619520250733000&source=images&cd=vfe&ved=2ahUKEwijhaSb3ZvwAhWMTxUIHWZrDfoQjhx6BAgAEBI).
 
-4. Animation of the teachers' photos on About Us page was achieved with the inspiration from [w3schools](https://www.w3schools.com/default.asp).
+4. Teachers' images were cropped out of the [image with business avatars](https://www.vectorstock.com/royalty-free-vector/cartoon-business-avatars-vector-21420497) taken from [VectorStock](https://www.vectorstock.com/).
 
-5. Credit to Code Institute for the guidance on how to use Google Maps API.
-
-6. Credit to Code Institute for the guidance on how to use EmailJS.
-
-7. Credit to [Dan Shahin](https://www.youtube.com/watch?v=nvPOUdz5PL4) for the idea on how to add an image to README.md.
-
-8. Wrapword functionality was borrowed from [Stackoverflow](https://stackoverflow.com/questions/3949762/how-to-wrap-text-using-css)
-
-### Content
-
-### Media
-
+5. All six songs on About Us page
 ### Code
+1. The functionality of flashing cards on Course Info page upon a relative button click on Home page was achieved with Tutor support and [CODEBOXX](https://code-boxx.com/pass-variables-between-pages-javascript/).
+
+2. Animation of the teachers' photos on About Us page was achieved with the inspiration from [w3schools](https://www.w3schools.com/default.asp).
+
+3. Credit to Code Institute for the guidance on how to use Google Maps API.
+
+4. Credit to Code Institute for the guidance on how to use EmailJS.
+
+5. Credit to [Dan Shahin](https://www.youtube.com/watch?v=nvPOUdz5PL4) for the idea on how to add an image to README.md.
+
+6. Wrapword functionality was borrowed from [Stackoverflow](https://stackoverflow.com/questions/3949762/how-to-wrap-text-using-css)
+
+7. Text-shadow ideas for brick-like boxes were borrowed from [Stackoverflow](https://stackoverflow.com/questions/2570972/css-font-border) and modified to meet the website's needs.
+
+8. School name desing was borrowed from a [Codepen](https://codepen.io/ryandsouza13/pen/yEBJQV) idea and modified.
+
+9. Copy text code was taken from [DEV](https://dev.to/tqbit/how-to-use-javascript-to-copy-text-to-the-clipboard-2hi2).
+
+10. Print custom area functionality was achieved with the idea from [Intellipaat](https://intellipaat.com/community/72326/how-to-print-html-content-on-click-of-a-button-but-not-the-page).
+
+11. Positioning of the footer was achieved with the solution from [Freecodecamp](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/).
+
+12. The countdown function was borrowed from [Educative](https://www.educative.io/edpresso/how-to-create-a-countdown-timer-using-javascript).
+
+13. Sample video layout was achieved with the principles from [OSTraining](https://www.ostraining.com/blog/coding/responsive-videos/#!/ccomment-page=3) with the idea on how to center the video by Sage Adams.
 
 
 ### Acknowledgements
