@@ -1,280 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-   <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   <link rel="shortcut icon" type="image/png" href="assets/images/b_brick.png"/>
-   <script src="https://kit.fontawesome.com/3784920e35.js"></script>
-   <title>The Gift of the Gab</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="shortcut icon" type="image/png" href="assets/images/b_brick.png"/>
+  <script src="https://kit.fontawesome.com/3784920e35.js"></script>
+  <title>The Gift of the Gab</title>
 </head>
 
-
-
 <body class="body-image-blur" onload="countdown(); get()">
- <div id="page-container">
-   <div id="content-wrap">
-
-<header>
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img src="assets/images/b_brick.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="course_info.html">Course Info</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="knowledge_test.html">Knowledge test</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pricing.html">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about_us.html">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-</header>
-
-
-
-
-
-
-
-    
-
-
-<!--top row-->
-<div class="row course-info-row">
-  <div class="col-sm-5">
-    <div class="card default-card-color" id="general-english-card">
-      <div class="card-body">
-        <h5 class="card-title">General English Course</h5>
-        <p class="card-text">Our General English course will help you with the most basic English language needs. It will not only give you a practical understanding of the English language but will also help you cross those language and cultural barriers when it comes to area-specific difficulties.</p>
-        <div class="hidden-paragraph" id="general-english">
-          <h5>You can choose from the following:</h5>
-          <ul>
-            <li>Intensive or Regular-paced learning</li>
-            <li>Group or Individual lessons</li>
-            <li>Customised schedule with individual lessons</li>
-          </ul>
-        </div>
-        <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
-        <a class="btn btn-primary book-button" id="learn-more-button1">Learn more</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-7">
-    <div class="card default-card-color" id="free-lesson-card">
-      <div class="card-body">
-        <div class="card text-center justify-content-md-center free-lesson-box-card" id="free-lesson">
-          <div class="card-header">
-            First Lesson FREE
+  <div id="page-container">
+    <div id="content-wrap">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/b_brick.png" alt="brick-wall" width="30" height="24" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="course_info.html">Course Info</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="knowledge_test.html">Knowledge test</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about_us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="card-body default-card-color">
-            <h5 class="card-title">First Lesson is FREE for any course you pick.</h5>
-            <p class="card-text">Promotion ends on the 26th of December 2021!</p>
-              <img src="assets/images/dabbing-leprechaun.png" alt="leprechaun" id="leprechaun-left">
-            <a href="contact.html" class="btn btn-primary book-button animated-button" onclick="book()">Book now!</a>
-            <img src="assets/images/dabbing-leprechaun-mirror.png" alt="leprechaun" id="leprechaun-right">
-          </div>
-          <div class="card-footer text-muted">
-              Time left:
-            <p class="countdown" id="days"></p>
-            <p class="countdown" id="hours"></p>
-            <p class="countdown" id="mins"></p>
-            <p class="countdown" id="secs"></p>
-            <h2 id="end"></h2>
+        </nav>
+      </header>
+      <div class="row course-info-row">
+        <div class="col-sm-5">
+          <div class="card default-card-color" id="general-english-card">
+            <div class="card-body">
+              <h5 class="card-title">General English Course</h5>
+                <p class="card-text">Our General English course will help you with the most basic English language needs. It will not only give you a practical understanding of the English language but will also help you cross those language and cultural barriers when it comes to area-specific difficulties.</p>
+                <div class="hidden-paragraph" id="general-english">
+                  <h5>You can choose from the following:</h5>
+                  <ul>
+                    <li>Intensive or Regular-paced learning</li>
+                    <li>Group or Individual lessons</li>
+                    <li>Customised schedule with individual lessons</li>
+                  </ul>
+                </div>
+                <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
+                <a class="btn btn-primary book-button" id="learn-more-button1">Learn more</a>
+            </div>
           </div>
         </div>
+        <div class="col-sm-7">
+          <div class="card default-card-color" id="free-lesson-card">
+            <div class="card-body">
+              <div class="card text-center justify-content-md-center free-lesson-box-card" id="free-lesson">
+                <div class="card-header">First Lesson FREE</div>
+                <div class="card-body default-card-color">
+                  <h5 class="card-title">First Lesson is FREE for any course you pick.</h5>
+                  <p class="card-text">Promotion ends on the 26th of December 2021!</p>
+                  <img src="assets/images/dabbing-leprechaun.png" alt="leprechaun" id="leprechaun-left">
+                  <a href="contact.html" class="btn btn-primary book-button animated-button" onclick="book()">Book now!</a>
+                  <img src="assets/images/dabbing-leprechaun-mirror.png" alt="leprechaun" id="leprechaun-right">
+                </div>
+                <div class="card-footer text-muted">
+                  Time left:
+                    <p class="countdown" id="days"></p>
+                    <p class="countdown" id="hours"></p>
+                    <p class="countdown" id="mins"></p>
+                    <p class="countdown" id="secs"></p>
+                    <h2 id="end"></h2>
+                </div>
+              </div>
         
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-<div class="row course-info-row">
-  <div class="col-sm-7">
-    <div class="card default-card-color" id="individual-lessons-card">
-      <div class="card-body">
-        <h5 class="card-title">Individual Lessons</h5>
-        <p class="card-text">Enjoy the personalised lesson material while studying one-on-one with your teacher! Bonus: you can ask as many questions as you want during your lessons without annoying the rest of your class <i class="far fa-smile-wink"></i>
-        </p>
-        <div class="hidden-paragraph" id="individual-lessons">
-          <h5>Benefits:</h5>
-          <ul>
-            <li>Personalised program</li>
-            <li>Personalised schedule</li>
-            <li>Learning materials are chosen according to your interests</li>
-            <li>You choose your teacher</li>
-            <li>You choose the time</li>
-          </ul>
+            </div>
+          </div>
         </div>
-        <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
-        <a class="btn btn-primary book-button" id="learn-more-button2">Learn more</a>
       </div>
-    </div>
-  </div>
-  <div class="col-sm-5">
-    <div class="card default-card-color" id="group-lessons-card">
-      <div class="card-body">
-        <h5 class="card-title">Group Lessons</h5>
-        <p class="card-text">Feeling social and prefer the classroom vibe when in comes to studying? Join a group of like-minded and similarly-skilled students for group lessons!</p>
-        <div class="hidden-paragraph" id="group-lessons">
-          <h5>Benefits:</h5>
-          <ul>
-            <li>You get to practice your speaking with your groupmates</li>
-            <li>Brainstorm and other group activities</li>
-            <li>Group virtual outings</li>
-            <li>Chance to copy someone's homework (not recommended<i class="far fa-smile-wink"></i>)</li>
-            <li>New friends</li>
-          </ul>
+      <div class="row course-info-row">
+        <div class="col-sm-7">
+          <div class="card default-card-color" id="individual-lessons-card">
+            <div class="card-body">
+              <h5 class="card-title">Individual Lessons</h5>
+              <p class="card-text">Enjoy the personalised lesson material while studying one-on-one with your teacher! Bonus: you can ask as many questions as you want during your lessons without annoying the rest of your class <i class="far fa-smile-wink"></i>
+              </p>
+              <div class="hidden-paragraph" id="individual-lessons">
+                <h5>Benefits:</h5>
+                <ul>
+                  <li>Personalised program</li>
+                  <li>Personalised schedule</li>
+                  <li>Learning materials are chosen according to your interests</li>
+                  <li>You choose your teacher</li>
+                  <li>You choose the time</li>
+                </ul>
+              </div>
+              <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
+              <a class="btn btn-primary book-button" id="learn-more-button2">Learn more</a>
+            </div>
+          </div>
         </div>
-        <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
-        <a class="btn btn-primary book-button" id="learn-more-button3">Learn more</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="row course-info-row">
-  <div class="col-sm-5">
-    <div class="card default-card-color" id="business-english-card">
-      <div class="card-body">
-        <h5 class="card-title">Business English</h5>
-        <p class="card-text">Whether you need it for your current job or to get the job of your dreams, business English knowledge is always advantageous when it comes to climbing your carrer ladder!</p>
-        <div class="hidden-paragraph" id="business-english">
-          <h5>What to expect:</h5>
-          <ul>
-            <li>Unique and exciting learning material</li>
-            <li>Business meeting simulations</li>
-            <li>Mock interviews</li>
-            <li>Irish business etiquette</li>
-            <li>Live networking events</li>
-          </ul>
+        <div class="col-sm-5">
+          <div class="card default-card-color" id="group-lessons-card">
+            <div class="card-body">
+              <h5 class="card-title">Group Lessons</h5>
+              <p class="card-text">Feeling social and prefer the classroom vibe when in comes to studying? Join a group of like-minded and similarly-skilled students for group lessons!</p>
+              <div class="hidden-paragraph" id="group-lessons">
+                <h5>Benefits:</h5>
+                <ul>
+                  <li>You get to practice your speaking with your groupmates</li>
+                  <li>Brainstorm and other group activities</li>
+                  <li>Group virtual outings</li>
+                  <li>Chance to copy someone's homework (not recommended<i class="far fa-smile-wink"></i>)</li>
+                  <li>New friends</li>
+                </ul>
+              </div>
+              <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
+              <a class="btn btn-primary book-button" id="learn-more-button3">Learn more</a>
+            </div>
+          </div>
         </div>
-        <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
-        <a class="btn btn-primary book-button" id="learn-more-button4">Learn more</a>
       </div>
-    </div>
-  </div>
-  <div class="col-sm-7">
-    <div class="card default-card-color" id="hospitality-english-card">
-      <div class="card-body">
-        <h5 class="card-title">Hospitality English</h5>
-        <p class="card-text">Do you work in hospitality industry? In a hotel? A resort? A restaurant or a pub? Or are you looking to start working in the hospitality sector? Are you planning to go on a holiday and want to feel very comfortable with communication? If you answered "yes" to any of these questions, our Hospitality English course is for you.</p>
-        <div class="hidden-paragraph" id="hospitality-english">
-          <h5>What to expect:</h5>
-          <ul>
-            <li>Unique and very entertaining learning material</li>
-            <li>Practice being a hotelier</li>
-            <li>Practice being on holidays in Ireland</li>
-            <li>Irish hospitality etiquette</li>
-            <li>Every hotel job covered</li>
-          </ul>
+      <div class="row course-info-row">
+        <div class="col-sm-5">
+          <div class="card default-card-color" id="business-english-card">
+            <div class="card-body">
+              <h5 class="card-title">Business English</h5>
+              <p class="card-text">Whether you need it for your current job or to get the job of your dreams, business English knowledge is always advantageous when it comes to climbing your carrer ladder!</p>
+              <div class="hidden-paragraph" id="business-english">
+                <h5>What to expect:</h5>
+                <ul>
+                  <li>Unique and exciting learning material</li>
+                  <li>Business meeting simulations</li>
+                  <li>Mock interviews</li>
+                  <li>Irish business etiquette</li>
+                  <li>Live networking events</li>
+                </ul>
+              </div>
+              <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
+              <a class="btn btn-primary book-button" id="learn-more-button4">Learn more</a>
+            </div>
+          </div>
         </div>
-        <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
-        <a class="btn btn-primary book-button" id="learn-more-button5">Learn more</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="row course-info-row">
-  <div class="col-sm-7">
-    <div class="card default-card-color" id="regular-paced-card">
-      <div class="card-body">
-        <h5 class="card-title">Regular-paced Learning</h5>
-        <p class="card-text">You can choose how often your lessons will occur from as few as one lesson a week if you choose individual lessons package. Our recommendation is at least two lessons a week with two to five hours of self-learning outside the classes. Our regular-paced groups attend two lessons a week. Regular-paced learning is applicable to General, Business and Hospitality courses.</p>
-        <div class="hidden-paragraph" id="regular-paced-learning">
-          <h5>When to choose it:</h5>
-          <ul>
-            <li>You are not in a rush</li>
-            <li>You have at least three months before landing in Ireland</li>
-            <li>You want a lot of time for self-learning</li>
-          </ul>
+        <div class="col-sm-7">
+          <div class="card default-card-color" id="hospitality-english-card">
+            <div class="card-body">
+              <h5 class="card-title">Hospitality English</h5>
+              <p class="card-text">Do you work in hospitality industry? In a hotel? A resort? A restaurant or a pub? Or are you looking to start working in the hospitality sector? Are you planning to go on a holiday and want to feel very comfortable with communication? If you answered "yes" to any of these questions, our Hospitality English course is for you.</p>
+              <div class="hidden-paragraph" id="hospitality-english">
+                <h5>What to expect:</h5>
+                <ul>
+                  <li>Unique and very entertaining learning material</li>
+                  <li>Practice being a hotelier</li>
+                  <li>Practice being on holidays in Ireland</li>
+                  <li>Irish hospitality etiquette</li>
+                  <li>Every hotel job covered</li>
+                </ul>
+              </div>
+              <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
+              <a class="btn btn-primary book-button" id="learn-more-button5">Learn more</a>
+            </div>
+          </div>
         </div>
-        <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
-        <a class="btn btn-primary book-button" id="learn-more-button6">Learn more</a>
       </div>
-    </div>
-  </div>
-  <div class="col-sm-5" id="intensive-learning-col">
-    <div class="card default-card-color" id="intensive-learning-card">
-      <div class="card-body">
-        <h5 class="card-title">Intensive Learning</h5>
-        <p class="card-text">Need fast results? Join our intensive group with five lessons a week or get individual lessons as often as you want. With the individual lessons option you can also have two lessons in one go. Intensive learning is applicable to General, Business and Hospitality courses.</p>
-        <div class="hidden-paragraph" id="intensive-learning">
-          <h5>When to choose it:</h5>
-          <ul>
-            <li>You need fast results</li>
-            <li>You are arriving in Ireland in less than three months</li>
-            <li>You don't want to do self-learning</li>
-          </ul>
+      <div class="row course-info-row">
+        <div class="col-sm-7">
+          <div class="card default-card-color" id="regular-paced-card">
+            <div class="card-body">
+              <h5 class="card-title">Regular-paced Learning</h5>
+              <p class="card-text">You can choose how often your lessons will occur from as few as one lesson a week if you choose individual lessons package. Our recommendation is at least two lessons a week with two to five hours of self-learning outside the classes. Our regular-paced groups attend two lessons a week. Regular-paced learning is applicable to General, Business and Hospitality courses.</p>
+              <div class="hidden-paragraph" id="regular-paced-learning">
+                <h5>When to choose it:</h5>
+                <ul>
+                  <li>You are not in a rush</li>
+                  <li>You have at least three months before landing in Ireland</li>
+                  <li>You want a lot of time for self-learning</li>
+                </ul>
+              </div>
+              <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
+              <a class="btn btn-primary book-button" id="learn-more-button6">Learn more</a>
+            </div>
+          </div>
         </div>
-        <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
-        <a class="btn btn-primary book-button" id="learn-more-button7">Learn more</a>
+        <div class="col-sm-5" id="intensive-learning-col">
+          <div class="card default-card-color" id="intensive-learning-card">
+            <div class="card-body">
+              <h5 class="card-title">Intensive Learning</h5>
+              <p class="card-text">Need fast results? Join our intensive group with five lessons a week or get individual lessons as often as you want. With the individual lessons option you can also have two lessons in one go. Intensive learning is applicable to General, Business and Hospitality courses.</p>
+              <div class="hidden-paragraph" id="intensive-learning">
+                <h5>When to choose it:</h5>
+                <ul>
+                  <li>You need fast results</li>
+                  <li>You are arriving in Ireland in less than three months</li>
+                  <li>You don't want to do self-learning</li>
+                </ul>
+              </div>
+              <a href="contact.html" class="btn btn-primary book-button" onclick="book()">Book</a>
+              <a class="btn btn-primary book-button" id="learn-more-button7">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video card default-card-color">
+          <div class="card-body">
+              <h5 class="card-title">Watch our sample online lesson:</h5>
+          </div>
+          <div class="video-responsive">      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/it9WajjCmro" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
       </div>
     </div>
-  </div>
-</div>
-
-<div class="video card default-card-color">
-    <div class="card-body">
-        <h5 class="card-title">Watch our sample online lesson:</h5>
-    </div>
-    <div class="video-responsive">      
-<iframe width="560" height="315" src="https://www.youtube.com/embed/it9WajjCmro" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-</div>
-
-</div>
-<footer id="footer" class="footer py-3 mt-auto bg-light">
-  <div class="container text-muted">
+    <footer id="footer" class="footer py-3 mt-auto bg-light">
+      <div class="container text-muted">
         <div class="row footer-row">
-            <div class="col">
-              <p id="phrase" data-bs-toggle="tooltip" data-bs-placement="top" title="Click to learn about this phrase!"><a href="https://en.wiktionary.org/wiki/top_of_the_morning" target="_blank" >Top o' the morning to you!</a></p>
-            </div>
-             <div class="col">
-                  <ul class="social-networks">
-               <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-               <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-               <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
-               <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-               <li><a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a></li>
-           </ul>
-             </div>
-             <div class="col">
-               <p class="copyright">&copy; Copyright 2005-2021</p>
-            </div>
-         </div>
+          <div class="col">
+            <p id="phrase" data-bs-toggle="tooltip" data-bs-placement="top" title="Click to learn about this phrase!"><a href="https://en.wiktionary.org/wiki/top_of_the_morning" target="_blank" >Top o' the morning to you!</a></p>
+          </div>
+          <div class="col">
+            <ul class="social-networks">
+              <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+              <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+              <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <p class="copyright">&copy; Copyright 2005-2021</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
-</footer>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
-<script src="js/index.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
 </body>
 </html>
