@@ -98,6 +98,7 @@ nav {
 .school-vision-box {
     background-color: rgba(255, 246, 232, 0.459);
     border-radius: 7px;
+    position: ;
 }
 
 .school-vision {
@@ -111,8 +112,17 @@ nav {
 
 @media (max-width: 825px){
   .school-vision {
-    font-size: 3.5vw;
+    font-size: 3.4vw;
     text-align: center;
+ }
+ .school-vision-box {
+  background-color: rgba(255, 246, 232, 0.8);
+  margin-bottom: 7px;
+}
+ .school-name {
+  text-shadow: 1px 1px 1px #726c6c,
+  1px 2px 1px #726c6c,
+  1px 3px 1px #726c6c;
  }
 }
 .bgbrick {
@@ -126,6 +136,7 @@ nav {
     font-weight: bold;
     font-size: 105%;
     background-position: center;
+    position: relative;
 } 
 
 .bgbrick:hover {
