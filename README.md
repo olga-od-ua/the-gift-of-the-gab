@@ -280,6 +280,56 @@ All pages of the website, all CSS code and all JavaScript code were validated. T
    4. Thorough testing was carried out to ensure all website's functionality is correct.
 
    5. All available friends and family carried out remote testing across multiple devices to share feedback and user experience.
+
+   6. Home page was manually tested:
+   
+   - all links are working and bring the user to the right pages and in some cases to a certain area on that page (e.g. when clicked on Win a trip to Blarney, the user is brought to the bottom of the Pricing page with the trip to Blarney information)
+   - alert message is displayed when clicked on All Irish Accents
+   - user is redirected to the Course Info page and the relevant card is flashing when clicked on General Course, Business Course, Hospitality English, Intensive learning, Individual lessons, Group lessons and First Lesson FREE.
+   - on mobile devices the navbar collapses into burger menu and all elements are visible and aligned neatly.
+
+   7. Course Info page was tested manually and is working as expected:
+   
+   - all Book buttons display an alert message and bring the user to the contact page
+   - all Learn more buttons have their toggle effect
+   - video is playing when started by the user
+   - flashing cards effect is not activated.
+
+   8. Knowledge test was tested manually and thoroughly to ensure its correct functionality. Each question was tested for the following:
+   
+   - if a correct answer is submitted the user is taken to the next question and the previoous one is hidden
+   - if a correct answer is submitted the user their current level is being updated
+   - if a correct answer is submitted the user sees the progress bar move and a message in the progress bar displaying
+   - the user's answers trim method is using correctly allowing the user to have white space in their inputs
+   - if a wrong answer is submitted the error message is displayed with the user's achieved level and the book button
+   - if a wrong answer is submitted the user cannot see questions
+   - if a wrong answer is submitted the user cannot see any messages displayed in the progress bar
+   - if the user passes all the 25 questions correctly they receive congratulations message and an invitation to book the course; they will also see a message in the progress bar "You're a star!"
+   
+   9. Pricing page was tested manually and is working as expected:
+   
+   - all the buttons on this page display a relevant alert message and bring the user to the contact page
+   
+   11. About us page was tested manually and is working as expected:
+   
+   - hover over effect is working
+   - when a teacher's image is clicked the animation starts and the relevant audio starts playing
+   - when an already activated teacher's image is clicked the animation stops and the relevant audio pauses
+   - when there is an activated teacher and another teacher's image is clicked the activated one gets deactivated and the most recently clicked image starts the animation and the audio.
+   
+   13. Contact page was tested manually and is working as expected:
+   
+   - hover effect on Contact Us lines is working
+   - Let Us Contact You form is working
+   - "copy" and "print" buttons work on PCs
+   - maps are displaying three locations
+   
+   15. The navbar elements were tested on all pages and redirect to correct pages of the website. The "B" on the very left of the navbar redirects the user to the Home page.
+   
+   16. The footer was tested on all pages and all links are functioning correctly, namely:
+   
+   - catch phrase
+   - the five social media icons
       
 ### Fixed bugs
 
