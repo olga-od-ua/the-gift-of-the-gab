@@ -108,17 +108,17 @@ Wireframe can be found [here](https://github.com/olga-od-ua/my-full-template/tre
 
 **The Surface Plane**
 
-***Design
+***Design***
 
-****Colour Scheme
+***Colour Scheme***
 
 The two main colours used are rgb(129, 123, 123) (which represents the colour of stone) and rgb(255, 246, 232).
 
-***Typography
+***Typography***
 
 Helvetica font is the main font used throughout the website with Sans Serif as the fallback font in case the main font isn't loading. Helvetica is believed to be a font loved by designers for its clean, bold and modern look, clear lines and characters.
 
-***Imagery
+***Imagery***
 
 1. Brick themed images prevail on the website as a symbol of both the Blarney Castle and the solidity of the knowledge provided by the school.
 
@@ -217,55 +217,55 @@ All pages of the website, all CSS code and all JavaScript code were validated. T
 
 4. I am Peter from Germany. I am moving to Dublin, Ireland, to work for one of the biggest hotel chains as an Assistant Front Desk Manager and I would like to improve my English for that purpose.
 	 
-      Upon landing on the Home Page Peter can click on the brick-like button Hospitality English which is the most likely one to get his attention. From there Peter will be redirected to the Course Info page, more specifically, to the Hospitality English card which will flash. From there Peter can hit the Learn More button or go straight to Book button which will prompt him to complete his booking by contacting the school.
+      Upon landing on the Home Page Peter can click on the brick-like button Hospitality English which is the most likely one to get his attention (see [screenshot](assets/images/ux-testing/1-4.png)). From there Peter will be redirected to the Course Info page, more specifically, to the Hospitality English card which will flash (see [screenshot](assets/images/ux-testing/1-4-1.png)). From there Peter can hit the Learn More button or go straight to Book button which will prompt him to complete his booking by contacting the school (see [screenshot](assets/images/ux-testing/1-4-2.png)).
 
 5. I am Sandra from Croatia who wants to move to Ireland next year and find a job in sales but I need to improve my English.
 
-      Upon landing on the Home Page Sandra can click on the brick-like button Business English which is the most likely one to get her attention. From there Sandra will be redirected to the Course Info page, more specifically, to the Business English card which will flash. From there she can hit the Learn More button to get more information or go straight to Book button which will prompt her to complete her booking by contacting the school.
+      Upon landing on the Home Page Sandra can click on the brick-like button [Business English](assets/images/ux-testing/1-5.png) which is the most likely one to get her attention. From there Sandra will be redirected to the Course Info page, more specifically, to the [Business English](assets/images/ux-testing/1-5-1.png) card which will flash. From there she can hit the Learn More button to get more information or go straight to Book button which will prompt her to complete her booking by contacting the school.
 
 6. I am Maria from Poland who got a job as an online store manager with Zara in Cork, Ireland. I am starting the job in two months and I urgently need to refresh my sales English.
 
-      Upon landing on the Home Page Maria can click on the brick-like button Intensive learning which is the most likely one to get her attention. From there Maria will be redirected to the Course Info page, more specifically, to the Intensive English card which will flash. From there she will also find out that she can take an Intensive Business course. She can also hit the Learn More button to get more information or go straight to Book button which will prompt her to complete her booking by contacting the school.
+      Upon landing on the Home Page Maria can click on the brick-like button [Intensive learning](assets/images/ux-testing/1-6.png) which is the most likely one to get her attention. From there Maria will be redirected to the Course Info page, more specifically, to the [Intensive English](assets/images/ux-testing/1-6-1.png) card which will flash. From there she will also find out that she can take an Intensive Business course (see [screenshot](assets/images/ux-testing/1-6-2.png)). She can also hit the Learn More button to get more information or go straight to Book button which will prompt her to complete her booking by contacting the school.
 
 7. I am Pablo from Spain and I work in Marriott International Customer Engagement Center in Cork, Ireland, as a Loyalty Ambassador. I take a lot of calls from our clients and I sometimes struggle with finding appropriate words to express myself and I would like to sound more professional.
 
-      Upon landing on the Home Page Pablo can click on the brick-like button Hospitality English which is the most likely one to get his attention. From there Pablo will be redirected to the Course Info page, more specifically, to the Hospitality English card which will flash. From there Pablo can hit the Learn More button or go straight to Book button which will prompt him to complete his booking by contacting the school. When clicked on Learn more button, Pablo will see that this course will help him with Hospitality etiquette.
+      Upon landing on the Home Page Pablo can click on the brick-like button [Hospitality English](assets/images/ux-testing/1-7.png) which is the most likely one to get his attention. From there Pablo will be redirected to the Course Info page, more specifically, to the [Hospitality English](assets/images/ux-testing/1-7-1.png) card which will flash. From there Pablo can hit the Learn More button or go straight to Book button which will prompt him to complete his booking by contacting the school. When clicked on Learn more button, Pablo will see that this course will help him with Hospitality etiquette (see [screenshot](assets/images/ux-testing/1-7-2.png)).
 
 8. I am Nelson from Mauritius and have recently landed a job with Heineken in Cork, Ireland. I am aiming to go for a promotion soon and I feel that I need to improve my Business English.
 
-      Upon landing on the Home Page Nelson can click on either the brick-like button Intensive learning or the Business English which are the most likely ones to get his attention. From there he will be redirected to the Course Info page, more specifically, to the Intensive English card or Business English card respectively which will flash. From there he will also find out that he can take an Intensive Business course. He can also hit a Learn More button to get more information or go straight to a Book button which will prompt him to complete his booking by contacting the school.
+      Upon landing on the Home Page Nelson can click on either the brick-like button Intensive learning or the Business English which are the most likely ones to get his attention ([screenshot](assets/images/ux-testing/1-8.png)). From there he will be redirected to the Course Info page, more specifically, to the Intensive English card or Business English card respectively which will flash. From there he will also find out that he can take an Intensive Business course (see [screenshot](assets/images/ux-testing/1-8-1.png)). He can also hit a Learn More button to get more information or go straight to a Book button which will prompt him to complete his booking by contacting the school.
 
 9. I'm Hannah from Mexico. I don't want to book a course, I just want to check my level of English.
 
-      Upon landing on the Home Page Hanna can click on the Knowledge Test where she will find out her knowledge level upon completing the test. Should she become interested in improving her knowledge the book button and an encouraging invitation message will be available upon completion of the test regardless of the result.
+      Upon landing on the Home Page Hanna can click on the [Knowledge Test](assets/images/ux-testing/1-9.png) where she will find out her knowledge level upon completing the test. Should she become interested in improving her knowledge the book button and an encouraging invitation message will be available upon completion of the test regardless of the result (see [screenshot](assets/images/ux-testing/1-9-1.png)).
 
 - #### Corporate new customers
 
 1. I am Rebecca, one of the managers from Voxpro. We have recently got financing from the corporate office to provide English language courses to all our employees who need or would like to improve their English.
 
-      a. Upon landing on the Home Page Rebecca can click on the Pricing page from the navbar where she will see 'enquire corporate' buttons, this will bring her to the contact page and prompt to get in touch for the corporate packages information as they will be tailored depending on individual booking conditions. 
+      a. Upon landing on the Home Page Rebecca can click on the [Pricing page](assets/images/ux-testing/2-1a.png) from the navbar where she will see ['enquire corporate'](assets/images/ux-testing/2-2a-1.png) buttons, this will bring her to the contact page and prompt to get in touch for the corporate packages information as they will be tailored depending on individual booking conditions (see [screenshot](assets/images/ux-testing/2-2a-2.png)). 
       
-      b. Since corporate clients usually head straight to the contact details, Rebecca will be able to do so from the navbar. There are various contact options available.
+      b. Since corporate clients usually head straight to the contact details, Rebecca will be able to do so from the navbar. There are various contact options available (see [screenshot](assets/images/ux-testing/2-1b.png)).
 
 2. I am Vanessa from a food company in Spain. We are extending our market to Ireland and we would love to have our area managers to be prepared for the business conversations with our Irish customers and colleagues.
 
-      a. Upon landing on the Home Page Vanessa can click on the Pricing page from the navbar where she will see 'enquire corporate' buttons, this will bring her to the contact page and prompt to get in touch for the corporate packages information as they will be tailored depending on individual booking conditions. 
+      a. Upon landing on the Home Page Vanessa can click on the [Pricing](assets/images/ux-testing/2-2a.png) page from the navbar where she will see ['enquire corporate'](assets/images/ux-testing/2-2a-1.png) buttons, this will bring her to the contact page and prompt to get in touch for the corporate packages information as they will be tailored depending on individual booking conditions (see [screenshot](assets/images/ux-testing/2-2a-2.png)). 
       
-      b. Since corporate clients usually head straight to the contact details, Vanessa will be able to do so from the navbar. There are various contact options available.
+      b. Since corporate clients usually head straight to the contact details, Vanessa will be able to do so from the navbar. There are various contact options available (see [screenshot](assets/images/ux-testing/2-2b.png)).
 
-      c. Vanessa will also be able to learn that the school focuses on Irish English and also offers Irish market oriented Business English course.
+      c. Vanessa will also be able to learn that the school focuses on Irish English and also offers Irish market oriented Business English course (see [screenshot](assets/images/ux-testing/2-2c.png)).
 
 - #### Returning Customers
 
 1. I am Ollie and I am your current student. I have some questions and I can't find the answers on the website so I'd like to contact you.
 
-      a. Ollie will be able to find contact details in the Navbar with various contacting options.
+      a. Ollie will be able to find contact details in the Navbar with various contacting options (see [screenshot](assets/images/ux-testing/3-1a.png)).
 
-      b. Ollie can also navigate to social media pages from the footer and get in touch with the school from there. (as this website is for educational purposes only, links to social media accounts bring the user to the main pages of that given website).
+      b. Ollie can also navigate to social media pages from the footer and get in touch with the school from there (see [screenshot](assets/images/ux-testing/3-1b.png)). (as this website is for educational purposes only, links to social media accounts bring the user to the main pages of that given website).
 
 2. I am Mylah, your current student. I remember doing the knowledge test before I started learning English with your school three months ago. I'd like to do the test again to see how much I have improved.
 
-      Upon landing on the Home Page Mylah can click on the Knowledge Test where she will find out her knowledge level upon completing the test.
+      Upon landing on the Home Page Mylah can click on the [Knowledge Test](assets/images/ux-testing/3-2.png) where she will find out her knowledge level upon completing the test. And she will find out that she made the right choice choosing this school because she reached Advanced level English. (see [screenshot](assets/images/ux-testing/3-2-1.png)). In the future releases Mylah will not get an invitation to book a course if she is logged into her student account.
 
 ### Further testing
 
@@ -297,7 +297,7 @@ All pages of the website, all CSS code and all JavaScript code were validated. T
 
    8. Knowledge test was tested manually and thoroughly to ensure its correct functionality. Each question was tested for the following:
    
-   - if a correct answer is submitted the user is taken to the next question and the previoous one is hidden
+   - if a correct answer is submitted the user is taken to the next question and the previous one is hidden
    - if a correct answer is submitted the user their current level is being updated
    - if a correct answer is submitted the user sees the progress bar move and a message in the progress bar displaying
    - the user's answers trim method is using correctly allowing the user to have white space in their inputs
