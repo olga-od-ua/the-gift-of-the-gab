@@ -1,6 +1,6 @@
 # The Gift Of The Gab
 
-[Live project can be viewed here]()
+[Live project can be viewed here](https://olga-od-ua.github.io/the-gift-of-the-gab/).
 
 The Primary goal of the website is to represent and promote The Gift Of The Gab School that offers English language courses to anyone travelling to Ireland whether for a holiday or a lifetime. 
 
@@ -108,17 +108,17 @@ Wireframe can be found [here](https://github.com/olga-od-ua/my-full-template/tre
 
 **The Surface Plane**
 
-*** Design
+***Design
 
-**** Colour Scheme
+****Colour Scheme
 
 The two main colours used are rgb(129, 123, 123) (which represents the colour of stone) and rgb(255, 246, 232).
 
-*** Typography
+***Typography
 
 Helvetica font is the main font used throughout the website with Sans Serif as the fallback font in case the main font isn't loading. Helvetica is believed to be a font loved by designers for its clean, bold and modern look, clear lines and characters.
 
-*** Imagery
+***Imagery
 
 1. Brick themed images prevail on the website as a symbol of both the Blarney Castle and the solidity of the knowledge provided by the school.
 
@@ -132,11 +132,11 @@ Helvetica font is the main font used throughout the website with Sans Serif as t
 
 ### Features Left to Implement
  
-      1. At the moment the user receives alert messages with short instructions to contact the school to complete the booking and then is redirected to the contact page. In the future it is planned to create a working online booking system.
+1. At the moment the user receives alert messages with short instructions to contact the school to complete the booking and then is redirected to the contact page. In the future it is planned to create a working online booking system.
 
-      2. At the moment the user can only submit an answer in the Knowledge test by clicking on Submit answer button. In the future it is planned to add the possibility to submit the answer by clicking the "Enter" button.
+2. At the moment the user can only submit an answer in the Knowledge test by clicking on Submit answer button. In the future it is planned to add the possibility to submit the answer by clicking the "Enter" button.
 
-      3. When the user is redirected to a section of a page where navbar isn't visible a back-to-top button will be inserted on the applicable pages.
+3. When the user is redirected to a section of a page where navbar isn't visible a back-to-top button will be inserted on the applicable pages.
 
 ## Technologies Used
 
@@ -148,28 +148,28 @@ Helvetica font is the main font used throughout the website with Sans Serif as t
 
 ### Frameworks, Libraries & Programs
 - [Bootstrap 5](https://getbootstrap.com/)
-      Bootstrap was used throughout the website as an aid in ensuring a consistent and responsive styling.
+   Bootstrap was used throughout the website as an aid in ensuring a consistent and responsive styling.
 
 - [Google Fonts](https://fonts.google.com/)
-      Google Fonts was used to import Halvetica font.
+   Google Fonts was used to import Halvetica font.
 
 - [LunaPic](https://www10.lunapic.com/editor/)
-      LunaPic was used to achieve desired image formats as well as for other imagery editing.
+   LunaPic was used to achieve desired image formats as well as for other imagery editing.
 
 - [Font Awesome](https://fontawesome.com/)
-      Font Awesome was used on some pages of the website to add icons for aesthetic and UX purposes.
+   Font Awesome was used on some pages of the website to add icons for aesthetic and UX purposes.
 
 - [jQuery](https://jquery.com/)
-      jQuery was used to add short-hand interactivity to some elements.
+   jQuery was used to add short-hand interactivity to some elements.
 
 - [Git](http://git-scm.com/)
-      Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+   Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 - [GitHub](https://github.com/)
-      GitHub is used to store the project's code after being pushed from Git.
+   GitHub is used to store the project's code after being pushed from Git.
 
 - [Balsamiq](https://balsamiq.cloud/syvkevx/projects)
-      Balsamiq was used to create the wireframe for this project.
+   Balsamiq was used to create the wireframe for this project.
 
 ## Testing
 
@@ -177,19 +177,19 @@ All pages of the website, all CSS code and all JavaScript code were validated. T
 
 - [W3C Markup Validator](https://validator.w3.org/nu/)
 
-      1. Home page contains two warnings about two lacking headings where headings were not intended.
+  1. Home page contains two warnings about two lacking headings where headings were not intended.
 
-      2. Course Info and Pricing pages have one warning each about the same issue: an empty heading on lines 105 and 72 respectively. These headings are being filled with data coming from the countdown function from index.js.
+  2. Course Info and Pricing pages have one warning each about the same issue: an empty heading on lines 105 and 72 respectively. These headings are being filled with data coming from the countdown function from index.js.
 
-      3. There were other minor errors (e.g. obsolete closing tags or stray closing tags) which were fixed.
+  3. There were other minor errors (e.g. obsolete closing tags or stray closing tags) which were fixed.
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
 
-      A few minor errors were detected and fixed.
+   A few minor errors were detected and fixed.
 
 - [JShint](https://jshint.com).
 
-      All code passed the validation with a few minor issues (missed semicolons) that were fixed.
+    All code passed the validation with a few minor issues (missed semicolons) that were fixed.
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -318,9 +318,53 @@ Not a bug but a few remarks on the Knowledge Test questions' content.
 
 4. The First Free lesson card was purposefully used on two pages for more chances to attract user's attention and also to achieve a more vibrant look of the website.
 
+
 ## Deployment
 
+### GitHub Pages
 
+The project was deployed to GitHub Pages using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/olga-od-ua/the-gift-of-the-gab).
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://pages.github.com/) for more information.
+3. Scroll down the Settings page until you locate the "Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. Select /root folder and hit save. 
+6. The now published site [link](https://olga-od-ua.github.io/the-gift-of-the-gab/) appears above "Source".
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/olga-od-ua/the-gift-of-the-gab).
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/olga-od-ua/the-gift-of-the-gab).
+2. To the left of the Gitpod button, click "Code".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click . To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click . To clone a repository using GitHub CLI, click Use GitHub CLI, then click "copy symbol".
+4. Open Terminal.
+5. Change the current working directory to the location where you want the cloned directory.
+
+Type git clone, and then paste the URL you copied earlier.
+
+```
+$ git clone https://github.com/olga-od-ua/the-gift-of-the-gab.git
+```
+
+Press Enter to create your local clone.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `Spoon-Knife`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
 
 ## Credits
 
